@@ -163,16 +163,18 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.PanelTICKET.Controls.Add(this.PictureBox2);
             this.PanelTICKET.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelTICKET.Location = new System.Drawing.Point(0, 0);
+            this.PanelTICKET.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelTICKET.Name = "PanelTICKET";
-            this.PanelTICKET.Size = new System.Drawing.Size(460, 715);
+            this.PanelTICKET.Size = new System.Drawing.Size(613, 880);
             this.PanelTICKET.TabIndex = 567;
             // 
             // PictureBox3
             // 
             this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
-            this.PictureBox3.Location = new System.Drawing.Point(32, 178);
+            this.PictureBox3.Location = new System.Drawing.Point(43, 219);
+            this.PictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBox3.Name = "PictureBox3";
-            this.PictureBox3.Size = new System.Drawing.Size(378, 51);
+            this.PictureBox3.Size = new System.Drawing.Size(504, 63);
             this.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox3.TabIndex = 610;
             this.PictureBox3.TabStop = false;
@@ -180,42 +182,47 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // Panel16
             // 
             this.Panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel16.Location = new System.Drawing.Point(191, 451);
+            this.Panel16.Location = new System.Drawing.Point(255, 555);
+            this.Panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel16.Name = "Panel16";
-            this.Panel16.Size = new System.Drawing.Size(60, 1);
+            this.Panel16.Size = new System.Drawing.Size(80, 1);
             this.Panel16.TabIndex = 564;
             // 
             // Panel15
             // 
             this.Panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel15.Location = new System.Drawing.Point(36, 644);
+            this.Panel15.Location = new System.Drawing.Point(48, 793);
+            this.Panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel15.Name = "Panel15";
-            this.Panel15.Size = new System.Drawing.Size(386, 1);
+            this.Panel15.Size = new System.Drawing.Size(515, 1);
             this.Panel15.TabIndex = 564;
             // 
             // Panel14
             // 
             this.Panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel14.Location = new System.Drawing.Point(36, 614);
+            this.Panel14.Location = new System.Drawing.Point(48, 756);
+            this.Panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel14.Name = "Panel14";
-            this.Panel14.Size = new System.Drawing.Size(386, 1);
+            this.Panel14.Size = new System.Drawing.Size(515, 1);
             this.Panel14.TabIndex = 564;
             // 
             // Panel13
             // 
             this.Panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel13.Location = new System.Drawing.Point(36, 593);
+            this.Panel13.Location = new System.Drawing.Point(48, 730);
+            this.Panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel13.Name = "Panel13";
-            this.Panel13.Size = new System.Drawing.Size(386, 1);
+            this.Panel13.Size = new System.Drawing.Size(515, 1);
             this.Panel13.TabIndex = 564;
             // 
             // lblcliente
             // 
             this.lblcliente.AutoSize = true;
             this.lblcliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcliente.Location = new System.Drawing.Point(136, 297);
+            this.lblcliente.Location = new System.Drawing.Point(181, 366);
+            this.lblcliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcliente.Name = "lblcliente";
-            this.lblcliente.Size = new System.Drawing.Size(152, 13);
+            this.lblcliente.Size = new System.Drawing.Size(188, 17);
             this.lblcliente.TabIndex = 2;
             this.lblcliente.Text = ": NOMBRE DEL CLIENTE";
             // 
@@ -223,35 +230,39 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label9.Location = new System.Drawing.Point(30, 297);
+            this.Label9.Location = new System.Drawing.Point(40, 366);
+            this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(50, 13);
+            this.Label9.Size = new System.Drawing.Size(63, 17);
             this.Label9.TabIndex = 2;
             this.Label9.Text = "Cliente:";
             // 
             // Panel4
             // 
             this.Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel4.Location = new System.Drawing.Point(30, 158);
+            this.Panel4.Location = new System.Drawing.Point(40, 194);
+            this.Panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel4.Name = "Panel4";
-            this.Panel4.Size = new System.Drawing.Size(386, 1);
+            this.Panel4.Size = new System.Drawing.Size(515, 1);
             this.Panel4.TabIndex = 564;
             // 
             // Panel3
             // 
             this.Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel3.Location = new System.Drawing.Point(30, 137);
+            this.Panel3.Location = new System.Drawing.Point(40, 169);
+            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(386, 1);
+            this.Panel3.Size = new System.Drawing.Size(515, 1);
             this.Panel3.TabIndex = 564;
             // 
             // Label19
             // 
             this.Label19.AutoSize = true;
             this.Label19.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label19.Location = new System.Drawing.Point(375, 502);
+            this.Label19.Location = new System.Drawing.Point(500, 618);
+            this.Label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label19.Name = "Label19";
-            this.Label19.Size = new System.Drawing.Size(47, 13);
+            this.Label19.Size = new System.Drawing.Size(56, 19);
             this.Label19.TabIndex = 2;
             this.Label19.Text = "Efectivo";
             // 
@@ -259,9 +270,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label37.AutoSize = true;
             this.Label37.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label37.Location = new System.Drawing.Point(383, 477);
+            this.Label37.Location = new System.Drawing.Point(511, 587);
+            this.Label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label37.Name = "Label37";
-            this.Label37.Size = new System.Drawing.Size(35, 13);
+            this.Label37.Size = new System.Drawing.Size(44, 19);
             this.Label37.TabIndex = 2;
             this.Label37.Text = "S/. 14";
             // 
@@ -269,9 +281,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label31.AutoSize = true;
             this.Label31.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label31.Location = new System.Drawing.Point(383, 454);
+            this.Label31.Location = new System.Drawing.Point(511, 559);
+            this.Label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label31.Name = "Label31";
-            this.Label31.Size = new System.Drawing.Size(35, 13);
+            this.Label31.Size = new System.Drawing.Size(44, 19);
             this.Label31.TabIndex = 2;
             this.Label31.Text = "S/. 50";
             // 
@@ -279,9 +292,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label16.AutoSize = true;
             this.Label16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.Label16.Location = new System.Drawing.Point(297, 502);
+            this.Label16.Location = new System.Drawing.Point(396, 618);
+            this.Label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label16.Name = "Label16";
-            this.Label16.Size = new System.Drawing.Size(79, 13);
+            this.Label16.Size = new System.Drawing.Size(103, 19);
             this.Label16.TabIndex = 2;
             this.Label16.Text = "Tipo de Pago:";
             // 
@@ -289,9 +303,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.Label10.Location = new System.Drawing.Point(326, 477);
+            this.Label10.Location = new System.Drawing.Point(435, 587);
+            this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
-            this.Label10.Size = new System.Drawing.Size(50, 13);
+            this.Label10.Size = new System.Drawing.Size(63, 19);
             this.Label10.TabIndex = 2;
             this.Label10.Text = "VUELTO:";
             // 
@@ -299,26 +314,29 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label32.AutoSize = true;
             this.Label32.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.Label32.Location = new System.Drawing.Point(317, 454);
+            this.Label32.Location = new System.Drawing.Point(423, 559);
+            this.Label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label32.Name = "Label32";
-            this.Label32.Size = new System.Drawing.Size(59, 13);
+            this.Label32.Size = new System.Drawing.Size(75, 19);
             this.Label32.TabIndex = 2;
             this.Label32.Text = "EFECTIVO:";
             // 
             // Panel1
             // 
             this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel1.Location = new System.Drawing.Point(30, 116);
+            this.Panel1.Location = new System.Drawing.Point(40, 143);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(386, 1);
+            this.Panel1.Size = new System.Drawing.Size(515, 1);
             this.Panel1.TabIndex = 564;
             // 
             // Panel5
             // 
             this.Panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel5.Location = new System.Drawing.Point(32, 95);
+            this.Panel5.Location = new System.Drawing.Point(43, 117);
+            this.Panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel5.Name = "Panel5";
-            this.Panel5.Size = new System.Drawing.Size(380, 1);
+            this.Panel5.Size = new System.Drawing.Size(507, 1);
             this.Panel5.TabIndex = 564;
             // 
             // txtMoneda_String
@@ -329,9 +347,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.txtMoneda_String.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtMoneda_String.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.txtMoneda_String.ForeColor = System.Drawing.Color.Black;
-            this.txtMoneda_String.Location = new System.Drawing.Point(191, 436);
+            this.txtMoneda_String.Location = new System.Drawing.Point(255, 537);
+            this.txtMoneda_String.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMoneda_String.Name = "txtMoneda_String";
-            this.txtMoneda_String.Size = new System.Drawing.Size(218, 15);
+            this.txtMoneda_String.Size = new System.Drawing.Size(291, 19);
             this.txtMoneda_String.TabIndex = 563;
             this.txtMoneda_String.Text = "SOLES";
             // 
@@ -343,9 +362,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.txtpagina_o_facebook.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtpagina_o_facebook.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.txtpagina_o_facebook.ForeColor = System.Drawing.Color.Black;
-            this.txtpagina_o_facebook.Location = new System.Drawing.Point(30, 600);
+            this.txtpagina_o_facebook.Location = new System.Drawing.Point(40, 738);
+            this.txtpagina_o_facebook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtpagina_o_facebook.Name = "txtpagina_o_facebook";
-            this.txtpagina_o_facebook.Size = new System.Drawing.Size(382, 15);
+            this.txtpagina_o_facebook.Size = new System.Drawing.Size(509, 19);
             this.txtpagina_o_facebook.TabIndex = 563;
             this.txtpagina_o_facebook.Text = "pagina web o pagina de facebook";
             this.txtpagina_o_facebook.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -357,10 +377,11 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.TextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TextBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.TextBox1.Location = new System.Drawing.Point(58, 891);
+            this.TextBox1.Location = new System.Drawing.Point(77, 1097);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TextBox1.Multiline = true;
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(302, 12);
+            this.TextBox1.Size = new System.Drawing.Size(403, 15);
             this.TextBox1.TabIndex = 563;
             this.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -371,10 +392,11 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.txtAutorizacion_fiscal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtAutorizacion_fiscal.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.txtAutorizacion_fiscal.ForeColor = System.Drawing.Color.Black;
-            this.txtAutorizacion_fiscal.Location = new System.Drawing.Point(30, 728);
+            this.txtAutorizacion_fiscal.Location = new System.Drawing.Point(40, 896);
+            this.txtAutorizacion_fiscal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAutorizacion_fiscal.Multiline = true;
             this.txtAutorizacion_fiscal.Name = "txtAutorizacion_fiscal";
-            this.txtAutorizacion_fiscal.Size = new System.Drawing.Size(384, 129);
+            this.txtAutorizacion_fiscal.Size = new System.Drawing.Size(512, 159);
             this.txtAutorizacion_fiscal.TabIndex = 563;
             this.txtAutorizacion_fiscal.Text = "DATOS DE RESOLUCION DE AUTORIZACION\r\nEmitidas por la Entidad controladora de Impu" +
     "estos";
@@ -388,9 +410,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.TXTANUNCIO.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TXTANUNCIO.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.TXTANUNCIO.ForeColor = System.Drawing.Color.Black;
-            this.TXTANUNCIO.Location = new System.Drawing.Point(30, 623);
+            this.TXTANUNCIO.Location = new System.Drawing.Point(40, 767);
+            this.TXTANUNCIO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TXTANUNCIO.Name = "TXTANUNCIO";
-            this.TXTANUNCIO.Size = new System.Drawing.Size(382, 15);
+            this.TXTANUNCIO.Size = new System.Drawing.Size(509, 19);
             this.TXTANUNCIO.TabIndex = 563;
             this.TXTANUNCIO.Text = "NO SE ACEPTAN DEVOLUCIONES PASADAS LAS 24 HORAS";
             this.TXTANUNCIO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -403,9 +426,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.txtAgradecimiento.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtAgradecimiento.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.txtAgradecimiento.ForeColor = System.Drawing.Color.Black;
-            this.txtAgradecimiento.Location = new System.Drawing.Point(30, 579);
+            this.txtAgradecimiento.Location = new System.Drawing.Point(40, 713);
+            this.txtAgradecimiento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAgradecimiento.Name = "txtAgradecimiento";
-            this.txtAgradecimiento.Size = new System.Drawing.Size(382, 15);
+            this.txtAgradecimiento.Size = new System.Drawing.Size(509, 19);
             this.txtAgradecimiento.TabIndex = 563;
             this.txtAgradecimiento.Text = "!GRACIAS POR TU COMPRA VUELVE PRONTO!";
             this.txtAgradecimiento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -418,9 +442,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.txtProvincia_departamento.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtProvincia_departamento.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.txtProvincia_departamento.ForeColor = System.Drawing.Color.Black;
-            this.txtProvincia_departamento.Location = new System.Drawing.Point(30, 144);
+            this.txtProvincia_departamento.Location = new System.Drawing.Point(40, 177);
+            this.txtProvincia_departamento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtProvincia_departamento.Name = "txtProvincia_departamento";
-            this.txtProvincia_departamento.Size = new System.Drawing.Size(390, 15);
+            this.txtProvincia_departamento.Size = new System.Drawing.Size(520, 19);
             this.txtProvincia_departamento.TabIndex = 563;
             this.txtProvincia_departamento.Text = "PROVINCIA - DEPARTAMENTO";
             this.txtProvincia_departamento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -433,9 +458,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.txtDireccion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtDireccion.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.txtDireccion.ForeColor = System.Drawing.Color.Black;
-            this.txtDireccion.Location = new System.Drawing.Point(30, 123);
+            this.txtDireccion.Location = new System.Drawing.Point(40, 151);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(390, 15);
+            this.txtDireccion.Size = new System.Drawing.Size(520, 19);
             this.txtDireccion.TabIndex = 563;
             this.txtDireccion.Text = "DIRECCION (AVENIDA O CALLE)";
             this.txtDireccion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -448,9 +474,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.txtEmpresa_RUC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtEmpresa_RUC.Font = new System.Drawing.Font("Segoe UI", 8.25F);
             this.txtEmpresa_RUC.ForeColor = System.Drawing.Color.Black;
-            this.txtEmpresa_RUC.Location = new System.Drawing.Point(30, 102);
+            this.txtEmpresa_RUC.Location = new System.Drawing.Point(40, 126);
+            this.txtEmpresa_RUC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEmpresa_RUC.Name = "txtEmpresa_RUC";
-            this.txtEmpresa_RUC.Size = new System.Drawing.Size(390, 15);
+            this.txtEmpresa_RUC.Size = new System.Drawing.Size(520, 19);
             this.txtEmpresa_RUC.TabIndex = 563;
             this.txtEmpresa_RUC.Text = "EMPRESA S.A.C. - RUC: 20123123";
             this.txtEmpresa_RUC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -464,9 +491,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.txtempresaTICKET.Enabled = false;
             this.txtempresaTICKET.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.txtempresaTICKET.ForeColor = System.Drawing.Color.Black;
-            this.txtempresaTICKET.Location = new System.Drawing.Point(30, 74);
+            this.txtempresaTICKET.Location = new System.Drawing.Point(40, 91);
+            this.txtempresaTICKET.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtempresaTICKET.Name = "txtempresaTICKET";
-            this.txtempresaTICKET.Size = new System.Drawing.Size(390, 18);
+            this.txtempresaTICKET.Size = new System.Drawing.Size(520, 23);
             this.txtempresaTICKET.TabIndex = 563;
             this.txtempresaTICKET.Text = "NOMBRE DE TU EMPRESA";
             this.txtempresaTICKET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -475,9 +503,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.Location = new System.Drawing.Point(29, 162);
+            this.Label5.Location = new System.Drawing.Point(39, 199);
+            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(99, 13);
+            this.Label5.Size = new System.Drawing.Size(123, 17);
             this.Label5.TabIndex = 2;
             this.Label5.Text = "TICKET : T0001";
             // 
@@ -485,9 +514,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label13.AutoSize = true;
             this.Label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label13.Location = new System.Drawing.Point(30, 253);
+            this.Label13.Location = new System.Drawing.Point(40, 311);
+            this.Label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(47, 13);
+            this.Label13.Size = new System.Drawing.Size(60, 17);
             this.Label13.TabIndex = 2;
             this.Label13.Text = "Cajero:";
             // 
@@ -495,9 +525,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label17.AutoSize = true;
             this.Label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label17.Location = new System.Drawing.Point(136, 275);
+            this.Label17.Location = new System.Drawing.Point(181, 338);
+            this.Label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label17.Name = "Label17";
-            this.Label17.Size = new System.Drawing.Size(83, 13);
+            this.Label17.Size = new System.Drawing.Size(100, 17);
             this.Label17.TabIndex = 2;
             this.Label17.Text = ": 19/02/2018";
             // 
@@ -505,9 +536,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.lblcajero.AutoSize = true;
             this.lblcajero.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcajero.Location = new System.Drawing.Point(136, 253);
+            this.lblcajero.Location = new System.Drawing.Point(181, 311);
+            this.lblcajero.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcajero.Name = "lblcajero";
-            this.lblcajero.Size = new System.Drawing.Size(119, 13);
+            this.lblcajero.Size = new System.Drawing.Size(153, 17);
             this.lblcajero.TabIndex = 2;
             this.lblcajero.Text = ": Nombre del Cajero";
             // 
@@ -515,9 +547,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label1.Location = new System.Drawing.Point(29, 436);
+            this.Label1.Location = new System.Drawing.Point(39, 537);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(157, 13);
+            this.Label1.Size = new System.Drawing.Size(197, 19);
             this.Label1.TabIndex = 2;
             this.Label1.Text = "SON: VEINTISEIS CON 90/100 ";
             // 
@@ -525,9 +558,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label8.Location = new System.Drawing.Point(367, 327);
+            this.Label8.Location = new System.Drawing.Point(489, 402);
+            this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(47, 13);
+            this.Label8.Size = new System.Drawing.Size(58, 19);
             this.Label8.TabIndex = 2;
             this.Label8.Text = "Importe";
             // 
@@ -535,9 +569,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label6.AutoSize = true;
             this.Label6.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label6.Location = new System.Drawing.Point(89, 327);
+            this.Label6.Location = new System.Drawing.Point(119, 402);
+            this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(67, 13);
+            this.Label6.Size = new System.Drawing.Size(79, 19);
             this.Label6.TabIndex = 2;
             this.Label6.Text = "Descripcion";
             // 
@@ -545,9 +580,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label36.AutoSize = true;
             this.Label36.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label36.Location = new System.Drawing.Point(29, 563);
+            this.Label36.Location = new System.Drawing.Point(39, 693);
+            this.Label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label36.Name = "Label36";
-            this.Label36.Size = new System.Drawing.Size(391, 13);
+            this.Label36.Size = new System.Drawing.Size(585, 19);
             this.Label36.TabIndex = 2;
             this.Label36.Text = "---------------------------------------------------------------------------------" +
     "---------------";
@@ -556,9 +592,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label33.AutoSize = true;
             this.Label33.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label33.Location = new System.Drawing.Point(27, 537);
+            this.Label33.Location = new System.Drawing.Point(36, 661);
+            this.Label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label33.Name = "Label33";
-            this.Label33.Size = new System.Drawing.Size(391, 13);
+            this.Label33.Size = new System.Drawing.Size(585, 19);
             this.Label33.TabIndex = 2;
             this.Label33.Text = "---------------------------------------------------------------------------------" +
     "---------------";
@@ -567,9 +604,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label24.AutoSize = true;
             this.Label24.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label24.Location = new System.Drawing.Point(27, 366);
+            this.Label24.Location = new System.Drawing.Point(36, 450);
+            this.Label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label24.Name = "Label24";
-            this.Label24.Size = new System.Drawing.Size(391, 13);
+            this.Label24.Size = new System.Drawing.Size(585, 19);
             this.Label24.TabIndex = 2;
             this.Label24.Text = "---------------------------------------------------------------------------------" +
     "---------------";
@@ -578,9 +616,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label4.Location = new System.Drawing.Point(27, 240);
+            this.Label4.Location = new System.Drawing.Point(36, 295);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(391, 13);
+            this.Label4.Size = new System.Drawing.Size(585, 19);
             this.Label4.TabIndex = 2;
             this.Label4.Text = "---------------------------------------------------------------------------------" +
     "---------------";
@@ -589,9 +628,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label11.Location = new System.Drawing.Point(29, 314);
+            this.Label11.Location = new System.Drawing.Point(39, 386);
+            this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(391, 13);
+            this.Label11.Size = new System.Drawing.Size(585, 19);
             this.Label11.TabIndex = 2;
             this.Label11.Text = "---------------------------------------------------------------------------------" +
     "---------------";
@@ -600,9 +640,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label14.AutoSize = true;
             this.Label14.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label14.Location = new System.Drawing.Point(29, 340);
+            this.Label14.Location = new System.Drawing.Point(39, 418);
+            this.Label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(391, 13);
+            this.Label14.Size = new System.Drawing.Size(585, 19);
             this.Label14.TabIndex = 2;
             this.Label14.Text = "---------------------------------------------------------------------------------" +
     "---------------";
@@ -611,9 +652,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label30.AutoSize = true;
             this.Label30.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.Label30.Location = new System.Drawing.Point(317, 417);
+            this.Label30.Location = new System.Drawing.Point(423, 513);
+            this.Label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label30.Name = "Label30";
-            this.Label30.Size = new System.Drawing.Size(43, 13);
+            this.Label30.Size = new System.Drawing.Size(54, 19);
             this.Label30.TabIndex = 2;
             this.Label30.Text = "TOTAL:";
             // 
@@ -621,9 +663,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label28.AutoSize = true;
             this.Label28.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.Label28.Location = new System.Drawing.Point(292, 399);
+            this.Label28.Location = new System.Drawing.Point(389, 491);
+            this.Label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label28.Name = "Label28";
-            this.Label28.Size = new System.Drawing.Size(65, 13);
+            this.Label28.Size = new System.Drawing.Size(82, 19);
             this.Label28.TabIndex = 2;
             this.Label28.Text = "Descuento:";
             // 
@@ -631,9 +674,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label25.AutoSize = true;
             this.Label25.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.Label25.Location = new System.Drawing.Point(299, 380);
+            this.Label25.Location = new System.Drawing.Point(399, 468);
+            this.Label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label25.Name = "Label25";
-            this.Label25.Size = new System.Drawing.Size(58, 13);
+            this.Label25.Size = new System.Drawing.Size(75, 19);
             this.Label25.TabIndex = 2;
             this.Label25.Text = "Sub Total:";
             // 
@@ -641,9 +685,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label29.AutoSize = true;
             this.Label29.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label29.Location = new System.Drawing.Point(383, 417);
+            this.Label29.Location = new System.Drawing.Point(511, 513);
+            this.Label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label29.Name = "Label29";
-            this.Label29.Size = new System.Drawing.Size(35, 13);
+            this.Label29.Size = new System.Drawing.Size(44, 19);
             this.Label29.TabIndex = 2;
             this.Label29.Text = "S/. 26";
             // 
@@ -651,9 +696,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label27.AutoSize = true;
             this.Label27.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label27.Location = new System.Drawing.Point(383, 399);
+            this.Label27.Location = new System.Drawing.Point(511, 491);
+            this.Label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label27.Name = "Label27";
-            this.Label27.Size = new System.Drawing.Size(44, 13);
+            this.Label27.Size = new System.Drawing.Size(55, 19);
             this.Label27.TabIndex = 2;
             this.Label27.Text = "S/. 0.00";
             // 
@@ -661,9 +707,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label35.AutoSize = true;
             this.Label35.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label35.Location = new System.Drawing.Point(396, 550);
+            this.Label35.Location = new System.Drawing.Point(528, 677);
+            this.Label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label35.Name = "Label35";
-            this.Label35.Size = new System.Drawing.Size(13, 13);
+            this.Label35.Size = new System.Drawing.Size(17, 19);
             this.Label35.TabIndex = 2;
             this.Label35.Text = "1";
             // 
@@ -671,9 +718,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label34.AutoSize = true;
             this.Label34.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label34.Location = new System.Drawing.Point(29, 550);
+            this.Label34.Location = new System.Drawing.Point(39, 677);
+            this.Label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label34.Name = "Label34";
-            this.Label34.Size = new System.Drawing.Size(119, 13);
+            this.Label34.Size = new System.Drawing.Size(144, 19);
             this.Label34.TabIndex = 2;
             this.Label34.Text = "Numero de Productos";
             // 
@@ -681,9 +729,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label18.AutoSize = true;
             this.Label18.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label18.Location = new System.Drawing.Point(89, 353);
+            this.Label18.Location = new System.Drawing.Point(119, 434);
+            this.Label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label18.Name = "Label18";
-            this.Label18.Size = new System.Drawing.Size(133, 13);
+            this.Label18.Size = new System.Drawing.Size(163, 19);
             this.Label18.TabIndex = 2;
             this.Label18.Text = "Gaseosa Coca Cola x 1 Lt";
             // 
@@ -691,9 +740,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label26.AutoSize = true;
             this.Label26.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label26.Location = new System.Drawing.Point(383, 380);
+            this.Label26.Location = new System.Drawing.Point(511, 468);
+            this.Label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label26.Name = "Label26";
-            this.Label26.Size = new System.Drawing.Size(35, 13);
+            this.Label26.Size = new System.Drawing.Size(44, 19);
             this.Label26.TabIndex = 2;
             this.Label26.Text = "S/. 26";
             // 
@@ -701,9 +751,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label21.AutoSize = true;
             this.Label21.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label21.Location = new System.Drawing.Point(385, 353);
+            this.Label21.Location = new System.Drawing.Point(513, 434);
+            this.Label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label21.Name = "Label21";
-            this.Label21.Size = new System.Drawing.Size(35, 13);
+            this.Label21.Size = new System.Drawing.Size(44, 19);
             this.Label21.TabIndex = 2;
             this.Label21.Text = "S/. 26";
             // 
@@ -711,9 +762,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label15.AutoSize = true;
             this.Label15.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label15.Location = new System.Drawing.Point(31, 353);
+            this.Label15.Location = new System.Drawing.Point(41, 434);
+            this.Label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label15.Name = "Label15";
-            this.Label15.Size = new System.Drawing.Size(13, 13);
+            this.Label15.Size = new System.Drawing.Size(17, 19);
             this.Label15.TabIndex = 2;
             this.Label15.Text = "1";
             // 
@@ -721,9 +773,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.Label3.Location = new System.Drawing.Point(29, 327);
+            this.Label3.Location = new System.Drawing.Point(39, 402);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(34, 13);
+            this.Label3.Size = new System.Drawing.Size(41, 19);
             this.Label3.TabIndex = 2;
             this.Label3.Text = "Cant.";
             // 
@@ -731,18 +784,20 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             this.lblfecha.AutoSize = true;
             this.lblfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.lblfecha.Location = new System.Drawing.Point(30, 275);
+            this.lblfecha.Location = new System.Drawing.Point(40, 338);
+            this.lblfecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfecha.Name = "lblfecha";
-            this.lblfecha.Size = new System.Drawing.Size(129, 13);
+            this.lblfecha.Size = new System.Drawing.Size(163, 17);
             this.lblfecha.TabIndex = 2;
             this.lblfecha.Text = "Fecha Emision          ";
             // 
             // Label7
             // 
             this.Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Label7.Location = new System.Drawing.Point(31, 644);
+            this.Label7.Location = new System.Drawing.Point(41, 793);
+            this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(388, 10);
+            this.Label7.Size = new System.Drawing.Size(517, 12);
             this.Label7.TabIndex = 2;
             this.Label7.Text = "*****************************************************************************";
             this.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -753,9 +808,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.PictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PictureBox1.BackgroundImage")));
             this.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PictureBox1.Location = new System.Drawing.Point(203, 16);
+            this.PictureBox1.Location = new System.Drawing.Point(271, 20);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(62, 52);
+            this.PictureBox1.Size = new System.Drawing.Size(83, 64);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox1.TabIndex = 608;
             this.PictureBox1.TabStop = false;
@@ -763,9 +819,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // PictureBox2
             // 
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(31, 651);
+            this.PictureBox2.Location = new System.Drawing.Point(41, 801);
+            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(380, 75);
+            this.PictureBox2.Size = new System.Drawing.Size(507, 92);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox2.TabIndex = 609;
             this.PictureBox2.TabStop = false;
@@ -777,18 +834,20 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.Panel6.Controls.Add(this.btnFacturaBoleta);
             this.Panel6.Controls.Add(this.btnTicket);
             this.Panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel6.Location = new System.Drawing.Point(460, 0);
+            this.Panel6.Location = new System.Drawing.Point(613, 0);
+            this.Panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel6.Name = "Panel6";
-            this.Panel6.Size = new System.Drawing.Size(688, 715);
+            this.Panel6.Size = new System.Drawing.Size(918, 880);
             this.Panel6.TabIndex = 612;
             // 
             // Label12
             // 
             this.Label12.AutoSize = true;
             this.Label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.Label12.Location = new System.Drawing.Point(6, 162);
+            this.Label12.Location = new System.Drawing.Point(8, 199);
+            this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(284, 40);
+            this.Label12.Size = new System.Drawing.Size(341, 50);
             this.Label12.TabIndex = 2;
             this.Label12.Text = "Elige un Formato de Comprobante\r\ncon el que Trabajaras";
             // 
@@ -798,9 +857,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.btnguardar.FlatAppearance.BorderSize = 2;
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnguardar.Location = new System.Drawing.Point(5, 276);
+            this.btnguardar.Location = new System.Drawing.Point(7, 340);
+            this.btnguardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(183, 37);
+            this.btnguardar.Size = new System.Drawing.Size(244, 46);
             this.btnguardar.TabIndex = 601;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = false;
@@ -812,9 +872,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.btnFacturaBoleta.FlatAppearance.BorderSize = 0;
             this.btnFacturaBoleta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFacturaBoleta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFacturaBoleta.Location = new System.Drawing.Point(194, 214);
+            this.btnFacturaBoleta.Location = new System.Drawing.Point(259, 263);
+            this.btnFacturaBoleta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFacturaBoleta.Name = "btnFacturaBoleta";
-            this.btnFacturaBoleta.Size = new System.Drawing.Size(183, 37);
+            this.btnFacturaBoleta.Size = new System.Drawing.Size(244, 46);
             this.btnFacturaBoleta.TabIndex = 601;
             this.btnFacturaBoleta.Text = "Factura - Boleta";
             this.btnFacturaBoleta.UseVisualStyleBackColor = false;
@@ -826,9 +887,10 @@ namespace RestCsharp.Presentacion.Diseñocomp
             this.btnTicket.FlatAppearance.BorderSize = 0;
             this.btnTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTicket.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTicket.Location = new System.Drawing.Point(4, 214);
+            this.btnTicket.Location = new System.Drawing.Point(5, 263);
+            this.btnTicket.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTicket.Name = "btnTicket";
-            this.btnTicket.Size = new System.Drawing.Size(183, 37);
+            this.btnTicket.Size = new System.Drawing.Size(244, 46);
             this.btnTicket.TabIndex = 601;
             this.btnTicket.Text = "Ticket No Fiscal";
             this.btnTicket.UseVisualStyleBackColor = false;
@@ -836,12 +898,13 @@ namespace RestCsharp.Presentacion.Diseñocomp
             // 
             // Diseño
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1148, 715);
+            this.ClientSize = new System.Drawing.Size(1531, 880);
             this.Controls.Add(this.Panel6);
             this.Controls.Add(this.PanelTICKET);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Diseño";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Diseño";

@@ -66,9 +66,10 @@
             this.PanelIngresarContraseña.Controls.Add(this.panel14);
             this.PanelIngresarContraseña.Controls.Add(this.panel12);
             this.PanelIngresarContraseña.Controls.Add(this.panel11);
-            this.PanelIngresarContraseña.Location = new System.Drawing.Point(12, 12);
+            this.PanelIngresarContraseña.Location = new System.Drawing.Point(16, 15);
+            this.PanelIngresarContraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelIngresarContraseña.Name = "PanelIngresarContraseña";
-            this.PanelIngresarContraseña.Size = new System.Drawing.Size(397, 684);
+            this.PanelIngresarContraseña.Size = new System.Drawing.Size(529, 842);
             this.PanelIngresarContraseña.TabIndex = 1;
             // 
             // panel13
@@ -78,9 +79,10 @@
             this.panel13.Controls.Add(this.btnborrar);
             this.panel13.Controls.Add(this.flowLayoutPanel1);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel13.Location = new System.Drawing.Point(0, 117);
+            this.panel13.Location = new System.Drawing.Point(0, 144);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(397, 361);
+            this.panel13.Size = new System.Drawing.Size(529, 444);
             this.panel13.TabIndex = 2;
             // 
             // btnborrarderecha
@@ -93,9 +95,10 @@
             this.btnborrarderecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnborrarderecha.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnborrarderecha.ForeColor = System.Drawing.Color.White;
-            this.btnborrarderecha.Location = new System.Drawing.Point(246, 275);
+            this.btnborrarderecha.Location = new System.Drawing.Point(328, 338);
+            this.btnborrarderecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnborrarderecha.Name = "btnborrarderecha";
-            this.btnborrarderecha.Size = new System.Drawing.Size(80, 80);
+            this.btnborrarderecha.Size = new System.Drawing.Size(107, 98);
             this.btnborrarderecha.TabIndex = 9;
             this.btnborrarderecha.Text = "<--";
             this.btnborrarderecha.UseVisualStyleBackColor = true;
@@ -111,9 +114,10 @@
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn0.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.ForeColor = System.Drawing.Color.White;
-            this.btn0.Location = new System.Drawing.Point(160, 275);
+            this.btn0.Location = new System.Drawing.Point(213, 338);
+            this.btn0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(80, 80);
+            this.btn0.Size = new System.Drawing.Size(107, 98);
             this.btn0.TabIndex = 8;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = true;
@@ -129,9 +133,10 @@
             this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnborrar.Font = new System.Drawing.Font("Calibri", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnborrar.ForeColor = System.Drawing.Color.White;
-            this.btnborrar.Location = new System.Drawing.Point(74, 273);
+            this.btnborrar.Location = new System.Drawing.Point(99, 336);
+            this.btnborrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnborrar.Name = "btnborrar";
-            this.btnborrar.Size = new System.Drawing.Size(80, 80);
+            this.btnborrar.Size = new System.Drawing.Size(107, 98);
             this.btnborrar.TabIndex = 7;
             this.btnborrar.Text = "Borrar";
             this.btnborrar.UseVisualStyleBackColor = true;
@@ -148,9 +153,10 @@
             this.flowLayoutPanel1.Controls.Add(this.btn7);
             this.flowLayoutPanel1.Controls.Add(this.btn8);
             this.flowLayoutPanel1.Controls.Add(this.btn9);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(71, 6);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(95, 7);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(261, 261);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(348, 321);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btn1
@@ -163,9 +169,10 @@
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.White;
-            this.btn1.Location = new System.Drawing.Point(3, 3);
+            this.btn1.Location = new System.Drawing.Point(4, 4);
+            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(80, 80);
+            this.btn1.Size = new System.Drawing.Size(107, 98);
             this.btn1.TabIndex = 0;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
@@ -181,9 +188,10 @@
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.ForeColor = System.Drawing.Color.White;
-            this.btn2.Location = new System.Drawing.Point(89, 3);
+            this.btn2.Location = new System.Drawing.Point(119, 4);
+            this.btn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(80, 80);
+            this.btn2.Size = new System.Drawing.Size(107, 98);
             this.btn2.TabIndex = 1;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
@@ -199,9 +207,10 @@
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.ForeColor = System.Drawing.Color.White;
-            this.btn3.Location = new System.Drawing.Point(175, 3);
+            this.btn3.Location = new System.Drawing.Point(234, 4);
+            this.btn3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(80, 80);
+            this.btn3.Size = new System.Drawing.Size(107, 98);
             this.btn3.TabIndex = 2;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
@@ -217,9 +226,10 @@
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.ForeColor = System.Drawing.Color.White;
-            this.btn4.Location = new System.Drawing.Point(3, 89);
+            this.btn4.Location = new System.Drawing.Point(4, 110);
+            this.btn4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(80, 80);
+            this.btn4.Size = new System.Drawing.Size(107, 98);
             this.btn4.TabIndex = 3;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
@@ -235,9 +245,10 @@
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn5.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.ForeColor = System.Drawing.Color.White;
-            this.btn5.Location = new System.Drawing.Point(89, 89);
+            this.btn5.Location = new System.Drawing.Point(119, 110);
+            this.btn5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(80, 80);
+            this.btn5.Size = new System.Drawing.Size(107, 98);
             this.btn5.TabIndex = 4;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
@@ -253,9 +264,10 @@
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn6.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.ForeColor = System.Drawing.Color.White;
-            this.btn6.Location = new System.Drawing.Point(175, 89);
+            this.btn6.Location = new System.Drawing.Point(234, 110);
+            this.btn6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn6.Name = "btn6";
-            this.btn6.Size = new System.Drawing.Size(80, 80);
+            this.btn6.Size = new System.Drawing.Size(107, 98);
             this.btn6.TabIndex = 5;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
@@ -271,9 +283,10 @@
             this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn7.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.ForeColor = System.Drawing.Color.White;
-            this.btn7.Location = new System.Drawing.Point(3, 175);
+            this.btn7.Location = new System.Drawing.Point(4, 216);
+            this.btn7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(80, 80);
+            this.btn7.Size = new System.Drawing.Size(107, 98);
             this.btn7.TabIndex = 6;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
@@ -289,9 +302,10 @@
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn8.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.ForeColor = System.Drawing.Color.White;
-            this.btn8.Location = new System.Drawing.Point(89, 175);
+            this.btn8.Location = new System.Drawing.Point(119, 216);
+            this.btn8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(80, 80);
+            this.btn8.Size = new System.Drawing.Size(107, 98);
             this.btn8.TabIndex = 7;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
@@ -307,9 +321,10 @@
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn9.Font = new System.Drawing.Font("Calibri", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.ForeColor = System.Drawing.Color.White;
-            this.btn9.Location = new System.Drawing.Point(175, 175);
+            this.btn9.Location = new System.Drawing.Point(234, 216);
+            this.btn9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(80, 80);
+            this.btn9.Size = new System.Drawing.Size(107, 98);
             this.btn9.TabIndex = 8;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
@@ -319,9 +334,10 @@
             // 
             this.panel14.Controls.Add(this.btnAceptar);
             this.panel14.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel14.Location = new System.Drawing.Point(0, 478);
+            this.panel14.Location = new System.Drawing.Point(0, 588);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(397, 206);
+            this.panel14.Size = new System.Drawing.Size(529, 254);
             this.panel14.TabIndex = 3;
             // 
             // btnAceptar
@@ -334,9 +350,10 @@
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceptar.Font = new System.Drawing.Font("Calibri", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(74, 3);
+            this.btnAceptar.Location = new System.Drawing.Point(99, 4);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(252, 58);
+            this.btnAceptar.Size = new System.Drawing.Size(336, 71);
             this.btnAceptar.TabIndex = 8;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
@@ -347,17 +364,19 @@
             this.panel12.Controls.Add(this.panel15);
             this.panel12.Controls.Add(this.txtnumero);
             this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel12.Location = new System.Drawing.Point(0, 65);
+            this.panel12.Location = new System.Drawing.Point(0, 80);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(397, 52);
+            this.panel12.Size = new System.Drawing.Size(529, 64);
             this.panel12.TabIndex = 1;
             // 
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.White;
-            this.panel15.Location = new System.Drawing.Point(47, 43);
+            this.panel15.Location = new System.Drawing.Point(63, 53);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(315, 1);
+            this.panel15.Size = new System.Drawing.Size(420, 1);
             this.panel15.TabIndex = 1;
             // 
             // txtnumero
@@ -366,9 +385,10 @@
             this.txtnumero.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtnumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnumero.ForeColor = System.Drawing.Color.White;
-            this.txtnumero.Location = new System.Drawing.Point(47, 6);
+            this.txtnumero.Location = new System.Drawing.Point(63, 7);
+            this.txtnumero.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtnumero.Name = "txtnumero";
-            this.txtnumero.Size = new System.Drawing.Size(315, 31);
+            this.txtnumero.Size = new System.Drawing.Size(420, 38);
             this.txtnumero.TabIndex = 0;
             this.txtnumero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -378,8 +398,9 @@
             this.panel11.Controls.Add(this.label3);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel11.Location = new System.Drawing.Point(0, 0);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(397, 65);
+            this.panel11.Size = new System.Drawing.Size(529, 80);
             this.panel11.TabIndex = 0;
             // 
             // btnCerrar
@@ -393,9 +414,10 @@
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.Color.White;
-            this.btnCerrar.Location = new System.Drawing.Point(346, 0);
+            this.btnCerrar.Location = new System.Drawing.Point(461, 0);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(51, 40);
+            this.btnCerrar.Size = new System.Drawing.Size(68, 49);
             this.btnCerrar.TabIndex = 2;
             this.btnCerrar.Text = "X";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -407,20 +429,22 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(397, 65);
+            this.label3.Size = new System.Drawing.Size(529, 80);
             this.label3.TabIndex = 0;
             this.label3.Text = "Numero de Personas";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CantPersonas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(421, 619);
+            this.ClientSize = new System.Drawing.Size(561, 762);
             this.Controls.Add(this.PanelIngresarContraseña);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "CantPersonas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.CantPersonas_Load);

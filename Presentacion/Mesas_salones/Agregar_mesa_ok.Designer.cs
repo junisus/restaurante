@@ -43,9 +43,10 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(135, 37);
+            this.Label1.Location = new System.Drawing.Point(180, 46);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(85, 37);
+            this.Label1.Size = new System.Drawing.Size(104, 46);
             this.Label1.TabIndex = 627;
             this.Label1.Text = "Mesa";
             this.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -56,18 +57,20 @@
             this.txtmesaedicion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtmesaedicion.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.txtmesaedicion.ForeColor = System.Drawing.Color.White;
-            this.txtmesaedicion.Location = new System.Drawing.Point(50, 77);
+            this.txtmesaedicion.Location = new System.Drawing.Point(67, 95);
+            this.txtmesaedicion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtmesaedicion.Name = "txtmesaedicion";
-            this.txtmesaedicion.Size = new System.Drawing.Size(254, 31);
+            this.txtmesaedicion.Size = new System.Drawing.Size(339, 38);
             this.txtmesaedicion.TabIndex = 628;
             this.txtmesaedicion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(50, 114);
+            this.panel1.Location = new System.Drawing.Point(67, 140);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(254, 1);
+            this.panel1.Size = new System.Drawing.Size(339, 1);
             this.panel1.TabIndex = 629;
             // 
             // button1
@@ -77,9 +80,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(50, 140);
+            this.button1.Location = new System.Drawing.Point(67, 172);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(254, 49);
+            this.button1.Size = new System.Drawing.Size(339, 60);
             this.button1.TabIndex = 630;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = false;
@@ -92,9 +96,10 @@
             this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.btneliminar.ForeColor = System.Drawing.Color.White;
-            this.btneliminar.Location = new System.Drawing.Point(50, 195);
+            this.btneliminar.Location = new System.Drawing.Point(67, 240);
+            this.btneliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btneliminar.Name = "btneliminar";
-            this.btneliminar.Size = new System.Drawing.Size(254, 49);
+            this.btneliminar.Size = new System.Drawing.Size(339, 60);
             this.btneliminar.TabIndex = 631;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = false;
@@ -106,9 +111,10 @@
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold);
             this.btnVolver.ForeColor = System.Drawing.Color.Gray;
-            this.btnVolver.Location = new System.Drawing.Point(50, 250);
+            this.btnVolver.Location = new System.Drawing.Point(67, 308);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(254, 49);
+            this.btnVolver.Size = new System.Drawing.Size(339, 60);
             this.btnVolver.TabIndex = 631;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = false;
@@ -121,9 +127,10 @@
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
             this.btnCerrar.ForeColor = System.Drawing.Color.White;
-            this.btnCerrar.Location = new System.Drawing.Point(320, 2);
+            this.btnCerrar.Location = new System.Drawing.Point(427, 2);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(33, 33);
+            this.btnCerrar.Size = new System.Drawing.Size(44, 41);
             this.btnCerrar.TabIndex = 632;
             this.btnCerrar.Text = "X";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -131,10 +138,10 @@
             // 
             // Agregar_mesa_ok
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.ClientSize = new System.Drawing.Size(355, 342);
+            this.ClientSize = new System.Drawing.Size(473, 421);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btneliminar);
@@ -143,6 +150,7 @@
             this.Controls.Add(this.txtmesaedicion);
             this.Controls.Add(this.Label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Agregar_mesa_ok";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Agregar_mesa_ok_Load);

@@ -81,9 +81,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.TXTCANTIDADDECEROS.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TXTCANTIDADDECEROS.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.TXTCANTIDADDECEROS.ForeColor = System.Drawing.Color.Black;
-            this.TXTCANTIDADDECEROS.Location = new System.Drawing.Point(549, 83);
+            this.TXTCANTIDADDECEROS.Location = new System.Drawing.Point(732, 102);
+            this.TXTCANTIDADDECEROS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TXTCANTIDADDECEROS.Name = "TXTCANTIDADDECEROS";
-            this.TXTCANTIDADDECEROS.Size = new System.Drawing.Size(170, 35);
+            this.TXTCANTIDADDECEROS.Size = new System.Drawing.Size(226, 41);
             this.TXTCANTIDADDECEROS.TabIndex = 618;
             this.TXTCANTIDADDECEROS.Text = "0";
             this.TXTCANTIDADDECEROS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -92,9 +93,10 @@ namespace RestCsharp.Presentacion.Serializacion
             // 
             this.PictureBox4.BackColor = System.Drawing.Color.White;
             this.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PictureBox4.Location = new System.Drawing.Point(92, 6);
+            this.PictureBox4.Location = new System.Drawing.Point(123, 7);
+            this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBox4.Name = "PictureBox4";
-            this.PictureBox4.Size = new System.Drawing.Size(79, 57);
+            this.PictureBox4.Size = new System.Drawing.Size(104, 69);
             this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox4.TabIndex = 346;
             this.PictureBox4.TabStop = false;
@@ -103,9 +105,10 @@ namespace RestCsharp.Presentacion.Serializacion
             // 
             this.Label17.AutoSize = true;
             this.Label17.ForeColor = System.Drawing.Color.Black;
-            this.Label17.Location = new System.Drawing.Point(7, 25);
+            this.Label17.Location = new System.Drawing.Point(9, 31);
+            this.Label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label17.Name = "Label17";
-            this.Label17.Size = new System.Drawing.Size(74, 13);
+            this.Label17.Size = new System.Drawing.Size(95, 17);
             this.Label17.TabIndex = 340;
             this.Label17.Text = "Ficha tecnica:";
             // 
@@ -113,10 +116,11 @@ namespace RestCsharp.Presentacion.Serializacion
             // 
             this.TabPage6.Controls.Add(this.PictureBox4);
             this.TabPage6.Controls.Add(this.Label17);
-            this.TabPage6.Location = new System.Drawing.Point(4, 22);
+            this.TabPage6.Location = new System.Drawing.Point(4, 25);
+            this.TabPage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TabPage6.Name = "TabPage6";
-            this.TabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage6.Size = new System.Drawing.Size(388, 69);
+            this.TabPage6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage6.Size = new System.Drawing.Size(520, 88);
             this.TabPage6.TabIndex = 1;
             this.TabPage6.Text = "Ficha tecnica";
             this.TabPage6.UseVisualStyleBackColor = true;
@@ -125,19 +129,21 @@ namespace RestCsharp.Presentacion.Serializacion
             // 
             this.Label4.AutoSize = true;
             this.Label4.ForeColor = System.Drawing.Color.Black;
-            this.Label4.Location = new System.Drawing.Point(12, 31);
+            this.Label4.Location = new System.Drawing.Point(16, 38);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(144, 13);
+            this.Label4.Size = new System.Drawing.Size(194, 17);
             this.Label4.TabIndex = 341;
             this.Label4.Text = "Registro sanitario de Ingreso:";
             // 
             // TabPage5
             // 
             this.TabPage5.Controls.Add(this.Label4);
-            this.TabPage5.Location = new System.Drawing.Point(4, 22);
+            this.TabPage5.Location = new System.Drawing.Point(4, 25);
+            this.TabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TabPage5.Name = "TabPage5";
-            this.TabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage5.Size = new System.Drawing.Size(388, 69);
+            this.TabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage5.Size = new System.Drawing.Size(520, 88);
             this.TabPage5.TabIndex = 0;
             this.TabPage5.Text = "Registro sanitario de Ingreso";
             this.TabPage5.UseVisualStyleBackColor = true;
@@ -146,9 +152,10 @@ namespace RestCsharp.Presentacion.Serializacion
             // 
             this.checkDefecto.AutoSize = true;
             this.checkDefecto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkDefecto.Location = new System.Drawing.Point(549, 341);
+            this.checkDefecto.Location = new System.Drawing.Point(732, 420);
+            this.checkDefecto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkDefecto.Name = "checkDefecto";
-            this.checkDefecto.Size = new System.Drawing.Size(219, 28);
+            this.checkDefecto.Size = new System.Drawing.Size(275, 33);
             this.checkDefecto.TabIndex = 621;
             this.checkDefecto.Text = "Elejir Por DEFECTO";
             this.checkDefecto.UseVisualStyleBackColor = true;
@@ -157,9 +164,10 @@ namespace RestCsharp.Presentacion.Serializacion
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel4.Controls.Add(this.TXTCOMPRO);
-            this.panel4.Location = new System.Drawing.Point(259, 112);
+            this.panel4.Location = new System.Drawing.Point(345, 138);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(209, 36);
+            this.panel4.Size = new System.Drawing.Size(279, 44);
             this.panel4.TabIndex = 620;
             // 
             // TXTCOMPRO
@@ -168,9 +176,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.TXTCOMPRO.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TXTCOMPRO.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.TXTCOMPRO.ForeColor = System.Drawing.Color.White;
-            this.TXTCOMPRO.Location = new System.Drawing.Point(-1, 10);
+            this.TXTCOMPRO.Location = new System.Drawing.Point(-1, 12);
+            this.TXTCOMPRO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TXTCOMPRO.Name = "TXTCOMPRO";
-            this.TXTCOMPRO.Size = new System.Drawing.Size(210, 16);
+            this.TXTCOMPRO.Size = new System.Drawing.Size(280, 19);
             this.TXTCOMPRO.TabIndex = 615;
             this.TXTCOMPRO.Text = "FACTURA";
             this.TXTCOMPRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -181,9 +190,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnvolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnvolver.ForeColor = System.Drawing.Color.White;
-            this.btnvolver.Location = new System.Drawing.Point(52, 602);
+            this.btnvolver.Location = new System.Drawing.Point(69, 741);
+            this.btnvolver.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnvolver.Name = "btnvolver";
-            this.btnvolver.Size = new System.Drawing.Size(309, 39);
+            this.btnvolver.Size = new System.Drawing.Size(412, 48);
             this.btnvolver.TabIndex = 562;
             this.btnvolver.Text = "Volver {}";
             this.btnvolver.UseVisualStyleBackColor = false;
@@ -192,10 +202,11 @@ namespace RestCsharp.Presentacion.Serializacion
             // 
             this.TabControl3.Controls.Add(this.TabPage5);
             this.TabControl3.Controls.Add(this.TabPage6);
-            this.TabControl3.Location = new System.Drawing.Point(132, 773);
+            this.TabControl3.Location = new System.Drawing.Point(176, 951);
+            this.TabControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TabControl3.Name = "TabControl3";
             this.TabControl3.SelectedIndex = 0;
-            this.TabControl3.Size = new System.Drawing.Size(396, 95);
+            this.TabControl3.Size = new System.Drawing.Size(528, 117);
             this.TabControl3.TabIndex = 350;
             // 
             // VOLVEROK
@@ -204,7 +215,7 @@ namespace RestCsharp.Presentacion.Serializacion
             this.VOLVEROK.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.VOLVEROK.ForeColor = System.Drawing.Color.White;
             this.VOLVEROK.Name = "VOLVEROK";
-            this.VOLVEROK.Size = new System.Drawing.Size(82, 47);
+            this.VOLVEROK.Size = new System.Drawing.Size(100, 59);
             this.VOLVEROK.Text = "VOLVER";
             this.VOLVEROK.Click += new System.EventHandler(this.VOLVEROK_Click);
             // 
@@ -214,9 +225,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.txtnumerofin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtnumerofin.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.txtnumerofin.ForeColor = System.Drawing.Color.Black;
-            this.txtnumerofin.Location = new System.Drawing.Point(537, 149);
+            this.txtnumerofin.Location = new System.Drawing.Point(716, 183);
+            this.txtnumerofin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtnumerofin.Name = "txtnumerofin";
-            this.txtnumerofin.Size = new System.Drawing.Size(182, 35);
+            this.txtnumerofin.Size = new System.Drawing.Size(242, 41);
             this.txtnumerofin.TabIndex = 616;
             this.txtnumerofin.Text = "0";
             this.txtnumerofin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -228,9 +240,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.txtSerie.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtSerie.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.txtSerie.ForeColor = System.Drawing.Color.Black;
-            this.txtSerie.Location = new System.Drawing.Point(537, 220);
+            this.txtSerie.Location = new System.Drawing.Point(716, 271);
+            this.txtSerie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSerie.Name = "txtSerie";
-            this.txtSerie.Size = new System.Drawing.Size(182, 35);
+            this.txtSerie.Size = new System.Drawing.Size(242, 41);
             this.txtSerie.TabIndex = 618;
             this.txtSerie.Text = "0";
             this.txtSerie.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -240,15 +253,16 @@ namespace RestCsharp.Presentacion.Serializacion
             this.MenuStrip5.AutoSize = false;
             this.MenuStrip5.BackColor = System.Drawing.Color.Transparent;
             this.MenuStrip5.Dock = System.Windows.Forms.DockStyle.None;
+            this.MenuStrip5.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.MenuStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.GUARDAR,
             this.GUARDARCAMBIOS,
             this.VOLVEROK});
             this.MenuStrip5.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.MenuStrip5.Location = new System.Drawing.Point(537, 275);
+            this.MenuStrip5.Location = new System.Drawing.Point(716, 338);
             this.MenuStrip5.Name = "MenuStrip5";
             this.MenuStrip5.ShowItemToolTips = true;
-            this.MenuStrip5.Size = new System.Drawing.Size(411, 51);
+            this.MenuStrip5.Size = new System.Drawing.Size(548, 63);
             this.MenuStrip5.TabIndex = 532;
             this.MenuStrip5.Text = "MenuStrip5";
             // 
@@ -258,7 +272,7 @@ namespace RestCsharp.Presentacion.Serializacion
             this.GUARDAR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.GUARDAR.ForeColor = System.Drawing.Color.Black;
             this.GUARDAR.Name = "GUARDAR";
-            this.GUARDAR.Size = new System.Drawing.Size(83, 47);
+            this.GUARDAR.Size = new System.Drawing.Size(102, 59);
             this.GUARDAR.Text = "&Guardar";
             this.GUARDAR.ToolTipText = "Guardar ";
             this.GUARDAR.Click += new System.EventHandler(this.GUARDAR_Click);
@@ -269,7 +283,7 @@ namespace RestCsharp.Presentacion.Serializacion
             this.GUARDARCAMBIOS.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.GUARDARCAMBIOS.ForeColor = System.Drawing.Color.Black;
             this.GUARDARCAMBIOS.Name = "GUARDARCAMBIOS";
-            this.GUARDARCAMBIOS.Size = new System.Drawing.Size(153, 47);
+            this.GUARDARCAMBIOS.Size = new System.Drawing.Size(188, 59);
             this.GUARDARCAMBIOS.Text = "&Guardar Cambios";
             this.GUARDARCAMBIOS.Click += new System.EventHandler(this.GUARDARCAMBIOS_Click);
             // 
@@ -278,9 +292,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.txtmsbox.BackColor = System.Drawing.Color.Transparent;
             this.txtmsbox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtmsbox.ForeColor = System.Drawing.Color.White;
-            this.txtmsbox.Location = new System.Drawing.Point(51, 522);
+            this.txtmsbox.Location = new System.Drawing.Point(68, 642);
+            this.txtmsbox.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtmsbox.Name = "txtmsbox";
-            this.txtmsbox.Size = new System.Drawing.Size(332, 24);
+            this.txtmsbox.Size = new System.Drawing.Size(443, 30);
             this.txtmsbox.TabIndex = 381;
             this.txtmsbox.Text = "Listo";
             this.txtmsbox.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -288,9 +303,10 @@ namespace RestCsharp.Presentacion.Serializacion
             // PictureBox3
             // 
             this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
-            this.PictureBox3.Location = new System.Drawing.Point(-228, -37);
+            this.PictureBox3.Location = new System.Drawing.Point(-304, -46);
+            this.PictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBox3.Name = "PictureBox3";
-            this.PictureBox3.Size = new System.Drawing.Size(1361, 721);
+            this.PictureBox3.Size = new System.Drawing.Size(1815, 887);
             this.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox3.TabIndex = 619;
             this.PictureBox3.TabStop = false;
@@ -308,9 +324,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.panel3.Controls.Add(this.TabControl3);
             this.panel3.Controls.Add(this.txtmsbox);
             this.panel3.Controls.Add(this.PictureBox3);
-            this.panel3.Location = new System.Drawing.Point(5, 3);
+            this.panel3.Location = new System.Drawing.Point(7, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(970, 712);
+            this.panel3.Size = new System.Drawing.Size(1293, 876);
             this.panel3.TabIndex = 372;
             this.panel3.Visible = false;
             // 
@@ -347,7 +364,8 @@ namespace RestCsharp.Presentacion.Serializacion
             this.datalistado.Dock = System.Windows.Forms.DockStyle.Fill;
             this.datalistado.EnableHeadersVisualStyles = false;
             this.datalistado.GridColor = System.Drawing.Color.LightGray;
-            this.datalistado.Location = new System.Drawing.Point(0, 62);
+            this.datalistado.Location = new System.Drawing.Point(0, 76);
+            this.datalistado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistado.Name = "datalistado";
             this.datalistado.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -366,7 +384,7 @@ namespace RestCsharp.Presentacion.Serializacion
             this.datalistado.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.datalistado.RowTemplate.Height = 60;
             this.datalistado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistado.Size = new System.Drawing.Size(795, 462);
+            this.datalistado.Size = new System.Drawing.Size(1060, 569);
             this.datalistado.TabIndex = 371;
             this.datalistado.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistado_CellClick);
             this.datalistado.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistado_CellDoubleClick);
@@ -374,18 +392,21 @@ namespace RestCsharp.Presentacion.Serializacion
             // Column1
             // 
             this.Column1.HeaderText = "Column1";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             this.Column1.Visible = false;
+            this.Column1.Width = 125;
             // 
             // pelimintar
             // 
             this.pelimintar.BackColor = System.Drawing.Color.White;
             this.pelimintar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pelimintar.Image = ((System.Drawing.Image)(resources.GetObject("pelimintar.Image")));
-            this.pelimintar.Location = new System.Drawing.Point(3, 147);
+            this.pelimintar.Location = new System.Drawing.Point(4, 181);
+            this.pelimintar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pelimintar.Name = "pelimintar";
-            this.pelimintar.Size = new System.Drawing.Size(114, 57);
+            this.pelimintar.Size = new System.Drawing.Size(152, 70);
             this.pelimintar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pelimintar.TabIndex = 360;
             this.pelimintar.TabStop = false;
@@ -396,9 +417,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.agregar.BackColor = System.Drawing.Color.White;
             this.agregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.agregar.Image = ((System.Drawing.Image)(resources.GetObject("agregar.Image")));
-            this.agregar.Location = new System.Drawing.Point(3, 240);
+            this.agregar.Location = new System.Drawing.Point(4, 295);
+            this.agregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.agregar.Name = "agregar";
-            this.agregar.Size = new System.Drawing.Size(114, 90);
+            this.agregar.Size = new System.Drawing.Size(152, 111);
             this.agregar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.agregar.TabIndex = 361;
             this.agregar.TabStop = false;
@@ -410,9 +432,10 @@ namespace RestCsharp.Presentacion.Serializacion
             this.panel2.Controls.Add(this.pelimintar);
             this.panel2.Controls.Add(this.agregar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(795, 62);
+            this.panel2.Location = new System.Drawing.Point(1060, 76);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(126, 462);
+            this.panel2.Size = new System.Drawing.Size(168, 569);
             this.panel2.TabIndex = 370;
             // 
             // Label3
@@ -422,8 +445,9 @@ namespace RestCsharp.Presentacion.Serializacion
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.Label3.ForeColor = System.Drawing.Color.Black;
             this.Label3.Location = new System.Drawing.Point(0, 0);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(921, 59);
+            this.Label3.Size = new System.Drawing.Size(1228, 73);
             this.Label3.TabIndex = 547;
             this.Label3.Text = "SERIALIZACION DE COMPROBANTES";
             this.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -433,20 +457,22 @@ namespace RestCsharp.Presentacion.Serializacion
             this.panel1.Controls.Add(this.Label3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(921, 62);
+            this.panel1.Size = new System.Drawing.Size(1228, 76);
             this.panel1.TabIndex = 369;
             // 
             // SerialziacionComp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(921, 524);
+            this.ClientSize = new System.Drawing.Size(1228, 645);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.datalistado);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SerialziacionComp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Serialziacion Comprobantes";

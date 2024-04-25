@@ -81,9 +81,10 @@
             this.Panel2.Controls.Add(this.Label1);
             this.Panel2.Controls.Add(this.datalistado_empresas_nuevas);
             this.Panel2.Controls.Add(this.DATALISTADOUSUARIOSSNUEVOS);
-            this.Panel2.Location = new System.Drawing.Point(79, 14);
+            this.Panel2.Location = new System.Drawing.Point(105, 17);
+            this.Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(666, 454);
+            this.Panel2.Size = new System.Drawing.Size(888, 559);
             this.Panel2.TabIndex = 609;
             // 
             // btnSiguiente
@@ -96,9 +97,10 @@
             this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSiguiente.Font = new System.Drawing.Font("Calibri", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSiguiente.ForeColor = System.Drawing.Color.White;
-            this.btnSiguiente.Location = new System.Drawing.Point(546, 404);
+            this.btnSiguiente.Location = new System.Drawing.Point(728, 497);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(106, 38);
+            this.btnSiguiente.Size = new System.Drawing.Size(141, 47);
             this.btnSiguiente.TabIndex = 597;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.UseVisualStyleBackColor = true;
@@ -109,9 +111,10 @@
             this.LBLcontador_de_contraseña2.AutoSize = true;
             this.LBLcontador_de_contraseña2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.LBLcontador_de_contraseña2.ForeColor = System.Drawing.Color.DimGray;
-            this.LBLcontador_de_contraseña2.Location = new System.Drawing.Point(370, 150);
+            this.LBLcontador_de_contraseña2.Location = new System.Drawing.Point(493, 185);
+            this.LBLcontador_de_contraseña2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBLcontador_de_contraseña2.Name = "LBLcontador_de_contraseña2";
-            this.LBLcontador_de_contraseña2.Size = new System.Drawing.Size(13, 13);
+            this.LBLcontador_de_contraseña2.Size = new System.Drawing.Size(16, 17);
             this.LBLcontador_de_contraseña2.TabIndex = 596;
             this.LBLcontador_de_contraseña2.Text = "6";
             // 
@@ -120,9 +123,10 @@
             this.Label7.AutoSize = true;
             this.Label7.BackColor = System.Drawing.Color.White;
             this.Label7.ForeColor = System.Drawing.Color.DimGray;
-            this.Label7.Location = new System.Drawing.Point(389, 119);
+            this.Label7.Location = new System.Drawing.Point(519, 146);
+            this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(123, 13);
+            this.Label7.Size = new System.Drawing.Size(165, 17);
             this.Label7.TabIndex = 596;
             this.Label7.Text = "Ingresa hasta 6 numeros";
             // 
@@ -131,9 +135,10 @@
             this.LBLcontador_de_contraseña.AutoSize = true;
             this.LBLcontador_de_contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.LBLcontador_de_contraseña.ForeColor = System.Drawing.Color.DimGray;
-            this.LBLcontador_de_contraseña.Location = new System.Drawing.Point(370, 121);
+            this.LBLcontador_de_contraseña.Location = new System.Drawing.Point(493, 149);
+            this.LBLcontador_de_contraseña.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBLcontador_de_contraseña.Name = "LBLcontador_de_contraseña";
-            this.LBLcontador_de_contraseña.Size = new System.Drawing.Size(13, 13);
+            this.LBLcontador_de_contraseña.Size = new System.Drawing.Size(16, 17);
             this.LBLcontador_de_contraseña.TabIndex = 596;
             this.LBLcontador_de_contraseña.Text = "6";
             // 
@@ -143,9 +148,10 @@
             this.Label5.BackColor = System.Drawing.Color.White;
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Label5.Location = new System.Drawing.Point(11, 143);
+            this.Label5.Location = new System.Drawing.Point(15, 176);
+            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(187, 20);
+            this.Label5.Size = new System.Drawing.Size(226, 25);
             this.Label5.TabIndex = 2;
             this.Label5.Text = "Confirmar contraseña:";
             // 
@@ -155,19 +161,21 @@
             this.Label4.BackColor = System.Drawing.Color.White;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Label4.Location = new System.Drawing.Point(91, 114);
+            this.Label4.Location = new System.Drawing.Point(121, 140);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(107, 20);
+            this.Label4.Size = new System.Drawing.Size(131, 25);
             this.Label4.TabIndex = 2;
             this.Label4.Text = "Contraseña:";
             // 
             // Icono
             // 
             this.Icono.BackColor = System.Drawing.Color.White;
-            this.Icono.Image = global::RestCsharp.Properties.Resources.WhatsApp_Image_2023_05_30_at_10_52_46_PM;
-            this.Icono.Location = new System.Drawing.Point(165, 214);
+            this.Icono.Image = global::RestCsharp.Properties.Resources.WhatsApp_Image_2024_04_24_at_7_44_38_AM__2_;
+            this.Icono.Location = new System.Drawing.Point(220, 263);
+            this.Icono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Icono.Name = "Icono";
-            this.Icono.Size = new System.Drawing.Size(340, 194);
+            this.Icono.Size = new System.Drawing.Size(453, 239);
             this.Icono.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Icono.TabIndex = 589;
             this.Icono.TabStop = false;
@@ -178,9 +186,10 @@
             this.Label3.BackColor = System.Drawing.Color.White;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Label3.Location = new System.Drawing.Point(121, 88);
+            this.Label3.Location = new System.Drawing.Point(161, 108);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(76, 20);
+            this.Label3.Size = new System.Drawing.Size(93, 25);
             this.Label3.TabIndex = 2;
             this.Label3.Text = "Usuario:";
             // 
@@ -190,57 +199,63 @@
             this.Label2.BackColor = System.Drawing.Color.White;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Label2.Location = new System.Drawing.Point(26, 53);
+            this.Label2.Location = new System.Drawing.Point(35, 65);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(172, 20);
+            this.Label2.Size = new System.Drawing.Size(209, 25);
             this.Label2.TabIndex = 2;
             this.Label2.Text = "Nombre del Usuario:";
             // 
             // txtconfirmarcontraseña
             // 
             this.txtconfirmarcontraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtconfirmarcontraseña.Location = new System.Drawing.Point(203, 143);
+            this.txtconfirmarcontraseña.Location = new System.Drawing.Point(271, 176);
+            this.txtconfirmarcontraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtconfirmarcontraseña.MaxLength = 6;
             this.txtconfirmarcontraseña.Name = "txtconfirmarcontraseña";
             this.txtconfirmarcontraseña.PasswordChar = '*';
-            this.txtconfirmarcontraseña.Size = new System.Drawing.Size(160, 23);
+            this.txtconfirmarcontraseña.Size = new System.Drawing.Size(212, 26);
             this.txtconfirmarcontraseña.TabIndex = 3;
             // 
             // TXTCONTRASEÑA
             // 
             this.TXTCONTRASEÑA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.TXTCONTRASEÑA.Location = new System.Drawing.Point(203, 114);
+            this.TXTCONTRASEÑA.Location = new System.Drawing.Point(271, 140);
+            this.TXTCONTRASEÑA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TXTCONTRASEÑA.MaxLength = 6;
             this.TXTCONTRASEÑA.Name = "TXTCONTRASEÑA";
             this.TXTCONTRASEÑA.PasswordChar = '*';
-            this.TXTCONTRASEÑA.Size = new System.Drawing.Size(160, 23);
+            this.TXTCONTRASEÑA.Size = new System.Drawing.Size(212, 26);
             this.TXTCONTRASEÑA.TabIndex = 3;
             // 
             // TXTUSUARIO
             // 
             this.TXTUSUARIO.Enabled = false;
             this.TXTUSUARIO.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.TXTUSUARIO.Location = new System.Drawing.Point(203, 85);
+            this.TXTUSUARIO.Location = new System.Drawing.Point(271, 105);
+            this.TXTUSUARIO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TXTUSUARIO.Name = "TXTUSUARIO";
-            this.TXTUSUARIO.Size = new System.Drawing.Size(206, 23);
+            this.TXTUSUARIO.Size = new System.Drawing.Size(273, 26);
             this.TXTUSUARIO.TabIndex = 3;
             this.TXTUSUARIO.Text = "admin";
             // 
             // txtnombre
             // 
             this.txtnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtnombre.Location = new System.Drawing.Point(203, 53);
+            this.txtnombre.Location = new System.Drawing.Point(271, 65);
+            this.txtnombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(231, 23);
+            this.txtnombre.Size = new System.Drawing.Size(307, 26);
             this.txtnombre.TabIndex = 3;
             // 
             // Label6
             // 
             this.Label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.Label6.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.Label6.Location = new System.Drawing.Point(42, 182);
+            this.Label6.Location = new System.Drawing.Point(56, 224);
+            this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(590, 29);
+            this.Label6.Size = new System.Drawing.Size(787, 36);
             this.Label6.TabIndex = 2;
             this.Label6.Text = "El Administrador siempre tendra Acceso a todas las Funciones del Programa";
             this.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -250,9 +265,10 @@
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.Label1.Location = new System.Drawing.Point(5, 7);
+            this.Label1.Location = new System.Drawing.Point(7, 9);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(349, 20);
+            this.Label1.Size = new System.Drawing.Size(424, 25);
             this.Label1.TabIndex = 2;
             this.Label1.Text = "¿Que usuario principal usara el Programa?";
             // 
@@ -284,7 +300,8 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.datalistado_empresas_nuevas.DefaultCellStyle = dataGridViewCellStyle2;
             this.datalistado_empresas_nuevas.EnableHeadersVisualStyles = false;
-            this.datalistado_empresas_nuevas.Location = new System.Drawing.Point(297, 230);
+            this.datalistado_empresas_nuevas.Location = new System.Drawing.Point(396, 283);
+            this.datalistado_empresas_nuevas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistado_empresas_nuevas.Name = "datalistado_empresas_nuevas";
             this.datalistado_empresas_nuevas.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -300,15 +317,17 @@
             this.datalistado_empresas_nuevas.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.datalistado_empresas_nuevas.RowTemplate.Height = 40;
             this.datalistado_empresas_nuevas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistado_empresas_nuevas.Size = new System.Drawing.Size(109, 79);
+            this.datalistado_empresas_nuevas.Size = new System.Drawing.Size(145, 97);
             this.datalistado_empresas_nuevas.TabIndex = 594;
             // 
             // DataGridViewCheckBoxColumn1
             // 
             this.DataGridViewCheckBoxColumn1.HeaderText = "Eliminar";
+            this.DataGridViewCheckBoxColumn1.MinimumWidth = 6;
             this.DataGridViewCheckBoxColumn1.Name = "DataGridViewCheckBoxColumn1";
             this.DataGridViewCheckBoxColumn1.ReadOnly = true;
             this.DataGridViewCheckBoxColumn1.Visible = false;
+            this.DataGridViewCheckBoxColumn1.Width = 125;
             // 
             // DATALISTADOUSUARIOSSNUEVOS
             // 
@@ -336,7 +355,8 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DATALISTADOUSUARIOSSNUEVOS.DefaultCellStyle = dataGridViewCellStyle5;
-            this.DATALISTADOUSUARIOSSNUEVOS.Location = new System.Drawing.Point(275, 267);
+            this.DATALISTADOUSUARIOSSNUEVOS.Location = new System.Drawing.Point(367, 329);
+            this.DATALISTADOUSUARIOSSNUEVOS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DATALISTADOUSUARIOSSNUEVOS.Name = "DATALISTADOUSUARIOSSNUEVOS";
             this.DATALISTADOUSUARIOSSNUEVOS.ReadOnly = true;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -351,23 +371,26 @@
             this.DATALISTADOUSUARIOSSNUEVOS.RowHeadersWidth = 5;
             this.DATALISTADOUSUARIOSSNUEVOS.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.ForestGreen;
             this.DATALISTADOUSUARIOSSNUEVOS.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DATALISTADOUSUARIOSSNUEVOS.Size = new System.Drawing.Size(88, 75);
+            this.DATALISTADOUSUARIOSSNUEVOS.Size = new System.Drawing.Size(117, 92);
             this.DATALISTADOUSUARIOSSNUEVOS.TabIndex = 595;
             // 
             // DataGridViewCheckBoxColumn3
             // 
             this.DataGridViewCheckBoxColumn3.DataPropertyName = "Activo";
             this.DataGridViewCheckBoxColumn3.HeaderText = "Activo";
+            this.DataGridViewCheckBoxColumn3.MinimumWidth = 6;
             this.DataGridViewCheckBoxColumn3.Name = "DataGridViewCheckBoxColumn3";
             this.DataGridViewCheckBoxColumn3.ReadOnly = true;
+            this.DataGridViewCheckBoxColumn3.Width = 125;
             // 
             // UsuarioPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(839, 510);
+            this.ClientSize = new System.Drawing.Size(1119, 628);
             this.Controls.Add(this.Panel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UsuarioPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuario Principal";

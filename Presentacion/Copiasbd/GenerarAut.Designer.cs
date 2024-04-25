@@ -57,19 +57,21 @@ namespace RestCsharp.Presentacion.Copiasbd
             this.Panel1.Controls.Add(this.lbltiempo);
             this.Panel1.Controls.Add(this.Label4);
             this.Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel1.Location = new System.Drawing.Point(0, 45);
+            this.Panel1.Location = new System.Drawing.Point(0, 55);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(500, 447);
+            this.Panel1.Size = new System.Drawing.Size(667, 551);
             this.Panel1.TabIndex = 618;
             this.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox1.Image = global::RestCsharp.Properties.Resources.WhatsApp_Image_2023_05_30_at_10_52_46_PM;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 339);
+            this.pictureBox1.Image = global::RestCsharp.Properties.Resources.WhatsApp_Image_2024_04_24_at_7_44_38_AM__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 418);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(500, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(667, 133);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 614;
             this.pictureBox1.TabStop = false;
@@ -81,9 +83,10 @@ namespace RestCsharp.Presentacion.Copiasbd
             this.panel2.Controls.Add(this.Label2);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 143);
+            this.panel2.Location = new System.Drawing.Point(0, 176);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(500, 69);
+            this.panel2.Size = new System.Drawing.Size(667, 85);
             this.panel2.TabIndex = 615;
             // 
             // btncerrar
@@ -98,9 +101,10 @@ namespace RestCsharp.Presentacion.Copiasbd
             this.btncerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncerrar.ForeColor = System.Drawing.Color.White;
-            this.btncerrar.Location = new System.Drawing.Point(10, 0);
+            this.btncerrar.Location = new System.Drawing.Point(13, 0);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncerrar.Name = "btncerrar";
-            this.btncerrar.Size = new System.Drawing.Size(125, 69);
+            this.btncerrar.Size = new System.Drawing.Size(167, 85);
             this.btncerrar.TabIndex = 613;
             this.btncerrar.Text = "Cancelar";
             this.btncerrar.UseVisualStyleBackColor = false;
@@ -114,9 +118,10 @@ namespace RestCsharp.Presentacion.Copiasbd
             this.txtRuta.Enabled = false;
             this.txtRuta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtRuta.ForeColor = System.Drawing.Color.White;
-            this.txtRuta.Location = new System.Drawing.Point(166, 41);
+            this.txtRuta.Location = new System.Drawing.Point(221, 50);
+            this.txtRuta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRuta.Name = "txtRuta";
-            this.txtRuta.Size = new System.Drawing.Size(307, 19);
+            this.txtRuta.Size = new System.Drawing.Size(409, 23);
             this.txtRuta.TabIndex = 1;
             // 
             // Label2
@@ -126,9 +131,10 @@ namespace RestCsharp.Presentacion.Copiasbd
             this.Label2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(162, 18);
+            this.Label2.Location = new System.Drawing.Point(216, 22);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(218, 20);
+            this.Label2.Size = new System.Drawing.Size(268, 25);
             this.Label2.TabIndex = 0;
             this.Label2.Text = "Ruta de Copias de Seguridad";
             // 
@@ -136,8 +142,9 @@ namespace RestCsharp.Presentacion.Copiasbd
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 69);
+            this.panel3.Size = new System.Drawing.Size(13, 85);
             this.panel3.TabIndex = 614;
             // 
             // lbltiempo
@@ -145,9 +152,10 @@ namespace RestCsharp.Presentacion.Copiasbd
             this.lbltiempo.Dock = System.Windows.Forms.DockStyle.Top;
             this.lbltiempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
             this.lbltiempo.ForeColor = System.Drawing.Color.White;
-            this.lbltiempo.Location = new System.Drawing.Point(0, 67);
+            this.lbltiempo.Location = new System.Drawing.Point(0, 82);
+            this.lbltiempo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltiempo.Name = "lbltiempo";
-            this.lbltiempo.Size = new System.Drawing.Size(500, 76);
+            this.lbltiempo.Size = new System.Drawing.Size(667, 94);
             this.lbltiempo.TabIndex = 599;
             this.lbltiempo.Text = "10";
             this.lbltiempo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -160,8 +168,9 @@ namespace RestCsharp.Presentacion.Copiasbd
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.Label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Label4.Location = new System.Drawing.Point(0, 0);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(500, 67);
+            this.Label4.Size = new System.Drawing.Size(667, 82);
             this.Label4.TabIndex = 0;
             this.Label4.Text = "SE GENERARA COPIA DE SEGURIDAD \r\nPROGRAMADA EN:";
             this.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -173,17 +182,19 @@ namespace RestCsharp.Presentacion.Copiasbd
             this.Panel12.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel12.ForeColor = System.Drawing.Color.White;
             this.Panel12.Location = new System.Drawing.Point(0, 0);
+            this.Panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel12.Name = "Panel12";
-            this.Panel12.Size = new System.Drawing.Size(500, 45);
+            this.Panel12.Size = new System.Drawing.Size(667, 55);
             this.Panel12.TabIndex = 617;
             // 
             // Label1
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.Label1.Location = new System.Drawing.Point(3, 9);
+            this.Label1.Location = new System.Drawing.Point(4, 11);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(193, 24);
+            this.Label1.Size = new System.Drawing.Size(243, 29);
             this.Label1.TabIndex = 0;
             this.Label1.Text = "Copia de seguridad";
             // 
@@ -194,12 +205,13 @@ namespace RestCsharp.Presentacion.Copiasbd
             // 
             // GenerarAut
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.Panel12);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "GenerarAut";
-            this.Size = new System.Drawing.Size(500, 492);
+            this.Size = new System.Drawing.Size(667, 606);
             this.Load += new System.EventHandler(this.GenerarAut_Load);
             this.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

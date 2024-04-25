@@ -68,26 +68,29 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(318, 609);
+            this.panel1.Size = new System.Drawing.Size(424, 750);
             this.panel1.TabIndex = 0;
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.panel5);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 122);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 150);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(318, 301);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(424, 371);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // panel5
             // 
             this.panel5.Controls.Add(this.button3);
             this.panel5.Controls.Add(this.panel7);
-            this.panel5.Location = new System.Drawing.Point(3, 3);
+            this.panel5.Location = new System.Drawing.Point(4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(290, 58);
+            this.panel5.Size = new System.Drawing.Size(387, 71);
             this.panel5.TabIndex = 4;
             // 
             // button3
@@ -98,9 +101,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(10, 0);
+            this.button3.Location = new System.Drawing.Point(13, 0);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(280, 58);
+            this.button3.Size = new System.Drawing.Size(374, 71);
             this.button3.TabIndex = 4;
             this.button3.Text = "button3";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -111,8 +115,9 @@
             this.panel7.BackColor = System.Drawing.Color.OrangeRed;
             this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(10, 58);
+            this.panel7.Size = new System.Drawing.Size(13, 71);
             this.panel7.TabIndex = 5;
             // 
             // panel6
@@ -124,9 +129,10 @@
             this.panel6.Controls.Add(this.Button6);
             this.panel6.Controls.Add(this.Label2);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 423);
+            this.panel6.Location = new System.Drawing.Point(0, 521);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(318, 186);
+            this.panel6.Size = new System.Drawing.Size(424, 229);
             this.panel6.TabIndex = 2;
             // 
             // Button8
@@ -134,9 +140,10 @@
             this.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
             this.Button8.ForeColor = System.Drawing.Color.DarkGray;
-            this.Button8.Location = new System.Drawing.Point(271, 8);
+            this.Button8.Location = new System.Drawing.Point(361, 10);
+            this.Button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button8.Name = "Button8";
-            this.Button8.Size = new System.Drawing.Size(33, 28);
+            this.Button8.Size = new System.Drawing.Size(44, 34);
             this.Button8.TabIndex = 636;
             this.Button8.Text = "-";
             this.Button8.UseVisualStyleBackColor = true;
@@ -147,9 +154,10 @@
             this.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
             this.Button9.ForeColor = System.Drawing.Color.DarkGray;
-            this.Button9.Location = new System.Drawing.Point(233, 8);
+            this.Button9.Location = new System.Drawing.Point(311, 10);
+            this.Button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button9.Name = "Button9";
-            this.Button9.Size = new System.Drawing.Size(33, 28);
+            this.Button9.Size = new System.Drawing.Size(44, 34);
             this.Button9.TabIndex = 635;
             this.Button9.Text = "+";
             this.Button9.UseVisualStyleBackColor = true;
@@ -161,9 +169,10 @@
             this.Label7.BackColor = System.Drawing.Color.Transparent;
             this.Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Label7.ForeColor = System.Drawing.Color.White;
-            this.Label7.Location = new System.Drawing.Point(97, 60);
+            this.Label7.Location = new System.Drawing.Point(129, 74);
+            this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(130, 20);
+            this.Label7.Size = new System.Drawing.Size(161, 25);
             this.Label7.TabIndex = 634;
             this.Label7.Text = "Tamaño de Letra";
             // 
@@ -172,9 +181,10 @@
             this.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
             this.Button7.ForeColor = System.Drawing.Color.DarkGray;
-            this.Button7.Location = new System.Drawing.Point(271, 56);
+            this.Button7.Location = new System.Drawing.Point(361, 69);
+            this.Button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button7.Name = "Button7";
-            this.Button7.Size = new System.Drawing.Size(33, 28);
+            this.Button7.Size = new System.Drawing.Size(44, 34);
             this.Button7.TabIndex = 632;
             this.Button7.Text = "-";
             this.Button7.UseVisualStyleBackColor = true;
@@ -185,9 +195,10 @@
             this.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
             this.Button6.ForeColor = System.Drawing.Color.DarkGray;
-            this.Button6.Location = new System.Drawing.Point(233, 56);
+            this.Button6.Location = new System.Drawing.Point(311, 69);
+            this.Button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button6.Name = "Button6";
-            this.Button6.Size = new System.Drawing.Size(33, 28);
+            this.Button6.Size = new System.Drawing.Size(44, 34);
             this.Button6.TabIndex = 633;
             this.Button6.Text = "+";
             this.Button6.UseVisualStyleBackColor = true;
@@ -199,9 +210,10 @@
             this.Label2.BackColor = System.Drawing.Color.Transparent;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(87, 12);
+            this.Label2.Location = new System.Drawing.Point(116, 15);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(140, 20);
+            this.Label2.Size = new System.Drawing.Size(176, 25);
             this.Label2.TabIndex = 631;
             this.Label2.Text = "Tamaño de Mesas";
             // 
@@ -212,8 +224,9 @@
             this.panel2.Controls.Add(this.btnnuevo);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(318, 122);
+            this.panel2.Size = new System.Drawing.Size(424, 150);
             this.panel2.TabIndex = 0;
             // 
             // btneditar
@@ -223,9 +236,10 @@
             this.btneditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btneditar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btneditar.Location = new System.Drawing.Point(13, 67);
+            this.btneditar.Location = new System.Drawing.Point(17, 82);
+            this.btneditar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(143, 44);
+            this.btneditar.Size = new System.Drawing.Size(191, 54);
             this.btneditar.TabIndex = 3;
             this.btneditar.Text = "Editar Salon";
             this.btneditar.UseVisualStyleBackColor = false;
@@ -238,9 +252,10 @@
             this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btneliminar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btneliminar.Location = new System.Drawing.Point(161, 12);
+            this.btneliminar.Location = new System.Drawing.Point(215, 15);
+            this.btneliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btneliminar.Name = "btneliminar";
-            this.btneliminar.Size = new System.Drawing.Size(143, 49);
+            this.btneliminar.Size = new System.Drawing.Size(191, 60);
             this.btneliminar.TabIndex = 2;
             this.btneliminar.Text = "Eliminar salon";
             this.btneliminar.UseVisualStyleBackColor = false;
@@ -253,9 +268,10 @@
             this.btnnuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnnuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnnuevo.ForeColor = System.Drawing.Color.White;
-            this.btnnuevo.Location = new System.Drawing.Point(12, 12);
+            this.btnnuevo.Location = new System.Drawing.Point(16, 15);
+            this.btnnuevo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnnuevo.Name = "btnnuevo";
-            this.btnnuevo.Size = new System.Drawing.Size(143, 49);
+            this.btnnuevo.Size = new System.Drawing.Size(191, 60);
             this.btnnuevo.TabIndex = 0;
             this.btnnuevo.Text = "+ Agregar Salon";
             this.btnnuevo.UseVisualStyleBackColor = false;
@@ -265,9 +281,10 @@
             // 
             this.PanelBienvenida.BackColor = System.Drawing.Color.Black;
             this.PanelBienvenida.Controls.Add(this.label1);
-            this.PanelBienvenida.Location = new System.Drawing.Point(504, 50);
+            this.PanelBienvenida.Location = new System.Drawing.Point(672, 62);
+            this.PanelBienvenida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelBienvenida.Name = "PanelBienvenida";
-            this.PanelBienvenida.Size = new System.Drawing.Size(308, 172);
+            this.PanelBienvenida.Size = new System.Drawing.Size(411, 212);
             this.PanelBienvenida.TabIndex = 1;
             // 
             // label1
@@ -276,8 +293,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(308, 172);
+            this.label1.Size = new System.Drawing.Size(411, 212);
             this.label1.TabIndex = 0;
             this.label1.Text = "Elija un Salon Para Iniciar ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -286,18 +304,20 @@
             // 
             this.PanelMesas.BackColor = System.Drawing.Color.Black;
             this.PanelMesas.Controls.Add(this.panel3);
-            this.PanelMesas.Location = new System.Drawing.Point(356, 88);
+            this.PanelMesas.Location = new System.Drawing.Point(475, 108);
+            this.PanelMesas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelMesas.Name = "PanelMesas";
-            this.PanelMesas.Size = new System.Drawing.Size(345, 367);
+            this.PanelMesas.Size = new System.Drawing.Size(460, 452);
             this.PanelMesas.TabIndex = 2;
             this.PanelMesas.Visible = false;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.button2);
-            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Location = new System.Drawing.Point(4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(139, 108);
+            this.panel3.Size = new System.Drawing.Size(185, 133);
             this.panel3.TabIndex = 1;
             // 
             // button2
@@ -305,22 +325,24 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(179)))), ((int)(((byte)(90)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(3, 0);
+            this.button2.Location = new System.Drawing.Point(4, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 105);
+            this.button2.Size = new System.Drawing.Size(177, 129);
             this.button2.TabIndex = 0;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // Configurar_mesas_ok
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(985, 609);
+            this.ClientSize = new System.Drawing.Size(1313, 750);
             this.Controls.Add(this.PanelMesas);
             this.Controls.Add(this.PanelBienvenida);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Configurar_mesas_ok";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuracion de mesas";

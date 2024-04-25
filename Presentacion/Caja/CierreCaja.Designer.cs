@@ -125,7 +125,7 @@ namespace RestCsharp.Presentacion.Caja
             this.txtmonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.txtmonto.Location = new System.Drawing.Point(19, 30);
             this.txtmonto.Name = "txtmonto";
-            this.txtmonto.Size = new System.Drawing.Size(232, 38);
+            this.txtmonto.Size = new System.Drawing.Size(232, 45);
             this.txtmonto.TabIndex = 565;
             this.txtmonto.TextChanged += new System.EventHandler(this.txtmonto_TextChanged);
             this.txtmonto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtmonto_KeyPress);
@@ -193,7 +193,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblgananciasVentas.Location = new System.Drawing.Point(100, 14);
             this.lblgananciasVentas.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblgananciasVentas.Name = "lblgananciasVentas";
-            this.lblgananciasVentas.Size = new System.Drawing.Size(19, 20);
+            this.lblgananciasVentas.Size = new System.Drawing.Size(24, 25);
             this.lblgananciasVentas.TabIndex = 191;
             this.lblgananciasVentas.Text = "0";
             // 
@@ -205,7 +205,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label36.Location = new System.Drawing.Point(11, 14);
             this.Label36.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label36.Name = "Label36";
-            this.Label36.Size = new System.Drawing.Size(91, 20);
+            this.Label36.Size = new System.Drawing.Size(111, 25);
             this.Label36.TabIndex = 192;
             this.Label36.Text = "Ganancia:";
             // 
@@ -279,7 +279,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblVentasTotal.Location = new System.Drawing.Point(278, 111);
             this.lblVentasTotal.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblVentasTotal.Name = "lblVentasTotal";
-            this.lblVentasTotal.Size = new System.Drawing.Size(19, 20);
+            this.lblVentasTotal.Size = new System.Drawing.Size(24, 25);
             this.lblVentasTotal.TabIndex = 191;
             this.lblVentasTotal.Text = "0";
             // 
@@ -292,7 +292,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblventas_Tarjeta.Location = new System.Drawing.Point(278, 76);
             this.lblventas_Tarjeta.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblventas_Tarjeta.Name = "lblventas_Tarjeta";
-            this.lblventas_Tarjeta.Size = new System.Drawing.Size(18, 20);
+            this.lblventas_Tarjeta.Size = new System.Drawing.Size(23, 25);
             this.lblventas_Tarjeta.TabIndex = 191;
             this.lblventas_Tarjeta.Text = "0";
             // 
@@ -305,7 +305,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblventasefectivoGeneral.Location = new System.Drawing.Point(278, 46);
             this.lblventasefectivoGeneral.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblventasefectivoGeneral.Name = "lblventasefectivoGeneral";
-            this.lblventasefectivoGeneral.Size = new System.Drawing.Size(18, 20);
+            this.lblventasefectivoGeneral.Size = new System.Drawing.Size(23, 25);
             this.lblventasefectivoGeneral.TabIndex = 191;
             this.lblventasefectivoGeneral.Text = "0";
             // 
@@ -316,7 +316,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label14.Location = new System.Drawing.Point(168, 76);
             this.Label14.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(95, 20);
+            this.Label14.Size = new System.Drawing.Size(121, 25);
             this.Label14.TabIndex = 192;
             this.Label14.Text = "Con Tarjeta:";
             // 
@@ -327,7 +327,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label12.Location = new System.Drawing.Point(168, 46);
             this.Label12.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(94, 20);
+            this.Label12.Size = new System.Drawing.Size(116, 25);
             this.Label12.TabIndex = 192;
             this.Label12.Text = "En Efectivo:";
             // 
@@ -339,7 +339,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label9.Location = new System.Drawing.Point(175, 14);
             this.Label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(130, 20);
+            this.Label9.Size = new System.Drawing.Size(158, 25);
             this.Label9.TabIndex = 192;
             this.Label9.Text = "Ventas Totales";
             // 
@@ -380,7 +380,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblDineroEncaja.Location = new System.Drawing.Point(277, 178);
             this.lblDineroEncaja.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblDineroEncaja.Name = "lblDineroEncaja";
-            this.lblDineroEncaja.Size = new System.Drawing.Size(19, 20);
+            this.lblDineroEncaja.Size = new System.Drawing.Size(24, 25);
             this.lblDineroEncaja.TabIndex = 191;
             this.lblDineroEncaja.Text = "0";
             // 
@@ -393,7 +393,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblgastos.Location = new System.Drawing.Point(278, 138);
             this.lblgastos.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblgastos.Name = "lblgastos";
-            this.lblgastos.Size = new System.Drawing.Size(18, 20);
+            this.lblgastos.Size = new System.Drawing.Size(23, 25);
             this.lblgastos.TabIndex = 191;
             this.lblgastos.Text = "0";
             // 
@@ -406,7 +406,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblingresos.Location = new System.Drawing.Point(278, 107);
             this.lblingresos.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblingresos.Name = "lblingresos";
-            this.lblingresos.Size = new System.Drawing.Size(18, 20);
+            this.lblingresos.Size = new System.Drawing.Size(23, 25);
             this.lblingresos.TabIndex = 191;
             this.lblingresos.Text = "0";
             // 
@@ -419,7 +419,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblventasefectivo.Location = new System.Drawing.Point(278, 76);
             this.lblventasefectivo.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblventasefectivo.Name = "lblventasefectivo";
-            this.lblventasefectivo.Size = new System.Drawing.Size(18, 20);
+            this.lblventasefectivo.Size = new System.Drawing.Size(23, 25);
             this.lblventasefectivo.TabIndex = 191;
             this.lblventasefectivo.Text = "0";
             // 
@@ -432,7 +432,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lblfondodeCaja.Location = new System.Drawing.Point(278, 46);
             this.lblfondodeCaja.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblfondodeCaja.Name = "lblfondodeCaja";
-            this.lblfondodeCaja.Size = new System.Drawing.Size(18, 20);
+            this.lblfondodeCaja.Size = new System.Drawing.Size(23, 25);
             this.lblfondodeCaja.TabIndex = 191;
             this.lblfondodeCaja.Text = "0";
             // 
@@ -443,7 +443,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label40.Location = new System.Drawing.Point(152, 138);
             this.Label40.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label40.Name = "Label40";
-            this.Label40.Size = new System.Drawing.Size(110, 20);
+            this.Label40.Size = new System.Drawing.Size(137, 25);
             this.Label40.TabIndex = 192;
             this.Label40.Text = "Gastos varios:";
             // 
@@ -454,7 +454,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label27.Location = new System.Drawing.Point(139, 107);
             this.Label27.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label27.Name = "Label27";
-            this.Label27.Size = new System.Drawing.Size(120, 20);
+            this.Label27.Size = new System.Drawing.Size(150, 25);
             this.Label27.TabIndex = 192;
             this.Label27.Text = "Ingresos varios:";
             // 
@@ -465,7 +465,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label29.Location = new System.Drawing.Point(117, 76);
             this.Label29.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label29.Name = "Label29";
-            this.Label29.Size = new System.Drawing.Size(145, 20);
+            this.Label29.Size = new System.Drawing.Size(179, 25);
             this.Label29.TabIndex = 192;
             this.Label29.Text = "Ventas en efectivo:";
             // 
@@ -476,7 +476,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label30.Location = new System.Drawing.Point(148, 46);
             this.Label30.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label30.Name = "Label30";
-            this.Label30.Size = new System.Drawing.Size(114, 20);
+            this.Label30.Size = new System.Drawing.Size(142, 25);
             this.Label30.TabIndex = 192;
             this.Label30.Text = "Fondo de caja:";
             // 
@@ -488,7 +488,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label32.Location = new System.Drawing.Point(177, 14);
             this.Label32.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.Label32.Name = "Label32";
-            this.Label32.Size = new System.Drawing.Size(137, 20);
+            this.Label32.Size = new System.Drawing.Size(169, 25);
             this.Label32.TabIndex = 192;
             this.Label32.Text = "Dinero en CAJA";
             // 
@@ -509,7 +509,7 @@ namespace RestCsharp.Presentacion.Caja
             this.Label37.Location = new System.Drawing.Point(380, 283);
             this.Label37.Margin = new System.Windows.Forms.Padding(9, 0, 9, 0);
             this.Label37.Name = "Label37";
-            this.Label37.Size = new System.Drawing.Size(67, 20);
+            this.Label37.Size = new System.Drawing.Size(82, 25);
             this.Label37.TabIndex = 618;
             this.Label37.Text = "Detalles";
             // 
@@ -562,7 +562,7 @@ namespace RestCsharp.Presentacion.Caja
             this.lbldiferencia.Location = new System.Drawing.Point(109, 74);
             this.lbldiferencia.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbldiferencia.Name = "lbldiferencia";
-            this.lbldiferencia.Size = new System.Drawing.Size(44, 20);
+            this.lbldiferencia.Size = new System.Drawing.Size(54, 25);
             this.lbldiferencia.TabIndex = 603;
             this.lbldiferencia.Text = "0.00";
             // 
@@ -631,7 +631,7 @@ namespace RestCsharp.Presentacion.Caja
             // 
             // CierreCaja
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.Panel3);

@@ -48,9 +48,9 @@ namespace RestCsharp.Presentacion.Conexionremota
             this.Label3.Font = new System.Drawing.Font("Tahoma", 34F, System.Drawing.FontStyle.Bold);
             this.Label3.ForeColor = System.Drawing.Color.White;
             this.Label3.Location = new System.Drawing.Point(0, 0);
-            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(800, 190);
+            this.Label3.Size = new System.Drawing.Size(1067, 234);
             this.Label3.TabIndex = 626;
             this.Label3.Text = "Conectandose a la PC Principal...";
             this.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -65,17 +65,19 @@ namespace RestCsharp.Presentacion.Conexionremota
             this.panel1.Controls.Add(this.Label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(0, 190);
+            this.panel1.Location = new System.Drawing.Point(0, 234);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 446);
+            this.panel1.Size = new System.Drawing.Size(1067, 549);
             this.panel1.TabIndex = 627;
             // 
             // PictureBox1
             // 
             this.PictureBox1.Image = global::RestCsharp.Properties.Resources.ipimagen;
-            this.PictureBox1.Location = new System.Drawing.Point(119, 148);
+            this.PictureBox1.Location = new System.Drawing.Point(159, 182);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(343, 207);
+            this.PictureBox1.Size = new System.Drawing.Size(457, 255);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox1.TabIndex = 635;
             this.PictureBox1.TabStop = false;
@@ -83,10 +85,10 @@ namespace RestCsharp.Presentacion.Conexionremota
             // btnconectar
             // 
             this.btnconectar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnconectar.Location = new System.Drawing.Point(119, 54);
-            this.btnconectar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnconectar.Location = new System.Drawing.Point(159, 66);
+            this.btnconectar.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnconectar.Name = "btnconectar";
-            this.btnconectar.Size = new System.Drawing.Size(272, 57);
+            this.btnconectar.Size = new System.Drawing.Size(363, 70);
             this.btnconectar.TabIndex = 634;
             this.btnconectar.Text = "Conectar";
             this.btnconectar.UseVisualStyleBackColor = true;
@@ -94,20 +96,20 @@ namespace RestCsharp.Presentacion.Conexionremota
             // 
             // txtservidor
             // 
-            this.txtservidor.Location = new System.Drawing.Point(119, 18);
-            this.txtservidor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtservidor.Location = new System.Drawing.Point(159, 22);
+            this.txtservidor.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtservidor.Name = "txtservidor";
-            this.txtservidor.Size = new System.Drawing.Size(442, 26);
+            this.txtservidor.Size = new System.Drawing.Size(588, 30);
             this.txtservidor.TabIndex = 630;
             // 
             // Label5
             // 
             this.Label5.AutoSize = true;
             this.Label5.ForeColor = System.Drawing.Color.White;
-            this.Label5.Location = new System.Drawing.Point(115, 367);
-            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label5.Location = new System.Drawing.Point(153, 452);
+            this.Label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(432, 40);
+            this.Label5.Size = new System.Drawing.Size(539, 50);
             this.Label5.TabIndex = 631;
             this.Label5.Text = "Abra el sistema en la PC Principal y Copie los caracteres\r\nLuego agregelos en la " +
     "caja de texto y de click a CONECTAR";
@@ -116,10 +118,10 @@ namespace RestCsharp.Presentacion.Conexionremota
             // 
             this.Label1.AutoSize = true;
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(115, 125);
-            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label1.Location = new System.Drawing.Point(153, 154);
+            this.Label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(61, 20);
+            this.Label1.Size = new System.Drawing.Size(77, 25);
             this.Label1.TabIndex = 632;
             this.Label1.Text = "Tutorial";
             // 
@@ -127,22 +129,23 @@ namespace RestCsharp.Presentacion.Conexionremota
             // 
             this.Label2.AutoSize = true;
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(9, 21);
-            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label2.Location = new System.Drawing.Point(12, 26);
+            this.Label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(102, 20);
+            this.Label2.Size = new System.Drawing.Size(126, 25);
             this.Label2.TabIndex = 633;
             this.Label2.Text = "Ingresa la IP:";
             // 
             // Asistenteconexion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.ClientSize = new System.Drawing.Size(800, 610);
+            this.ClientSize = new System.Drawing.Size(1067, 751);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Label3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Asistenteconexion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Asistente conexion";

@@ -51,8 +51,9 @@ namespace RestCsharp.Presentacion.GeneradorQR
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1024, 71);
+            this.panel2.Size = new System.Drawing.Size(1365, 87);
             this.panel2.TabIndex = 604;
             // 
             // BtnGenerar
@@ -66,9 +67,10 @@ namespace RestCsharp.Presentacion.GeneradorQR
             this.BtnGenerar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnGenerar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGenerar.ForeColor = System.Drawing.Color.White;
-            this.BtnGenerar.Location = new System.Drawing.Point(675, 12);
+            this.BtnGenerar.Location = new System.Drawing.Point(900, 15);
+            this.BtnGenerar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGenerar.Name = "BtnGenerar";
-            this.BtnGenerar.Size = new System.Drawing.Size(107, 46);
+            this.BtnGenerar.Size = new System.Drawing.Size(143, 57);
             this.BtnGenerar.TabIndex = 605;
             this.BtnGenerar.Text = "Generar";
             this.BtnGenerar.UseVisualStyleBackColor = false;
@@ -80,9 +82,10 @@ namespace RestCsharp.Presentacion.GeneradorQR
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Controls.Add(this.txtIp);
-            this.panel3.Location = new System.Drawing.Point(4, 12);
+            this.panel3.Location = new System.Drawing.Point(5, 15);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(665, 46);
+            this.panel3.Size = new System.Drawing.Size(887, 57);
             this.panel3.TabIndex = 604;
             // 
             // label4
@@ -91,9 +94,9 @@ namespace RestCsharp.Presentacion.GeneradorQR
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(322, 46);
+            this.label4.Size = new System.Drawing.Size(429, 57);
             this.label4.TabIndex = 606;
             this.label4.Text = "Esta es la IP de tu PC\r\nservira para que la app se conecte";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -101,9 +104,10 @@ namespace RestCsharp.Presentacion.GeneradorQR
             // pictureBox1
             // 
             this.pictureBox1.Image = global::RestCsharp.Properties.Resources.enlace;
-            this.pictureBox1.Location = new System.Drawing.Point(329, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(439, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(21, 25);
+            this.pictureBox1.Size = new System.Drawing.Size(28, 31);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 605;
             this.pictureBox1.TabStop = false;
@@ -114,9 +118,10 @@ namespace RestCsharp.Presentacion.GeneradorQR
             this.txtIp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIp.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIp.ForeColor = System.Drawing.Color.Gold;
-            this.txtIp.Location = new System.Drawing.Point(356, 6);
+            this.txtIp.Location = new System.Drawing.Point(475, 7);
+            this.txtIp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtIp.Name = "txtIp";
-            this.txtIp.Size = new System.Drawing.Size(306, 34);
+            this.txtIp.Size = new System.Drawing.Size(408, 42);
             this.txtIp.TabIndex = 603;
             this.txtIp.Text = "190.168.10.100";
             // 
@@ -126,9 +131,10 @@ namespace RestCsharp.Presentacion.GeneradorQR
             this.label2.Dock = System.Windows.Forms.DockStyle.Right;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(796, 0);
+            this.label2.Location = new System.Drawing.Point(1061, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(228, 71);
+            this.label2.Size = new System.Drawing.Size(304, 87);
             this.label2.TabIndex = 602;
             this.label2.Text = "Codigos QR para mesas";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -137,21 +143,23 @@ namespace RestCsharp.Presentacion.GeneradorQR
             // 
             this.reportViewer1.AccessibilityKeyMap = null;
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer1.Location = new System.Drawing.Point(0, 71);
+            this.reportViewer1.Location = new System.Drawing.Point(0, 87);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(1024, 455);
+            this.reportViewer1.Size = new System.Drawing.Size(1365, 560);
             this.reportViewer1.TabIndex = 605;
             this.reportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.PrintPreview;
             this.reportViewer1.Visible = false;
             // 
             // GenerarQr
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 526);
+            this.ClientSize = new System.Drawing.Size(1365, 647);
             this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.panel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "GenerarQr";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generar Qr";

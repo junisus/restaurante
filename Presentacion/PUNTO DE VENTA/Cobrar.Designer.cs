@@ -72,8 +72,9 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.panelPrincipal.Controls.Add(this.btncerrar);
             this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.panelPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelPrincipal.Name = "panelPrincipal";
-            this.panelPrincipal.Size = new System.Drawing.Size(786, 402);
+            this.panelPrincipal.Size = new System.Drawing.Size(1048, 495);
             this.panelPrincipal.TabIndex = 623;
             // 
             // panelReport
@@ -82,9 +83,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.panelReport.Controls.Add(this.btnAceptar);
             this.panelReport.Controls.Add(this.pictureBox2);
             this.panelReport.Controls.Add(this.reportViewer1);
-            this.panelReport.Location = new System.Drawing.Point(515, 339);
+            this.panelReport.Location = new System.Drawing.Point(687, 417);
+            this.panelReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelReport.Name = "panelReport";
-            this.panelReport.Size = new System.Drawing.Size(231, 42);
+            this.panelReport.Size = new System.Drawing.Size(308, 52);
             this.panelReport.TabIndex = 638;
             this.panelReport.Visible = false;
             // 
@@ -93,9 +95,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.Label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label1.ForeColor = System.Drawing.Color.Silver;
-            this.Label1.Location = new System.Drawing.Point(467, 0);
+            this.Label1.Location = new System.Drawing.Point(623, 0);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(0, 149);
+            this.Label1.Size = new System.Drawing.Size(0, 183);
             this.Label1.TabIndex = 640;
             this.Label1.Text = "Venta realizada \r\ncorrectamente";
             this.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -111,9 +114,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(477, 167);
+            this.btnAceptar.Location = new System.Drawing.Point(636, 206);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(145, 76);
+            this.btnAceptar.Size = new System.Drawing.Size(193, 94);
             this.btnAceptar.TabIndex = 639;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
@@ -122,9 +126,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pictureBox2.Image = global::RestCsharp.Properties.Resources.Buman;
-            this.pictureBox2.Location = new System.Drawing.Point(467, -85);
+            this.pictureBox2.Location = new System.Drawing.Point(623, -104);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(0, 127);
+            this.pictureBox2.Size = new System.Drawing.Size(0, 156);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 638;
             this.pictureBox2.TabStop = false;
@@ -134,17 +139,19 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.reportViewer1.AccessibilityKeyMap = null;
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Left;
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(467, 42);
+            this.reportViewer1.Size = new System.Drawing.Size(623, 52);
             this.reportViewer1.TabIndex = 637;
             this.reportViewer1.ViewMode = Telerik.ReportViewer.WinForms.ViewMode.PrintPreview;
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.btnTecladoNum);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(515, 86);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(687, 106);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 66);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(320, 81);
             this.flowLayoutPanel1.TabIndex = 636;
             // 
             // btnTecladoNum
@@ -162,10 +169,11 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnTecladoNum.ForeColor = System.Drawing.Color.White;
             this.btnTecladoNum.IconKeyBoardColor = System.Drawing.SystemColors.ControlText;
             this.btnTecladoNum.IconKeyBoardSize = 20;
-            this.btnTecladoNum.Location = new System.Drawing.Point(3, 3);
+            this.btnTecladoNum.Location = new System.Drawing.Point(4, 4);
+            this.btnTecladoNum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTecladoNum.Mode = UIDC.UI_TecladoNumerico.SEE.Claro;
             this.btnTecladoNum.Name = "btnTecladoNum";
-            this.btnTecladoNum.Size = new System.Drawing.Size(184, 57);
+            this.btnTecladoNum.Size = new System.Drawing.Size(245, 70);
             this.btnTecladoNum.TabIndex = 635;
             this.btnTecladoNum.Text = "Teclado Virtual*";
             this.btnTecladoNum.UseVisualStyleBackColor = false;
@@ -181,9 +189,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.ForeColor = System.Drawing.Color.White;
-            this.btnguardar.Location = new System.Drawing.Point(515, 242);
+            this.btnguardar.Location = new System.Drawing.Point(687, 298);
+            this.btnguardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(157, 64);
+            this.btnguardar.Size = new System.Drawing.Size(209, 79);
             this.btnguardar.TabIndex = 618;
             this.btnguardar.Text = "IMPRIMIR";
             this.btnguardar.UseVisualStyleBackColor = false;
@@ -194,9 +203,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.lbltotal.AutoSize = true;
             this.lbltotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.lbltotal.ForeColor = System.Drawing.Color.White;
-            this.lbltotal.Location = new System.Drawing.Point(158, 29);
+            this.lbltotal.Location = new System.Drawing.Point(211, 36);
+            this.lbltotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltotal.Name = "lbltotal";
-            this.lbltotal.Size = new System.Drawing.Size(147, 46);
+            this.lbltotal.Size = new System.Drawing.Size(184, 58);
             this.lbltotal.TabIndex = 624;
             this.lbltotal.Text = "10 000";
             this.lbltotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -206,9 +216,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(27, 29);
+            this.label2.Location = new System.Drawing.Point(36, 36);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 46);
+            this.label2.Size = new System.Drawing.Size(151, 58);
             this.label2.TabIndex = 623;
             this.label2.Text = "Total:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -226,9 +237,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.panel1.Controls.Add(this.txtefectivo);
             this.panel1.Controls.Add(this.Panel20);
             this.panel1.Controls.Add(this.Label18);
-            this.panel1.Location = new System.Drawing.Point(13, 86);
+            this.panel1.Location = new System.Drawing.Point(17, 106);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(496, 295);
+            this.panel1.Size = new System.Drawing.Size(661, 363);
             this.panel1.TabIndex = 4;
             // 
             // txtrestante
@@ -236,9 +248,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.txtrestante.AutoSize = true;
             this.txtrestante.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.txtrestante.ForeColor = System.Drawing.Color.Gray;
-            this.txtrestante.Location = new System.Drawing.Point(133, 231);
+            this.txtrestante.Location = new System.Drawing.Point(177, 284);
+            this.txtrestante.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtrestante.Name = "txtrestante";
-            this.txtrestante.Size = new System.Drawing.Size(27, 29);
+            this.txtrestante.Size = new System.Drawing.Size(33, 36);
             this.txtrestante.TabIndex = 626;
             this.txtrestante.Text = "0";
             this.txtrestante.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -248,9 +261,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.Label8.ForeColor = System.Drawing.Color.Gray;
-            this.Label8.Location = new System.Drawing.Point(16, 231);
+            this.Label8.Location = new System.Drawing.Point(21, 284);
+            this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(114, 29);
+            this.Label8.Size = new System.Drawing.Size(141, 36);
             this.Label8.TabIndex = 627;
             this.Label8.Text = "Restante:";
             this.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -258,9 +272,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // Panel8
             // 
             this.Panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Panel8.Location = new System.Drawing.Point(17, 226);
+            this.Panel8.Location = new System.Drawing.Point(23, 278);
+            this.Panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel8.Name = "Panel8";
-            this.Panel8.Size = new System.Drawing.Size(308, 2);
+            this.Panel8.Size = new System.Drawing.Size(411, 2);
             this.Panel8.TabIndex = 625;
             // 
             // TXTVUELTO
@@ -270,9 +285,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.TXTVUELTO.Enabled = false;
             this.TXTVUELTO.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.TXTVUELTO.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.TXTVUELTO.Location = new System.Drawing.Point(167, 174);
+            this.TXTVUELTO.Location = new System.Drawing.Point(223, 214);
+            this.TXTVUELTO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TXTVUELTO.Name = "TXTVUELTO";
-            this.TXTVUELTO.Size = new System.Drawing.Size(227, 46);
+            this.TXTVUELTO.Size = new System.Drawing.Size(303, 57);
             this.TXTVUELTO.TabIndex = 624;
             this.TXTVUELTO.Text = "0";
             // 
@@ -281,9 +297,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.Label31.AutoSize = true;
             this.Label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
             this.Label31.ForeColor = System.Drawing.Color.White;
-            this.Label31.Location = new System.Drawing.Point(16, 174);
+            this.Label31.Location = new System.Drawing.Point(21, 214);
+            this.Label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label31.Name = "Label31";
-            this.Label31.Size = new System.Drawing.Size(145, 46);
+            this.Label31.Size = new System.Drawing.Size(181, 58);
             this.Label31.TabIndex = 622;
             this.Label31.Text = "Vuelto:";
             this.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -294,18 +311,20 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.txttarjeta.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txttarjeta.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.txttarjeta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txttarjeta.Location = new System.Drawing.Point(116, 91);
+            this.txttarjeta.Location = new System.Drawing.Point(155, 112);
+            this.txttarjeta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txttarjeta.Name = "txttarjeta";
-            this.txttarjeta.Size = new System.Drawing.Size(177, 38);
+            this.txttarjeta.Size = new System.Drawing.Size(236, 48);
             this.txttarjeta.TabIndex = 560;
             this.txttarjeta.TextChanged += new System.EventHandler(this.txttarjeta_TextChanged);
             // 
             // Panel21
             // 
             this.Panel21.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.Panel21.Location = new System.Drawing.Point(116, 135);
+            this.Panel21.Location = new System.Drawing.Point(155, 166);
+            this.Panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel21.Name = "Panel21";
-            this.Panel21.Size = new System.Drawing.Size(180, 2);
+            this.Panel21.Size = new System.Drawing.Size(240, 2);
             this.Panel21.TabIndex = 559;
             // 
             // Label19
@@ -313,9 +332,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.Label19.AutoSize = true;
             this.Label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.Label19.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Label19.Location = new System.Drawing.Point(19, 109);
+            this.Label19.Location = new System.Drawing.Point(25, 134);
+            this.Label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label19.Name = "Label19";
-            this.Label19.Size = new System.Drawing.Size(95, 29);
+            this.Label19.Size = new System.Drawing.Size(114, 36);
             this.Label19.TabIndex = 558;
             this.Label19.Text = "Tarjeta:";
             this.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -326,9 +346,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.txtefectivo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtefectivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.txtefectivo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtefectivo.Location = new System.Drawing.Point(123, 28);
+            this.txtefectivo.Location = new System.Drawing.Point(164, 34);
+            this.txtefectivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtefectivo.Name = "txtefectivo";
-            this.txtefectivo.Size = new System.Drawing.Size(177, 38);
+            this.txtefectivo.Size = new System.Drawing.Size(236, 48);
             this.txtefectivo.TabIndex = 557;
             this.txtefectivo.TextChanged += new System.EventHandler(this.txtefectivo_TextChanged);
             this.txtefectivo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtefectivo_KeyPress);
@@ -336,9 +357,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // Panel20
             // 
             this.Panel20.BackColor = System.Drawing.Color.SeaGreen;
-            this.Panel20.Location = new System.Drawing.Point(119, 71);
+            this.Panel20.Location = new System.Drawing.Point(159, 87);
+            this.Panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel20.Name = "Panel20";
-            this.Panel20.Size = new System.Drawing.Size(180, 2);
+            this.Panel20.Size = new System.Drawing.Size(240, 2);
             this.Panel20.TabIndex = 556;
             // 
             // Label18
@@ -346,9 +368,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.Label18.AutoSize = true;
             this.Label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.Label18.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Label18.Location = new System.Drawing.Point(13, 44);
+            this.Label18.Location = new System.Drawing.Point(17, 54);
+            this.Label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label18.Name = "Label18";
-            this.Label18.Size = new System.Drawing.Size(104, 29);
+            this.Label18.Size = new System.Drawing.Size(129, 36);
             this.Label18.TabIndex = 555;
             this.Label18.Text = "Efectivo:";
             this.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -366,9 +389,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btncerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncerrar.Font = new System.Drawing.Font("Calibri", 35F, System.Drawing.FontStyle.Bold);
             this.btncerrar.ForeColor = System.Drawing.Color.White;
-            this.btncerrar.Location = new System.Drawing.Point(686, 10);
+            this.btncerrar.Location = new System.Drawing.Point(915, 12);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncerrar.Name = "btncerrar";
-            this.btncerrar.Size = new System.Drawing.Size(69, 65);
+            this.btncerrar.Size = new System.Drawing.Size(92, 80);
             this.btncerrar.TabIndex = 621;
             this.btncerrar.Text = "X";
             this.btncerrar.UseVisualStyleBackColor = false;
@@ -376,12 +400,13 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             // Cobrar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.ClientSize = new System.Drawing.Size(786, 402);
+            this.ClientSize = new System.Drawing.Size(1048, 495);
             this.Controls.Add(this.panelPrincipal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Cobrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cobrar";

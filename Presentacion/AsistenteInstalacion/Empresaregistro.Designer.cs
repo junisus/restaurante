@@ -86,9 +86,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.PanelEmpresa.BackColor = System.Drawing.Color.White;
             this.PanelEmpresa.Controls.Add(this.btnsiguiente);
             this.PanelEmpresa.Controls.Add(this.Panel2);
-            this.PanelEmpresa.Location = new System.Drawing.Point(73, 28);
+            this.PanelEmpresa.Location = new System.Drawing.Point(97, 34);
+            this.PanelEmpresa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelEmpresa.Name = "PanelEmpresa";
-            this.PanelEmpresa.Size = new System.Drawing.Size(644, 584);
+            this.PanelEmpresa.Size = new System.Drawing.Size(859, 719);
             this.PanelEmpresa.TabIndex = 611;
             // 
             // btnsiguiente
@@ -102,9 +103,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.btnsiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsiguiente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsiguiente.ForeColor = System.Drawing.Color.White;
-            this.btnsiguiente.Location = new System.Drawing.Point(506, 512);
+            this.btnsiguiente.Location = new System.Drawing.Point(675, 630);
+            this.btnsiguiente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsiguiente.Name = "btnsiguiente";
-            this.btnsiguiente.Size = new System.Drawing.Size(125, 58);
+            this.btnsiguiente.Size = new System.Drawing.Size(167, 71);
             this.btnsiguiente.TabIndex = 594;
             this.btnsiguiente.Text = "Siguiente";
             this.btnsiguiente.UseVisualStyleBackColor = false;
@@ -122,8 +124,9 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Panel2.Controls.Add(this.TabControl3);
             this.Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel2.Location = new System.Drawing.Point(0, 0);
+            this.Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(644, 492);
+            this.Panel2.Size = new System.Drawing.Size(859, 606);
             this.Panel2.TabIndex = 360;
             // 
             // groupBox1
@@ -132,9 +135,11 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.groupBox1.Controls.Add(this.chGeneral);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.groupBox1.Location = new System.Drawing.Point(37, 331);
+            this.groupBox1.Location = new System.Drawing.Point(49, 407);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(563, 94);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(751, 116);
             this.groupBox1.TabIndex = 600;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Notas en pedidos";
@@ -142,9 +147,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // chPorpedido
             // 
             this.chPorpedido.AutoSize = true;
-            this.chPorpedido.Location = new System.Drawing.Point(194, 39);
+            this.chPorpedido.Location = new System.Drawing.Point(259, 48);
+            this.chPorpedido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chPorpedido.Name = "chPorpedido";
-            this.chPorpedido.Size = new System.Drawing.Size(179, 28);
+            this.chPorpedido.Size = new System.Drawing.Size(224, 33);
             this.chPorpedido.TabIndex = 344;
             this.chPorpedido.TabStop = true;
             this.chPorpedido.Text = "Nota por pedido";
@@ -155,9 +161,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.chGeneral.AutoSize = true;
             this.chGeneral.Checked = true;
-            this.chGeneral.Location = new System.Drawing.Point(25, 39);
+            this.chGeneral.Location = new System.Drawing.Point(33, 48);
+            this.chGeneral.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chGeneral.Name = "chGeneral";
-            this.chGeneral.Size = new System.Drawing.Size(148, 28);
+            this.chGeneral.Size = new System.Drawing.Size(185, 33);
             this.chGeneral.TabIndex = 344;
             this.chGeneral.TabStop = true;
             this.chGeneral.Text = "Nota general";
@@ -170,9 +177,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.txtRuta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtRuta.Enabled = false;
             this.txtRuta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtRuta.Location = new System.Drawing.Point(71, 299);
+            this.txtRuta.Location = new System.Drawing.Point(95, 368);
+            this.txtRuta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRuta.Name = "txtRuta";
-            this.txtRuta.Size = new System.Drawing.Size(506, 26);
+            this.txtRuta.Size = new System.Drawing.Size(673, 30);
             this.txtRuta.TabIndex = 597;
             // 
             // Label9
@@ -182,9 +190,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label9.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.Label9.Location = new System.Drawing.Point(67, 278);
+            this.Label9.Location = new System.Drawing.Point(89, 342);
+            this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(533, 20);
+            this.Label9.Size = new System.Drawing.Size(644, 25);
             this.Label9.TabIndex = 596;
             this.Label9.Text = "Seleccione una Carpeta donde Guardar Las Copias de Seguridad\r\n";
             this.Label9.Click += new System.EventHandler(this.Label9_Click);
@@ -195,13 +204,14 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.ToolStrip1.BackColor = System.Drawing.Color.White;
             this.ToolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.ToolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.ToolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripButton22});
             this.ToolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.ToolStrip1.Location = new System.Drawing.Point(24, 265);
+            this.ToolStrip1.Location = new System.Drawing.Point(32, 326);
             this.ToolStrip1.Name = "ToolStrip1";
             this.ToolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.ToolStrip1.Size = new System.Drawing.Size(72, 49);
+            this.ToolStrip1.Size = new System.Drawing.Size(96, 60);
             this.ToolStrip1.TabIndex = 598;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
@@ -214,7 +224,7 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.ToolStripButton22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ToolStripButton22.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ToolStripButton22.Name = "ToolStripButton22";
-            this.ToolStripButton22.Size = new System.Drawing.Size(37, 46);
+            this.ToolStripButton22.Size = new System.Drawing.Size(45, 57);
             this.ToolStripButton22.Text = "+";
             this.ToolStripButton22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.ToolStripButton22.ToolTipText = "Buscar Ruta";
@@ -228,9 +238,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Panel13.Controls.Add(this.Label16);
             this.Panel13.Controls.Add(this.no);
             this.Panel13.Controls.Add(this.si);
-            this.Panel13.Location = new System.Drawing.Point(37, 154);
+            this.Panel13.Location = new System.Drawing.Point(49, 190);
+            this.Panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel13.Name = "Panel13";
-            this.Panel13.Size = new System.Drawing.Size(563, 99);
+            this.Panel13.Size = new System.Drawing.Size(751, 122);
             this.Panel13.TabIndex = 590;
             // 
             // panelImpuestos
@@ -239,9 +250,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.panelImpuestos.Controls.Add(this.txtimpuesto);
             this.panelImpuestos.Controls.Add(this.Label14);
             this.panelImpuestos.Controls.Add(this.txtporcentaje);
-            this.panelImpuestos.Location = new System.Drawing.Point(41, 39);
+            this.panelImpuestos.Location = new System.Drawing.Point(55, 48);
+            this.panelImpuestos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelImpuestos.Name = "panelImpuestos";
-            this.panelImpuestos.Size = new System.Drawing.Size(233, 41);
+            this.panelImpuestos.Size = new System.Drawing.Size(311, 50);
             this.panelImpuestos.TabIndex = 564;
             this.panelImpuestos.Visible = false;
             // 
@@ -249,9 +261,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.Panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
             this.Panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Panel12.Location = new System.Drawing.Point(0, 37);
+            this.Panel12.Location = new System.Drawing.Point(0, 45);
+            this.Panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel12.Name = "Panel12";
-            this.Panel12.Size = new System.Drawing.Size(233, 4);
+            this.Panel12.Size = new System.Drawing.Size(311, 5);
             this.Panel12.TabIndex = 555;
             // 
             // txtimpuesto
@@ -262,20 +275,22 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.txtimpuesto.Items.AddRange(new object[] {
             "IGV ",
             "IVA"});
-            this.txtimpuesto.Location = new System.Drawing.Point(3, 3);
+            this.txtimpuesto.Location = new System.Drawing.Point(4, 4);
+            this.txtimpuesto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtimpuesto.Name = "txtimpuesto";
-            this.txtimpuesto.Size = new System.Drawing.Size(64, 28);
+            this.txtimpuesto.Size = new System.Drawing.Size(84, 33);
             this.txtimpuesto.TabIndex = 553;
-            this.txtimpuesto.Text = "IGV";
+            this.txtimpuesto.Text = "IGV ";
             // 
             // Label14
             // 
             this.Label14.AutoSize = true;
             this.Label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Label14.ForeColor = System.Drawing.Color.Black;
-            this.Label14.Location = new System.Drawing.Point(158, 6);
+            this.Label14.Location = new System.Drawing.Point(211, 7);
+            this.Label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(23, 20);
+            this.Label14.Size = new System.Drawing.Size(30, 25);
             this.Label14.TabIndex = 342;
             this.Label14.Text = "%";
             // 
@@ -289,9 +304,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             "18",
             "3",
             "5"});
-            this.txtporcentaje.Location = new System.Drawing.Point(88, 3);
+            this.txtporcentaje.Location = new System.Drawing.Point(117, 4);
+            this.txtporcentaje.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtporcentaje.Name = "txtporcentaje";
-            this.txtporcentaje.Size = new System.Drawing.Size(64, 28);
+            this.txtporcentaje.Size = new System.Drawing.Size(84, 33);
             this.txtporcentaje.TabIndex = 553;
             this.txtporcentaje.Text = "18";
             // 
@@ -300,9 +316,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label16.AutoSize = true;
             this.Label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Label16.Location = new System.Drawing.Point(31, 10);
+            this.Label16.Location = new System.Drawing.Point(41, 12);
+            this.Label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label16.Name = "Label16";
-            this.Label16.Size = new System.Drawing.Size(210, 20);
+            this.Label16.Size = new System.Drawing.Size(253, 25);
             this.Label16.TabIndex = 342;
             this.Label16.Text = "¿Vender con Impuestos?";
             // 
@@ -311,9 +328,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.no.AutoSize = true;
             this.no.Checked = true;
             this.no.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.no.Location = new System.Drawing.Point(320, 5);
+            this.no.Location = new System.Drawing.Point(427, 6);
+            this.no.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.no.Name = "no";
-            this.no.Size = new System.Drawing.Size(59, 28);
+            this.no.Size = new System.Drawing.Size(73, 33);
             this.no.TabIndex = 555;
             this.no.TabStop = true;
             this.no.Text = "NO";
@@ -324,9 +342,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.si.AutoSize = true;
             this.si.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.si.Location = new System.Drawing.Point(268, 5);
+            this.si.Location = new System.Drawing.Point(357, 6);
+            this.si.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.si.Name = "si";
-            this.si.Size = new System.Drawing.Size(46, 28);
+            this.si.Size = new System.Drawing.Size(58, 33);
             this.si.TabIndex = 555;
             this.si.Text = "SI";
             this.si.UseVisualStyleBackColor = true;
@@ -345,9 +364,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Panel6.Controls.Add(this.lblempresa);
             this.Panel6.Controls.Add(this.Label8);
             this.Panel6.Controls.Add(this.Label7);
-            this.Panel6.Location = new System.Drawing.Point(37, 9);
+            this.Panel6.Location = new System.Drawing.Point(49, 11);
+            this.Panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel6.Name = "Panel6";
-            this.Panel6.Size = new System.Drawing.Size(564, 137);
+            this.Panel6.Size = new System.Drawing.Size(752, 169);
             this.Panel6.TabIndex = 589;
             // 
             // txtmoneda
@@ -378,9 +398,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             "$",
             "Bs F",
             "€"});
-            this.txtmoneda.Location = new System.Drawing.Point(444, 70);
+            this.txtmoneda.Location = new System.Drawing.Point(592, 86);
+            this.txtmoneda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtmoneda.Name = "txtmoneda";
-            this.txtmoneda.Size = new System.Drawing.Size(83, 28);
+            this.txtmoneda.Size = new System.Drawing.Size(109, 33);
             this.txtmoneda.TabIndex = 590;
             // 
             // txtpais
@@ -411,9 +432,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             "Uruguay",
             "Venezuela",
             "España"});
-            this.txtpais.Location = new System.Drawing.Point(194, 70);
+            this.txtpais.Location = new System.Drawing.Point(259, 86);
+            this.txtpais.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtpais.Name = "txtpais";
-            this.txtpais.Size = new System.Drawing.Size(163, 28);
+            this.txtpais.Size = new System.Drawing.Size(216, 33);
             this.txtpais.TabIndex = 589;
             this.txtpais.SelectedIndexChanged += new System.EventHandler(this.txtpais_SelectedIndexChanged);
             // 
@@ -423,9 +445,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.lbleditarLogo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbleditarLogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.lbleditarLogo.ForeColor = System.Drawing.Color.White;
-            this.lbleditarLogo.Location = new System.Drawing.Point(25, 106);
+            this.lbleditarLogo.Location = new System.Drawing.Point(33, 130);
+            this.lbleditarLogo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbleditarLogo.Name = "lbleditarLogo";
-            this.lbleditarLogo.Size = new System.Drawing.Size(107, 22);
+            this.lbleditarLogo.Size = new System.Drawing.Size(143, 27);
             this.lbleditarLogo.TabIndex = 588;
             this.lbleditarLogo.Text = "Cambiar";
             this.lbleditarLogo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -434,9 +457,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // ImagenEmpresa
             // 
             this.ImagenEmpresa.Image = ((System.Drawing.Image)(resources.GetObject("ImagenEmpresa.Image")));
-            this.ImagenEmpresa.Location = new System.Drawing.Point(25, 20);
+            this.ImagenEmpresa.Location = new System.Drawing.Point(33, 25);
+            this.ImagenEmpresa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ImagenEmpresa.Name = "ImagenEmpresa";
-            this.ImagenEmpresa.Size = new System.Drawing.Size(107, 108);
+            this.ImagenEmpresa.Size = new System.Drawing.Size(143, 133);
             this.ImagenEmpresa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ImagenEmpresa.TabIndex = 533;
             this.ImagenEmpresa.TabStop = false;
@@ -444,9 +468,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // Panel5
             // 
             this.Panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(1)))));
-            this.Panel5.Location = new System.Drawing.Point(140, 45);
+            this.Panel5.Location = new System.Drawing.Point(187, 55);
+            this.Panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel5.Name = "Panel5";
-            this.Panel5.Size = new System.Drawing.Size(400, 2);
+            this.Panel5.Size = new System.Drawing.Size(533, 2);
             this.Panel5.TabIndex = 554;
             // 
             // txtempresa
@@ -457,9 +482,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.txtempresa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtempresa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.txtempresa.ForeColor = System.Drawing.Color.Black;
-            this.txtempresa.Location = new System.Drawing.Point(140, 22);
+            this.txtempresa.Location = new System.Drawing.Point(187, 27);
+            this.txtempresa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtempresa.Name = "txtempresa";
-            this.txtempresa.Size = new System.Drawing.Size(360, 22);
+            this.txtempresa.Size = new System.Drawing.Size(480, 27);
             this.txtempresa.TabIndex = 532;
             this.txtempresa.Text = "NOMBRE DE TU EMPRESA";
             // 
@@ -468,9 +494,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.lblempresa.AutoSize = true;
             this.lblempresa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.lblempresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblempresa.Location = new System.Drawing.Point(137, 4);
+            this.lblempresa.Location = new System.Drawing.Point(183, 5);
+            this.lblempresa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblempresa.Name = "lblempresa";
-            this.lblempresa.Size = new System.Drawing.Size(155, 15);
+            this.lblempresa.Size = new System.Drawing.Size(182, 18);
             this.lblempresa.TabIndex = 342;
             this.lblempresa.Text = "Nombre de tu Empresa";
             this.lblempresa.Visible = false;
@@ -480,9 +507,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Label8.Location = new System.Drawing.Point(363, 73);
+            this.Label8.Location = new System.Drawing.Point(484, 90);
+            this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(78, 20);
+            this.Label8.Size = new System.Drawing.Size(96, 25);
             this.Label8.TabIndex = 342;
             this.Label8.Text = "moneda:";
             // 
@@ -491,9 +519,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label7.AutoSize = true;
             this.Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Label7.Location = new System.Drawing.Point(140, 73);
+            this.Label7.Location = new System.Drawing.Point(187, 90);
+            this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(48, 20);
+            this.Label7.Size = new System.Drawing.Size(61, 25);
             this.Label7.TabIndex = 342;
             this.Label7.Text = "Pais:";
             // 
@@ -501,19 +530,21 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.TabControl3.Controls.Add(this.TabPage5);
             this.TabControl3.Controls.Add(this.TabPage6);
-            this.TabControl3.Location = new System.Drawing.Point(132, 773);
+            this.TabControl3.Location = new System.Drawing.Point(176, 951);
+            this.TabControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TabControl3.Name = "TabControl3";
             this.TabControl3.SelectedIndex = 0;
-            this.TabControl3.Size = new System.Drawing.Size(396, 95);
+            this.TabControl3.Size = new System.Drawing.Size(528, 117);
             this.TabControl3.TabIndex = 350;
             // 
             // TabPage5
             // 
             this.TabPage5.Controls.Add(this.Label4);
-            this.TabPage5.Location = new System.Drawing.Point(4, 22);
+            this.TabPage5.Location = new System.Drawing.Point(4, 25);
+            this.TabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TabPage5.Name = "TabPage5";
-            this.TabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage5.Size = new System.Drawing.Size(388, 69);
+            this.TabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage5.Size = new System.Drawing.Size(520, 88);
             this.TabPage5.TabIndex = 0;
             this.TabPage5.Text = "Registro sanitario de Ingreso";
             this.TabPage5.UseVisualStyleBackColor = true;
@@ -522,9 +553,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.Label4.AutoSize = true;
             this.Label4.ForeColor = System.Drawing.Color.Black;
-            this.Label4.Location = new System.Drawing.Point(12, 31);
+            this.Label4.Location = new System.Drawing.Point(16, 38);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(144, 13);
+            this.Label4.Size = new System.Drawing.Size(194, 17);
             this.Label4.TabIndex = 341;
             this.Label4.Text = "Registro sanitario de Ingreso:";
             // 
@@ -532,10 +564,11 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.TabPage6.Controls.Add(this.PictureBox4);
             this.TabPage6.Controls.Add(this.Label17);
-            this.TabPage6.Location = new System.Drawing.Point(4, 22);
+            this.TabPage6.Location = new System.Drawing.Point(4, 25);
+            this.TabPage6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TabPage6.Name = "TabPage6";
-            this.TabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage6.Size = new System.Drawing.Size(388, 69);
+            this.TabPage6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TabPage6.Size = new System.Drawing.Size(520, 88);
             this.TabPage6.TabIndex = 1;
             this.TabPage6.Text = "Ficha tecnica";
             this.TabPage6.UseVisualStyleBackColor = true;
@@ -544,9 +577,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.PictureBox4.BackColor = System.Drawing.Color.White;
             this.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.PictureBox4.Location = new System.Drawing.Point(92, 6);
+            this.PictureBox4.Location = new System.Drawing.Point(123, 7);
+            this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PictureBox4.Name = "PictureBox4";
-            this.PictureBox4.Size = new System.Drawing.Size(79, 57);
+            this.PictureBox4.Size = new System.Drawing.Size(104, 69);
             this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox4.TabIndex = 346;
             this.PictureBox4.TabStop = false;
@@ -555,9 +589,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.Label17.AutoSize = true;
             this.Label17.ForeColor = System.Drawing.Color.Black;
-            this.Label17.Location = new System.Drawing.Point(7, 25);
+            this.Label17.Location = new System.Drawing.Point(9, 31);
+            this.Label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label17.Name = "Label17";
-            this.Label17.Size = new System.Drawing.Size(74, 13);
+            this.Label17.Size = new System.Drawing.Size(95, 17);
             this.Label17.TabIndex = 340;
             this.Label17.Text = "Ficha tecnica:";
             // 
@@ -567,11 +602,12 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             // Empresaregistro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 638);
+            this.ClientSize = new System.Drawing.Size(1055, 785);
             this.Controls.Add(this.PanelEmpresa);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Empresaregistro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Empresa registro";

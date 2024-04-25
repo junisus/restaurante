@@ -50,9 +50,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.PanelNumeros);
             this.panel1.Controls.Add(this.PanelLetras);
-            this.panel1.Location = new System.Drawing.Point(38, 141);
+            this.panel1.Location = new System.Drawing.Point(51, 174);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(749, 344);
+            this.panel1.Size = new System.Drawing.Size(999, 423);
             this.panel1.TabIndex = 18;
             // 
             // btnBorrarCaract
@@ -66,9 +67,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnBorrarCaract.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBorrarCaract.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrarCaract.ForeColor = System.Drawing.Color.White;
-            this.btnBorrarCaract.Location = new System.Drawing.Point(649, 13);
+            this.btnBorrarCaract.Location = new System.Drawing.Point(865, 16);
+            this.btnBorrarCaract.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBorrarCaract.Name = "btnBorrarCaract";
-            this.btnBorrarCaract.Size = new System.Drawing.Size(51, 48);
+            this.btnBorrarCaract.Size = new System.Drawing.Size(68, 59);
             this.btnBorrarCaract.TabIndex = 11;
             this.btnBorrarCaract.Text = "<";
             this.btnBorrarCaract.UseVisualStyleBackColor = false;
@@ -85,9 +87,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar.Location = new System.Drawing.Point(513, 273);
+            this.btnGuardar.Location = new System.Drawing.Point(684, 336);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(134, 58);
+            this.btnGuardar.Size = new System.Drawing.Size(179, 71);
             this.btnGuardar.TabIndex = 8;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -104,9 +107,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(29, 273);
+            this.button1.Location = new System.Drawing.Point(39, 336);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(216, 58);
+            this.button1.Size = new System.Drawing.Size(288, 71);
             this.button1.TabIndex = 4;
             this.button1.Text = "Espacio";
             this.button1.UseVisualStyleBackColor = false;
@@ -114,16 +118,18 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             // PanelNumeros
             // 
-            this.PanelNumeros.Location = new System.Drawing.Point(29, 3);
+            this.PanelNumeros.Location = new System.Drawing.Point(39, 4);
+            this.PanelNumeros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelNumeros.Name = "PanelNumeros";
-            this.PanelNumeros.Size = new System.Drawing.Size(614, 68);
+            this.PanelNumeros.Size = new System.Drawing.Size(819, 84);
             this.PanelNumeros.TabIndex = 2;
             // 
             // PanelLetras
             // 
-            this.PanelLetras.Location = new System.Drawing.Point(29, 77);
+            this.PanelLetras.Location = new System.Drawing.Point(39, 95);
+            this.PanelLetras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelLetras.Name = "PanelLetras";
-            this.PanelLetras.Size = new System.Drawing.Size(618, 190);
+            this.PanelLetras.Size = new System.Drawing.Size(824, 234);
             this.PanelLetras.TabIndex = 1;
             // 
             // label1
@@ -131,9 +137,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(62, 8);
+            this.label1.Location = new System.Drawing.Point(83, 10);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(389, 26);
+            this.label1.Size = new System.Drawing.Size(472, 31);
             this.label1.TabIndex = 17;
             this.label1.Text = "Ingrese el nombre para ser llamado";
             // 
@@ -143,9 +150,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnombre.ForeColor = System.Drawing.Color.White;
-            this.txtnombre.Location = new System.Drawing.Point(67, 41);
+            this.txtnombre.Location = new System.Drawing.Point(89, 50);
+            this.txtnombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(553, 94);
+            this.txtnombre.Size = new System.Drawing.Size(737, 116);
             this.txtnombre.TabIndex = 15;
             this.txtnombre.Text = "";
             // 
@@ -160,9 +168,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.Color.White;
-            this.btnCerrar.Location = new System.Drawing.Point(736, 11);
+            this.btnCerrar.Location = new System.Drawing.Point(981, 14);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(51, 46);
+            this.btnCerrar.Size = new System.Drawing.Size(68, 57);
             this.btnCerrar.TabIndex = 16;
             this.btnCerrar.Text = "X";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -170,15 +179,16 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             // NombreLlevar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.ClientSize = new System.Drawing.Size(824, 493);
+            this.ClientSize = new System.Drawing.Size(1099, 607);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.txtnombre);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "NombreLlevar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nombre Llevar";

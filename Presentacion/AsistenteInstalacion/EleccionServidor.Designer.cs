@@ -39,16 +39,12 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.lblEstado_de_conexion = new System.Windows.Forms.Label();
             this.datalistado = new System.Windows.Forms.DataGridView();
             this.Eliminar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.PictureBox7 = new System.Windows.Forms.PictureBox();
             this.PanelPc = new System.Windows.Forms.Panel();
             this.Label4 = new System.Windows.Forms.Label();
             this.btnSecundaria = new System.Windows.Forms.Button();
             this.btnPrincipal = new System.Windows.Forms.Button();
             this.Label9 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
-            this.Panel1 = new System.Windows.Forms.Panel();
-            this.Panel2 = new System.Windows.Forms.Panel();
-            this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelServidor = new System.Windows.Forms.Panel();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnconectar = new System.Windows.Forms.Button();
@@ -69,14 +65,18 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label3 = new System.Windows.Forms.Label();
             this.Label6 = new System.Windows.Forms.Label();
             this.Label7 = new System.Windows.Forms.Label();
+            this.Panel1 = new System.Windows.Forms.Panel();
+            this.Panel2 = new System.Windows.Forms.Panel();
+            this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PictureBox7 = new System.Windows.Forms.PictureBox();
             this.Panel8.SuspendLayout();
             this.Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datalistado)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
             this.PanelPc.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.PanelServidor.SuspendLayout();
             this.panelUsuario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // Panel8
@@ -87,8 +87,9 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Panel8.Controls.Add(this.PictureBox7);
             this.Panel8.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel8.Location = new System.Drawing.Point(0, 0);
+            this.Panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel8.Name = "Panel8";
-            this.Panel8.Size = new System.Drawing.Size(1113, 86);
+            this.Panel8.Size = new System.Drawing.Size(1484, 106);
             this.Panel8.TabIndex = 591;
             // 
             // btnServidorlisto
@@ -100,9 +101,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.btnServidorlisto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnServidorlisto.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.btnServidorlisto.ForeColor = System.Drawing.Color.White;
-            this.btnServidorlisto.Location = new System.Drawing.Point(833, 0);
+            this.btnServidorlisto.Location = new System.Drawing.Point(1111, 0);
+            this.btnServidorlisto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnServidorlisto.Name = "btnServidorlisto";
-            this.btnServidorlisto.Size = new System.Drawing.Size(280, 86);
+            this.btnServidorlisto.Size = new System.Drawing.Size(373, 106);
             this.btnServidorlisto.TabIndex = 610;
             this.btnServidorlisto.Text = "Conectar a Bd existente";
             this.btnServidorlisto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -113,18 +115,20 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             // 
             this.Panel3.Controls.Add(this.lblEstado_de_conexion);
             this.Panel3.Controls.Add(this.datalistado);
-            this.Panel3.Location = new System.Drawing.Point(347, 7);
+            this.Panel3.Location = new System.Drawing.Point(463, 9);
+            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(10, 10);
+            this.Panel3.Size = new System.Drawing.Size(13, 12);
             this.Panel3.TabIndex = 606;
             // 
             // lblEstado_de_conexion
             // 
             this.lblEstado_de_conexion.AutoSize = true;
             this.lblEstado_de_conexion.BackColor = System.Drawing.Color.White;
-            this.lblEstado_de_conexion.Location = new System.Drawing.Point(69, 34);
+            this.lblEstado_de_conexion.Location = new System.Drawing.Point(92, 42);
+            this.lblEstado_de_conexion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEstado_de_conexion.Name = "lblEstado_de_conexion";
-            this.lblEstado_de_conexion.Size = new System.Drawing.Size(83, 13);
+            this.lblEstado_de_conexion.Size = new System.Drawing.Size(108, 17);
             this.lblEstado_de_conexion.TabIndex = 605;
             this.lblEstado_de_conexion.Text = "lblRutaInstancia";
             // 
@@ -159,7 +163,8 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.datalistado.DefaultCellStyle = dataGridViewCellStyle2;
             this.datalistado.EnableHeadersVisualStyles = false;
             this.datalistado.GridColor = System.Drawing.Color.LightGray;
-            this.datalistado.Location = new System.Drawing.Point(43, 18);
+            this.datalistado.Location = new System.Drawing.Point(57, 22);
+            this.datalistado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistado.Name = "datalistado";
             this.datalistado.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -177,25 +182,17 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.datalistado.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.datalistado.RowTemplate.Height = 60;
             this.datalistado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistado.Size = new System.Drawing.Size(299, 55);
+            this.datalistado.Size = new System.Drawing.Size(399, 68);
             this.datalistado.TabIndex = 606;
             // 
             // Eliminar
             // 
             this.Eliminar.HeaderText = "Eliminar";
+            this.Eliminar.MinimumWidth = 6;
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.ReadOnly = true;
             this.Eliminar.Visible = false;
-            // 
-            // PictureBox7
-            // 
-            this.PictureBox7.Image = global::RestCsharp.Properties.Resources.WhatsApp_Image_2023_05_30_at_10_521;
-            this.PictureBox7.Location = new System.Drawing.Point(12, 12);
-            this.PictureBox7.Name = "PictureBox7";
-            this.PictureBox7.Size = new System.Drawing.Size(110, 63);
-            this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox7.TabIndex = 604;
-            this.PictureBox7.TabStop = false;
+            this.Eliminar.Width = 125;
             // 
             // PanelPc
             // 
@@ -207,9 +204,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.PanelPc.Controls.Add(this.Panel1);
             this.PanelPc.Controls.Add(this.Panel2);
             this.PanelPc.Controls.Add(this.PictureBox1);
-            this.PanelPc.Location = new System.Drawing.Point(49, 92);
+            this.PanelPc.Location = new System.Drawing.Point(65, 113);
+            this.PanelPc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelPc.Name = "PanelPc";
-            this.PanelPc.Size = new System.Drawing.Size(1027, 499);
+            this.PanelPc.Size = new System.Drawing.Size(1369, 614);
             this.PanelPc.TabIndex = 615;
             // 
             // Label4
@@ -217,9 +215,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label4.BackColor = System.Drawing.Color.Transparent;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.Label4.ForeColor = System.Drawing.Color.White;
-            this.Label4.Location = new System.Drawing.Point(669, 339);
+            this.Label4.Location = new System.Drawing.Point(892, 417);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(318, 103);
+            this.Label4.Size = new System.Drawing.Size(424, 127);
             this.Label4.TabIndex = 0;
             this.Label4.Text = "Se Conecta a la Computadora Principal siempre y cuando la Principal este Encendid" +
     "a";
@@ -232,9 +231,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.btnSecundaria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSecundaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.btnSecundaria.ForeColor = System.Drawing.Color.White;
-            this.btnSecundaria.Location = new System.Drawing.Point(39, 324);
+            this.btnSecundaria.Location = new System.Drawing.Point(52, 399);
+            this.btnSecundaria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSecundaria.Name = "btnSecundaria";
-            this.btnSecundaria.Size = new System.Drawing.Size(247, 84);
+            this.btnSecundaria.Size = new System.Drawing.Size(329, 103);
             this.btnSecundaria.TabIndex = 609;
             this.btnSecundaria.Text = "Secundaria";
             this.btnSecundaria.UseVisualStyleBackColor = false;
@@ -248,9 +248,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.btnPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.btnPrincipal.ForeColor = System.Drawing.Color.White;
-            this.btnPrincipal.Location = new System.Drawing.Point(137, 122);
+            this.btnPrincipal.Location = new System.Drawing.Point(183, 150);
+            this.btnPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPrincipal.Name = "btnPrincipal";
-            this.btnPrincipal.Size = new System.Drawing.Size(247, 84);
+            this.btnPrincipal.Size = new System.Drawing.Size(329, 103);
             this.btnPrincipal.TabIndex = 608;
             this.btnPrincipal.Text = "Principal";
             this.btnPrincipal.UseVisualStyleBackColor = false;
@@ -261,9 +262,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label9.BackColor = System.Drawing.Color.Transparent;
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.Label9.ForeColor = System.Drawing.Color.White;
-            this.Label9.Location = new System.Drawing.Point(571, 132);
+            this.Label9.Location = new System.Drawing.Point(761, 162);
+            this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
-            this.Label9.Size = new System.Drawing.Size(387, 103);
+            this.Label9.Size = new System.Drawing.Size(516, 127);
             this.Label9.TabIndex = 0;
             this.Label9.Text = "Esta Computadora debe estar Encendida para que las Computadoras\r\nSecundarias se C" +
     "onecten. Si se apaga no podran conectarse.";
@@ -274,37 +276,12 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(228, 16);
+            this.Label1.Location = new System.Drawing.Point(304, 20);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(473, 46);
+            this.Label1.Size = new System.Drawing.Size(586, 58);
             this.Label1.TabIndex = 605;
             this.Label1.Text = "¿Esta Computadora es?";
-            // 
-            // Panel1
-            // 
-            this.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel1.BackgroundImage")));
-            this.Panel1.Location = new System.Drawing.Point(555, 113);
-            this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(3, 135);
-            this.Panel1.TabIndex = 606;
-            // 
-            // Panel2
-            // 
-            this.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel2.BackgroundImage")));
-            this.Panel2.Location = new System.Drawing.Point(653, 313);
-            this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(3, 139);
-            this.Panel2.TabIndex = 607;
-            // 
-            // PictureBox1
-            // 
-            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(236, 113);
-            this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(472, 339);
-            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBox1.TabIndex = 604;
-            this.PictureBox1.TabStop = false;
             // 
             // PanelServidor
             // 
@@ -321,9 +298,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.PanelServidor.Controls.Add(this.Label3);
             this.PanelServidor.Controls.Add(this.Label6);
             this.PanelServidor.Controls.Add(this.Label7);
-            this.PanelServidor.Location = new System.Drawing.Point(227, 92);
+            this.PanelServidor.Location = new System.Drawing.Point(303, 113);
+            this.PanelServidor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelServidor.Name = "PanelServidor";
-            this.PanelServidor.Size = new System.Drawing.Size(673, 531);
+            this.PanelServidor.Size = new System.Drawing.Size(897, 654);
             this.PanelServidor.TabIndex = 616;
             this.PanelServidor.Visible = false;
             // 
@@ -333,9 +311,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.btnVolver.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnVolver.Location = new System.Drawing.Point(236, 436);
+            this.btnVolver.Location = new System.Drawing.Point(315, 537);
+            this.btnVolver.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(241, 47);
+            this.btnVolver.Size = new System.Drawing.Size(321, 58);
             this.btnVolver.TabIndex = 27;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = false;
@@ -348,9 +327,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.btnconectar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnconectar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.btnconectar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnconectar.Location = new System.Drawing.Point(235, 383);
+            this.btnconectar.Location = new System.Drawing.Point(313, 471);
+            this.btnconectar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnconectar.Name = "btnconectar";
-            this.btnconectar.Size = new System.Drawing.Size(242, 47);
+            this.btnconectar.Size = new System.Drawing.Size(323, 58);
             this.btnconectar.TabIndex = 23;
             this.btnconectar.Text = "Conectar";
             this.btnconectar.UseVisualStyleBackColor = false;
@@ -362,17 +342,19 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.txtCadena.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCadena.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.txtCadena.ForeColor = System.Drawing.Color.White;
-            this.txtCadena.Location = new System.Drawing.Point(298, 396);
+            this.txtCadena.Location = new System.Drawing.Point(397, 487);
+            this.txtCadena.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCadena.Name = "txtCadena";
-            this.txtCadena.Size = new System.Drawing.Size(130, 22);
+            this.txtCadena.Size = new System.Drawing.Size(173, 27);
             this.txtCadena.TabIndex = 26;
             // 
             // Panel7
             // 
             this.Panel7.BackColor = System.Drawing.Color.Silver;
-            this.Panel7.Location = new System.Drawing.Point(233, 276);
+            this.Panel7.Location = new System.Drawing.Point(311, 340);
+            this.Panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel7.Name = "Panel7";
-            this.Panel7.Size = new System.Drawing.Size(242, 1);
+            this.Panel7.Size = new System.Drawing.Size(323, 1);
             this.Panel7.TabIndex = 19;
             // 
             // txtBd
@@ -381,9 +363,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.txtBd.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBd.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.txtBd.ForeColor = System.Drawing.Color.White;
-            this.txtBd.Location = new System.Drawing.Point(234, 247);
+            this.txtBd.Location = new System.Drawing.Point(312, 304);
+            this.txtBd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBd.Name = "txtBd";
-            this.txtBd.Size = new System.Drawing.Size(241, 22);
+            this.txtBd.Size = new System.Drawing.Size(321, 27);
             this.txtBd.TabIndex = 18;
             // 
             // checkUsuario
@@ -391,9 +374,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.checkUsuario.AutoSize = true;
             this.checkUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkUsuario.ForeColor = System.Drawing.Color.White;
-            this.checkUsuario.Location = new System.Drawing.Point(489, 201);
+            this.checkUsuario.Location = new System.Drawing.Point(652, 247);
+            this.checkUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkUsuario.Name = "checkUsuario";
-            this.checkUsuario.Size = new System.Drawing.Size(181, 28);
+            this.checkUsuario.Size = new System.Drawing.Size(227, 33);
             this.checkUsuario.TabIndex = 25;
             this.checkUsuario.Text = "Tengo un Usuario";
             this.checkUsuario.UseVisualStyleBackColor = true;
@@ -404,9 +388,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.Label8.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Label8.Location = new System.Drawing.Point(94, 247);
+            this.Label8.Location = new System.Drawing.Point(125, 304);
+            this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(134, 24);
+            this.Label8.Size = new System.Drawing.Size(173, 29);
             this.Label8.TabIndex = 17;
             this.Label8.Text = "Base de datos:";
             // 
@@ -418,9 +403,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.panelUsuario.Controls.Add(this.panel6);
             this.panelUsuario.Controls.Add(this.txtcontraseña);
             this.panelUsuario.Controls.Add(this.Label5);
-            this.panelUsuario.Location = new System.Drawing.Point(115, 289);
+            this.panelUsuario.Location = new System.Drawing.Point(153, 356);
+            this.panelUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelUsuario.Name = "panelUsuario";
-            this.panelUsuario.Size = new System.Drawing.Size(379, 88);
+            this.panelUsuario.Size = new System.Drawing.Size(505, 108);
             this.panelUsuario.TabIndex = 24;
             this.panelUsuario.Visible = false;
             // 
@@ -429,9 +415,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.Label2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Label2.Location = new System.Drawing.Point(36, 10);
+            this.Label2.Location = new System.Drawing.Point(48, 12);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(79, 24);
+            this.Label2.Size = new System.Drawing.Size(102, 29);
             this.Label2.TabIndex = 17;
             this.Label2.Text = "Usuario:";
             // 
@@ -441,25 +428,28 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.txtusuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.txtusuario.ForeColor = System.Drawing.Color.White;
-            this.txtusuario.Location = new System.Drawing.Point(121, 10);
+            this.txtusuario.Location = new System.Drawing.Point(161, 12);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(241, 22);
+            this.txtusuario.Size = new System.Drawing.Size(321, 27);
             this.txtusuario.TabIndex = 18;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Silver;
-            this.panel5.Location = new System.Drawing.Point(120, 83);
+            this.panel5.Location = new System.Drawing.Point(160, 102);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(242, 1);
+            this.panel5.Size = new System.Drawing.Size(323, 1);
             this.panel5.TabIndex = 22;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Silver;
-            this.panel6.Location = new System.Drawing.Point(120, 39);
+            this.panel6.Location = new System.Drawing.Point(160, 48);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(242, 1);
+            this.panel6.Size = new System.Drawing.Size(323, 1);
             this.panel6.TabIndex = 19;
             // 
             // txtcontraseña
@@ -468,9 +458,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.txtcontraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtcontraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.txtcontraseña.ForeColor = System.Drawing.Color.White;
-            this.txtcontraseña.Location = new System.Drawing.Point(121, 54);
+            this.txtcontraseña.Location = new System.Drawing.Point(161, 66);
+            this.txtcontraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtcontraseña.Name = "txtcontraseña";
-            this.txtcontraseña.Size = new System.Drawing.Size(241, 22);
+            this.txtcontraseña.Size = new System.Drawing.Size(321, 27);
             this.txtcontraseña.TabIndex = 21;
             // 
             // Label5
@@ -478,18 +469,20 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.Label5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Label5.Location = new System.Drawing.Point(4, 52);
+            this.Label5.Location = new System.Drawing.Point(5, 64);
+            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(111, 24);
+            this.Label5.Size = new System.Drawing.Size(142, 29);
             this.Label5.TabIndex = 20;
             this.Label5.Text = "Contraseña:";
             // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Silver;
-            this.panel9.Location = new System.Drawing.Point(233, 232);
+            this.panel9.Location = new System.Drawing.Point(311, 286);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(242, 1);
+            this.panel9.Size = new System.Drawing.Size(323, 1);
             this.panel9.TabIndex = 16;
             // 
             // txtservidor
@@ -498,9 +491,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.txtservidor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtservidor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.txtservidor.ForeColor = System.Drawing.Color.White;
-            this.txtservidor.Location = new System.Drawing.Point(234, 203);
+            this.txtservidor.Location = new System.Drawing.Point(312, 250);
+            this.txtservidor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtservidor.Name = "txtservidor";
-            this.txtservidor.Size = new System.Drawing.Size(241, 22);
+            this.txtservidor.Size = new System.Drawing.Size(321, 27);
             this.txtservidor.TabIndex = 15;
             // 
             // Label3
@@ -508,9 +502,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.Label3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Label3.Location = new System.Drawing.Point(143, 201);
+            this.Label3.Location = new System.Drawing.Point(191, 247);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(85, 24);
+            this.Label3.Size = new System.Drawing.Size(110, 29);
             this.Label3.TabIndex = 14;
             this.Label3.Text = "Servidor:";
             // 
@@ -520,9 +515,10 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label6.Dock = System.Windows.Forms.DockStyle.Top;
             this.Label6.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold);
             this.Label6.ForeColor = System.Drawing.Color.DarkGray;
-            this.Label6.Location = new System.Drawing.Point(0, 135);
+            this.Label6.Location = new System.Drawing.Point(0, 166);
+            this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(673, 53);
+            this.Label6.Size = new System.Drawing.Size(897, 65);
             this.Label6.TabIndex = 13;
             this.Label6.Text = "Ingrese los datos Manualmente";
             this.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -534,22 +530,64 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Label7.Font = new System.Drawing.Font("Consolas", 40F, System.Drawing.FontStyle.Bold);
             this.Label7.ForeColor = System.Drawing.Color.White;
             this.Label7.Location = new System.Drawing.Point(0, 0);
+            this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(673, 135);
+            this.Label7.Size = new System.Drawing.Size(897, 166);
             this.Label7.TabIndex = 12;
             this.Label7.Text = "Servidor";
             this.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Panel1
+            // 
+            this.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel1.BackgroundImage")));
+            this.Panel1.Location = new System.Drawing.Point(740, 139);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.Size = new System.Drawing.Size(4, 166);
+            this.Panel1.TabIndex = 606;
+            // 
+            // Panel2
+            // 
+            this.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel2.BackgroundImage")));
+            this.Panel2.Location = new System.Drawing.Point(871, 385);
+            this.Panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.Panel2.Name = "Panel2";
+            this.Panel2.Size = new System.Drawing.Size(4, 171);
+            this.Panel2.TabIndex = 607;
+            // 
+            // PictureBox1
+            // 
+            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
+            this.PictureBox1.Location = new System.Drawing.Point(315, 139);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.Size = new System.Drawing.Size(629, 417);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox1.TabIndex = 604;
+            this.PictureBox1.TabStop = false;
+            // 
+            // PictureBox7
+            // 
+            this.PictureBox7.Image = global::RestCsharp.Properties.Resources.WhatsApp_Image_2024_04_24_at_7_44_38_AM__2_;
+            this.PictureBox7.Location = new System.Drawing.Point(16, 15);
+            this.PictureBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.PictureBox7.Name = "PictureBox7";
+            this.PictureBox7.Size = new System.Drawing.Size(147, 78);
+            this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox7.TabIndex = 604;
+            this.PictureBox7.TabStop = false;
+            // 
             // EleccionServidor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1113, 720);
+            this.ClientSize = new System.Drawing.Size(1484, 886);
             this.Controls.Add(this.PanelPc);
             this.Controls.Add(this.PanelServidor);
             this.Controls.Add(this.Panel8);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "EleccionServidor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Eleccion Servidor";
@@ -559,14 +597,14 @@ namespace RestCsharp.Presentacion.AsistenteInstalacion
             this.Panel3.ResumeLayout(false);
             this.Panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datalistado)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).EndInit();
             this.PanelPc.ResumeLayout(false);
             this.PanelPc.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.PanelServidor.ResumeLayout(false);
             this.PanelServidor.PerformLayout();
             this.panelUsuario.ResumeLayout(false);
             this.panelUsuario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }

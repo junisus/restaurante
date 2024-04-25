@@ -294,40 +294,45 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Panel72.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel72.Location = new System.Drawing.Point(0, 0);
+            this.Panel72.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel72.Name = "Panel72";
-            this.Panel72.Size = new System.Drawing.Size(88, 749);
+            this.Panel72.Size = new System.Drawing.Size(117, 922);
             this.Panel72.TabIndex = 570;
             // 
             // Panel74
             // 
             this.Panel74.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel74.Location = new System.Drawing.Point(88, 0);
+            this.Panel74.Location = new System.Drawing.Point(117, 0);
+            this.Panel74.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel74.Name = "Panel74";
-            this.Panel74.Size = new System.Drawing.Size(1282, 16);
+            this.Panel74.Size = new System.Drawing.Size(1710, 20);
             this.Panel74.TabIndex = 572;
             // 
             // Panel75
             // 
             this.Panel75.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Panel75.Location = new System.Drawing.Point(88, 733);
+            this.Panel75.Location = new System.Drawing.Point(117, 902);
+            this.Panel75.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel75.Name = "Panel75";
-            this.Panel75.Size = new System.Drawing.Size(1282, 16);
+            this.Panel75.Size = new System.Drawing.Size(1710, 20);
             this.Panel75.TabIndex = 573;
             // 
             // Panel73
             // 
             this.Panel73.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Panel73.Location = new System.Drawing.Point(1261, 16);
+            this.Panel73.Location = new System.Drawing.Point(1682, 20);
+            this.Panel73.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel73.Name = "Panel73";
-            this.Panel73.Size = new System.Drawing.Size(109, 717);
+            this.Panel73.Size = new System.Drawing.Size(145, 882);
             this.Panel73.TabIndex = 574;
             // 
             // PSinpedidos
             // 
             this.PSinpedidos.Controls.Add(this.Label11);
-            this.PSinpedidos.Location = new System.Drawing.Point(181, 22);
+            this.PSinpedidos.Location = new System.Drawing.Point(241, 27);
+            this.PSinpedidos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PSinpedidos.Name = "PSinpedidos";
-            this.PSinpedidos.Size = new System.Drawing.Size(574, 66);
+            this.PSinpedidos.Size = new System.Drawing.Size(765, 81);
             this.PSinpedidos.TabIndex = 575;
             // 
             // Label11
@@ -336,8 +341,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label11.ForeColor = System.Drawing.Color.White;
             this.Label11.Location = new System.Drawing.Point(0, 0);
+            this.Label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(574, 66);
+            this.Label11.Size = new System.Drawing.Size(765, 81);
             this.Label11.TabIndex = 0;
             this.Label11.Text = "SIN PEDIDOS";
             this.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -350,9 +356,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.FlowLayoutPanel1.Controls.Add(this.P4);
             this.FlowLayoutPanel1.Controls.Add(this.P5);
             this.FlowLayoutPanel1.Controls.Add(this.P6);
-            this.FlowLayoutPanel1.Location = new System.Drawing.Point(106, 78);
+            this.FlowLayoutPanel1.Location = new System.Drawing.Point(141, 96);
+            this.FlowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.FlowLayoutPanel1.Name = "FlowLayoutPanel1";
-            this.FlowLayoutPanel1.Size = new System.Drawing.Size(1153, 717);
+            this.FlowLayoutPanel1.Size = new System.Drawing.Size(1537, 882);
             this.FlowLayoutPanel1.TabIndex = 576;
             // 
             // P1
@@ -362,9 +369,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.P1.Controls.Add(this.panelm1);
             this.P1.Controls.Add(this.Panel6);
             this.P1.Controls.Add(this.Panel2);
-            this.P1.Location = new System.Drawing.Point(3, 3);
+            this.P1.Location = new System.Drawing.Point(4, 4);
+            this.P1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P1.Name = "P1";
-            this.P1.Size = new System.Drawing.Size(377, 335);
+            this.P1.Size = new System.Drawing.Size(503, 412);
             this.P1.TabIndex = 0;
             // 
             // datalistadoDetalledeventa1
@@ -399,7 +407,8 @@ namespace RestCsharp.Presentacion.Cocina
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.datalistadoDetalledeventa1.DefaultCellStyle = dataGridViewCellStyle2;
             this.datalistadoDetalledeventa1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datalistadoDetalledeventa1.Location = new System.Drawing.Point(0, 154);
+            this.datalistadoDetalledeventa1.Location = new System.Drawing.Point(0, 189);
+            this.datalistadoDetalledeventa1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistadoDetalledeventa1.Name = "datalistadoDetalledeventa1";
             this.datalistadoDetalledeventa1.ReadOnly = true;
             this.datalistadoDetalledeventa1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -419,7 +428,7 @@ namespace RestCsharp.Presentacion.Cocina
             this.datalistadoDetalledeventa1.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Transparent;
             this.datalistadoDetalledeventa1.RowTemplate.Height = 80;
             this.datalistadoDetalledeventa1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoDetalledeventa1.Size = new System.Drawing.Size(377, 142);
+            this.datalistadoDetalledeventa1.Size = new System.Drawing.Size(503, 175);
             this.datalistadoDetalledeventa1.TabIndex = 559;
             this.datalistadoDetalledeventa1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistadoDetalledeventa1_CellClick);
             // 
@@ -427,19 +436,21 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Accion1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Accion1.HeaderText = "";
+            this.Accion1.MinimumWidth = 6;
             this.Accion1.Name = "Accion1";
             this.Accion1.ReadOnly = true;
             this.Accion1.Text = "Preparar";
-            this.Accion1.Width = 5;
+            this.Accion1.Width = 6;
             // 
             // Volver1
             // 
             this.Volver1.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Volver1.HeaderText = "";
             this.Volver1.LinkColor = System.Drawing.Color.White;
+            this.Volver1.MinimumWidth = 6;
             this.Volver1.Name = "Volver1";
             this.Volver1.ReadOnly = true;
-            this.Volver1.Width = 5;
+            this.Volver1.Width = 6;
             // 
             // panelm1
             // 
@@ -447,9 +458,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.panelm1.Controls.Add(this.btnVer1);
             this.panelm1.Controls.Add(this.label1);
             this.panelm1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelm1.Location = new System.Drawing.Point(0, 296);
+            this.panelm1.Location = new System.Drawing.Point(0, 364);
+            this.panelm1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelm1.Name = "panelm1";
-            this.panelm1.Size = new System.Drawing.Size(377, 39);
+            this.panelm1.Size = new System.Drawing.Size(503, 48);
             this.panelm1.TabIndex = 560;
             // 
             // btnVer1
@@ -464,9 +476,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnVer1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVer1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVer1.ForeColor = System.Drawing.Color.White;
-            this.btnVer1.Location = new System.Drawing.Point(298, 0);
+            this.btnVer1.Location = new System.Drawing.Point(397, 0);
+            this.btnVer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVer1.Name = "btnVer1";
-            this.btnVer1.Size = new System.Drawing.Size(79, 39);
+            this.btnVer1.Size = new System.Drawing.Size(106, 48);
             this.btnVer1.TabIndex = 637;
             this.btnVer1.Text = "Ver";
             this.btnVer1.UseVisualStyleBackColor = false;
@@ -478,8 +491,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(298, 39);
+            this.label1.Size = new System.Drawing.Size(397, 48);
             this.label1.TabIndex = 1;
             this.label1.Text = "!Hay nota!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -489,9 +503,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel6.Controls.Add(this.btnDespacharTodos1);
             this.Panel6.Controls.Add(this.btnPrepararTodos1);
             this.Panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel6.Location = new System.Drawing.Point(0, 118);
+            this.Panel6.Location = new System.Drawing.Point(0, 145);
+            this.Panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel6.Name = "Panel6";
-            this.Panel6.Size = new System.Drawing.Size(377, 36);
+            this.Panel6.Size = new System.Drawing.Size(503, 44);
             this.Panel6.TabIndex = 1;
             // 
             // btnDespacharTodos1
@@ -501,9 +516,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnDespacharTodos1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDespacharTodos1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDespacharTodos1.ForeColor = System.Drawing.Color.White;
-            this.btnDespacharTodos1.Location = new System.Drawing.Point(147, 6);
+            this.btnDespacharTodos1.Location = new System.Drawing.Point(196, 7);
+            this.btnDespacharTodos1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDespacharTodos1.Name = "btnDespacharTodos1";
-            this.btnDespacharTodos1.Size = new System.Drawing.Size(151, 25);
+            this.btnDespacharTodos1.Size = new System.Drawing.Size(201, 31);
             this.btnDespacharTodos1.TabIndex = 0;
             this.btnDespacharTodos1.Text = "Despachar Todos";
             this.btnDespacharTodos1.UseVisualStyleBackColor = false;
@@ -516,9 +532,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnPrepararTodos1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrepararTodos1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrepararTodos1.ForeColor = System.Drawing.Color.White;
-            this.btnPrepararTodos1.Location = new System.Drawing.Point(4, 6);
+            this.btnPrepararTodos1.Location = new System.Drawing.Point(5, 7);
+            this.btnPrepararTodos1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPrepararTodos1.Name = "btnPrepararTodos1";
-            this.btnPrepararTodos1.Size = new System.Drawing.Size(137, 25);
+            this.btnPrepararTodos1.Size = new System.Drawing.Size(183, 31);
             this.btnPrepararTodos1.TabIndex = 0;
             this.btnPrepararTodos1.Text = "Preparar Todos";
             this.btnPrepararTodos1.UseVisualStyleBackColor = false;
@@ -530,8 +547,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel2.Controls.Add(this.Panel7);
             this.Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel2.Location = new System.Drawing.Point(0, 0);
+            this.Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(377, 118);
+            this.Panel2.Size = new System.Drawing.Size(503, 145);
             this.Panel2.TabIndex = 0;
             // 
             // Panel5
@@ -540,9 +558,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel5.Controls.Add(this.Panel10);
             this.Panel5.Controls.Add(this.Panel9);
             this.Panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel5.Location = new System.Drawing.Point(245, 0);
+            this.Panel5.Location = new System.Drawing.Point(327, 0);
+            this.Panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel5.Name = "Panel5";
-            this.Panel5.Size = new System.Drawing.Size(132, 118);
+            this.Panel5.Size = new System.Drawing.Size(176, 145);
             this.Panel5.TabIndex = 3;
             // 
             // btnNPedido1
@@ -557,9 +576,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnNPedido1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNPedido1.Font = new System.Drawing.Font("Segoe UI", 57F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNPedido1.ForeColor = System.Drawing.Color.White;
-            this.btnNPedido1.Location = new System.Drawing.Point(0, 10);
+            this.btnNPedido1.Location = new System.Drawing.Point(0, 12);
+            this.btnNPedido1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNPedido1.Name = "btnNPedido1";
-            this.btnNPedido1.Size = new System.Drawing.Size(122, 108);
+            this.btnNPedido1.Size = new System.Drawing.Size(163, 133);
             this.btnNPedido1.TabIndex = 636;
             this.btnNPedido1.Text = "1";
             this.btnNPedido1.UseVisualStyleBackColor = false;
@@ -567,17 +587,19 @@ namespace RestCsharp.Presentacion.Cocina
             // Panel10
             // 
             this.Panel10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Panel10.Location = new System.Drawing.Point(122, 10);
+            this.Panel10.Location = new System.Drawing.Point(163, 12);
+            this.Panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel10.Name = "Panel10";
-            this.Panel10.Size = new System.Drawing.Size(10, 108);
+            this.Panel10.Size = new System.Drawing.Size(13, 133);
             this.Panel10.TabIndex = 1;
             // 
             // Panel9
             // 
             this.Panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel9.Location = new System.Drawing.Point(0, 0);
+            this.Panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel9.Name = "Panel9";
-            this.Panel9.Size = new System.Drawing.Size(132, 10);
+            this.Panel9.Size = new System.Drawing.Size(176, 12);
             this.Panel9.TabIndex = 0;
             // 
             // Panel7
@@ -587,8 +609,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel7.Controls.Add(this.Panel3);
             this.Panel7.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel7.Location = new System.Drawing.Point(0, 0);
+            this.Panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel7.Name = "Panel7";
-            this.Panel7.Size = new System.Drawing.Size(245, 118);
+            this.Panel7.Size = new System.Drawing.Size(327, 145);
             this.Panel7.TabIndex = 560;
             // 
             // Panel8
@@ -597,9 +620,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel8.Controls.Add(this.lblfecha1);
             this.Panel8.Controls.Add(this.Panel13);
             this.Panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel8.Location = new System.Drawing.Point(0, 78);
+            this.Panel8.Location = new System.Drawing.Point(0, 96);
+            this.Panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel8.Name = "Panel8";
-            this.Panel8.Size = new System.Drawing.Size(245, 40);
+            this.Panel8.Size = new System.Drawing.Size(327, 49);
             this.Panel8.TabIndex = 3;
             // 
             // lblminutos1
@@ -607,9 +631,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblminutos1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblminutos1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblminutos1.ForeColor = System.Drawing.Color.White;
-            this.lblminutos1.Location = new System.Drawing.Point(89, 1);
+            this.lblminutos1.Location = new System.Drawing.Point(119, 1);
+            this.lblminutos1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblminutos1.Name = "lblminutos1";
-            this.lblminutos1.Size = new System.Drawing.Size(156, 39);
+            this.lblminutos1.Size = new System.Drawing.Size(208, 48);
             this.lblminutos1.TabIndex = 3;
             this.lblminutos1.Text = "15 minutos";
             this.lblminutos1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -620,8 +645,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblfecha1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfecha1.ForeColor = System.Drawing.Color.White;
             this.lblfecha1.Location = new System.Drawing.Point(0, 1);
+            this.lblfecha1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfecha1.Name = "lblfecha1";
-            this.lblfecha1.Size = new System.Drawing.Size(89, 39);
+            this.lblfecha1.Size = new System.Drawing.Size(119, 48);
             this.lblfecha1.TabIndex = 2;
             this.lblfecha1.Text = "(8:19 pm)";
             this.lblfecha1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -631,8 +657,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel13.Location = new System.Drawing.Point(0, 0);
+            this.Panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel13.Name = "Panel13";
-            this.Panel13.Size = new System.Drawing.Size(245, 1);
+            this.Panel13.Size = new System.Drawing.Size(327, 1);
             this.Panel13.TabIndex = 4;
             // 
             // Panel4
@@ -640,9 +667,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel4.Controls.Add(this.lblMozo1);
             this.Panel4.Controls.Add(this.Label3);
             this.Panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel4.Location = new System.Drawing.Point(0, 35);
+            this.Panel4.Location = new System.Drawing.Point(0, 43);
+            this.Panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel4.Name = "Panel4";
-            this.Panel4.Size = new System.Drawing.Size(245, 43);
+            this.Panel4.Size = new System.Drawing.Size(327, 53);
             this.Panel4.TabIndex = 2;
             // 
             // lblMozo1
@@ -650,9 +678,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblMozo1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblMozo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMozo1.ForeColor = System.Drawing.Color.White;
-            this.lblMozo1.Location = new System.Drawing.Point(69, 0);
+            this.lblMozo1.Location = new System.Drawing.Point(92, 0);
+            this.lblMozo1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMozo1.Name = "lblMozo1";
-            this.lblMozo1.Size = new System.Drawing.Size(176, 43);
+            this.lblMozo1.Size = new System.Drawing.Size(235, 53);
             this.lblMozo1.TabIndex = 3;
             this.lblMozo1.Text = "lblMozo";
             this.lblMozo1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -663,8 +692,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label3.ForeColor = System.Drawing.Color.White;
             this.Label3.Location = new System.Drawing.Point(0, 0);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(69, 43);
+            this.Label3.Size = new System.Drawing.Size(92, 53);
             this.Label3.TabIndex = 2;
             this.Label3.Text = "Mozo:";
             this.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -676,8 +706,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel3.Controls.Add(this.Panel12);
             this.Panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel3.Location = new System.Drawing.Point(0, 0);
+            this.Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel3.Name = "Panel3";
-            this.Panel3.Size = new System.Drawing.Size(245, 35);
+            this.Panel3.Size = new System.Drawing.Size(327, 43);
             this.Panel3.TabIndex = 1;
             // 
             // lblmesa1
@@ -685,9 +716,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblmesa1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblmesa1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmesa1.ForeColor = System.Drawing.Color.White;
-            this.lblmesa1.Location = new System.Drawing.Point(69, 0);
+            this.lblmesa1.Location = new System.Drawing.Point(92, 0);
+            this.lblmesa1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmesa1.Name = "lblmesa1";
-            this.lblmesa1.Size = new System.Drawing.Size(176, 34);
+            this.lblmesa1.Size = new System.Drawing.Size(235, 42);
             this.lblmesa1.TabIndex = 1;
             this.lblmesa1.Text = "lblmesa1";
             this.lblmesa1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -698,8 +730,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.etiquetamesa1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiquetamesa1.ForeColor = System.Drawing.Color.White;
             this.etiquetamesa1.Location = new System.Drawing.Point(0, 0);
+            this.etiquetamesa1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.etiquetamesa1.Name = "etiquetamesa1";
-            this.etiquetamesa1.Size = new System.Drawing.Size(69, 34);
+            this.etiquetamesa1.Size = new System.Drawing.Size(92, 42);
             this.etiquetamesa1.TabIndex = 0;
             this.etiquetamesa1.Text = "MESA:";
             this.etiquetamesa1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -708,9 +741,10 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Panel12.Location = new System.Drawing.Point(0, 34);
+            this.Panel12.Location = new System.Drawing.Point(0, 42);
+            this.Panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel12.Name = "Panel12";
-            this.Panel12.Size = new System.Drawing.Size(245, 1);
+            this.Panel12.Size = new System.Drawing.Size(327, 1);
             this.Panel12.TabIndex = 2;
             // 
             // P2
@@ -720,9 +754,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.P2.Controls.Add(this.panelm2);
             this.P2.Controls.Add(this.Panel14);
             this.P2.Controls.Add(this.Panel15);
-            this.P2.Location = new System.Drawing.Point(386, 3);
+            this.P2.Location = new System.Drawing.Point(515, 4);
+            this.P2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P2.Name = "P2";
-            this.P2.Size = new System.Drawing.Size(377, 335);
+            this.P2.Size = new System.Drawing.Size(503, 412);
             this.P2.TabIndex = 1;
             // 
             // datalistadoDetalledeventa2
@@ -756,7 +791,8 @@ namespace RestCsharp.Presentacion.Cocina
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.datalistadoDetalledeventa2.DefaultCellStyle = dataGridViewCellStyle5;
             this.datalistadoDetalledeventa2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datalistadoDetalledeventa2.Location = new System.Drawing.Point(0, 154);
+            this.datalistadoDetalledeventa2.Location = new System.Drawing.Point(0, 189);
+            this.datalistadoDetalledeventa2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistadoDetalledeventa2.Name = "datalistadoDetalledeventa2";
             this.datalistadoDetalledeventa2.ReadOnly = true;
             this.datalistadoDetalledeventa2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -776,7 +812,7 @@ namespace RestCsharp.Presentacion.Cocina
             this.datalistadoDetalledeventa2.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Transparent;
             this.datalistadoDetalledeventa2.RowTemplate.Height = 30;
             this.datalistadoDetalledeventa2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoDetalledeventa2.Size = new System.Drawing.Size(377, 142);
+            this.datalistadoDetalledeventa2.Size = new System.Drawing.Size(503, 175);
             this.datalistadoDetalledeventa2.TabIndex = 559;
             this.datalistadoDetalledeventa2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistadoDetalledeventa2_CellClick);
             // 
@@ -784,17 +820,21 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Accion2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Accion2.HeaderText = "";
+            this.Accion2.MinimumWidth = 6;
             this.Accion2.Name = "Accion2";
             this.Accion2.ReadOnly = true;
             this.Accion2.Text = "Preparar";
+            this.Accion2.Width = 125;
             // 
             // Volver2
             // 
             this.Volver2.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Volver2.HeaderText = "";
             this.Volver2.LinkColor = System.Drawing.Color.White;
+            this.Volver2.MinimumWidth = 6;
             this.Volver2.Name = "Volver2";
             this.Volver2.ReadOnly = true;
+            this.Volver2.Width = 125;
             // 
             // panelm2
             // 
@@ -802,9 +842,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.panelm2.Controls.Add(this.btnver2);
             this.panelm2.Controls.Add(this.label2);
             this.panelm2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelm2.Location = new System.Drawing.Point(0, 296);
+            this.panelm2.Location = new System.Drawing.Point(0, 364);
+            this.panelm2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelm2.Name = "panelm2";
-            this.panelm2.Size = new System.Drawing.Size(377, 39);
+            this.panelm2.Size = new System.Drawing.Size(503, 48);
             this.panelm2.TabIndex = 561;
             // 
             // btnver2
@@ -819,9 +860,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnver2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnver2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnver2.ForeColor = System.Drawing.Color.White;
-            this.btnver2.Location = new System.Drawing.Point(298, 0);
+            this.btnver2.Location = new System.Drawing.Point(397, 0);
+            this.btnver2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnver2.Name = "btnver2";
-            this.btnver2.Size = new System.Drawing.Size(79, 39);
+            this.btnver2.Size = new System.Drawing.Size(106, 48);
             this.btnver2.TabIndex = 637;
             this.btnver2.Text = "Ver";
             this.btnver2.UseVisualStyleBackColor = false;
@@ -833,8 +875,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(298, 39);
+            this.label2.Size = new System.Drawing.Size(397, 48);
             this.label2.TabIndex = 1;
             this.label2.Text = "!Hay nota!";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -844,9 +887,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel14.Controls.Add(this.btnDespacharTodos2);
             this.Panel14.Controls.Add(this.btnPrepararTodos2);
             this.Panel14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel14.Location = new System.Drawing.Point(0, 118);
+            this.Panel14.Location = new System.Drawing.Point(0, 145);
+            this.Panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel14.Name = "Panel14";
-            this.Panel14.Size = new System.Drawing.Size(377, 36);
+            this.Panel14.Size = new System.Drawing.Size(503, 44);
             this.Panel14.TabIndex = 1;
             // 
             // btnDespacharTodos2
@@ -856,9 +900,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnDespacharTodos2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDespacharTodos2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDespacharTodos2.ForeColor = System.Drawing.Color.White;
-            this.btnDespacharTodos2.Location = new System.Drawing.Point(147, 6);
+            this.btnDespacharTodos2.Location = new System.Drawing.Point(196, 7);
+            this.btnDespacharTodos2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDespacharTodos2.Name = "btnDespacharTodos2";
-            this.btnDespacharTodos2.Size = new System.Drawing.Size(151, 25);
+            this.btnDespacharTodos2.Size = new System.Drawing.Size(201, 31);
             this.btnDespacharTodos2.TabIndex = 0;
             this.btnDespacharTodos2.Text = "Despachar Todos";
             this.btnDespacharTodos2.UseVisualStyleBackColor = false;
@@ -871,9 +916,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnPrepararTodos2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrepararTodos2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrepararTodos2.ForeColor = System.Drawing.Color.White;
-            this.btnPrepararTodos2.Location = new System.Drawing.Point(4, 6);
+            this.btnPrepararTodos2.Location = new System.Drawing.Point(5, 7);
+            this.btnPrepararTodos2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPrepararTodos2.Name = "btnPrepararTodos2";
-            this.btnPrepararTodos2.Size = new System.Drawing.Size(137, 25);
+            this.btnPrepararTodos2.Size = new System.Drawing.Size(183, 31);
             this.btnPrepararTodos2.TabIndex = 0;
             this.btnPrepararTodos2.Text = "Preparar Todos";
             this.btnPrepararTodos2.UseVisualStyleBackColor = false;
@@ -885,8 +931,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel15.Controls.Add(this.Panel19);
             this.Panel15.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel15.Location = new System.Drawing.Point(0, 0);
+            this.Panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel15.Name = "Panel15";
-            this.Panel15.Size = new System.Drawing.Size(377, 118);
+            this.Panel15.Size = new System.Drawing.Size(503, 145);
             this.Panel15.TabIndex = 0;
             // 
             // Panel16
@@ -895,9 +942,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel16.Controls.Add(this.Panel17);
             this.Panel16.Controls.Add(this.Panel18);
             this.Panel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel16.Location = new System.Drawing.Point(245, 0);
+            this.Panel16.Location = new System.Drawing.Point(327, 0);
+            this.Panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel16.Name = "Panel16";
-            this.Panel16.Size = new System.Drawing.Size(132, 118);
+            this.Panel16.Size = new System.Drawing.Size(176, 145);
             this.Panel16.TabIndex = 3;
             // 
             // btnNPedido2
@@ -912,9 +960,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnNPedido2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNPedido2.Font = new System.Drawing.Font("Segoe UI", 57F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNPedido2.ForeColor = System.Drawing.Color.White;
-            this.btnNPedido2.Location = new System.Drawing.Point(0, 10);
+            this.btnNPedido2.Location = new System.Drawing.Point(0, 12);
+            this.btnNPedido2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNPedido2.Name = "btnNPedido2";
-            this.btnNPedido2.Size = new System.Drawing.Size(122, 108);
+            this.btnNPedido2.Size = new System.Drawing.Size(163, 133);
             this.btnNPedido2.TabIndex = 637;
             this.btnNPedido2.Text = "2";
             this.btnNPedido2.UseVisualStyleBackColor = false;
@@ -922,17 +971,19 @@ namespace RestCsharp.Presentacion.Cocina
             // Panel17
             // 
             this.Panel17.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Panel17.Location = new System.Drawing.Point(122, 10);
+            this.Panel17.Location = new System.Drawing.Point(163, 12);
+            this.Panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel17.Name = "Panel17";
-            this.Panel17.Size = new System.Drawing.Size(10, 108);
+            this.Panel17.Size = new System.Drawing.Size(13, 133);
             this.Panel17.TabIndex = 1;
             // 
             // Panel18
             // 
             this.Panel18.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel18.Location = new System.Drawing.Point(0, 0);
+            this.Panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel18.Name = "Panel18";
-            this.Panel18.Size = new System.Drawing.Size(132, 10);
+            this.Panel18.Size = new System.Drawing.Size(176, 12);
             this.Panel18.TabIndex = 0;
             // 
             // Panel19
@@ -942,8 +993,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel19.Controls.Add(this.Panel23);
             this.Panel19.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel19.Location = new System.Drawing.Point(0, 0);
+            this.Panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel19.Name = "Panel19";
-            this.Panel19.Size = new System.Drawing.Size(245, 118);
+            this.Panel19.Size = new System.Drawing.Size(327, 145);
             this.Panel19.TabIndex = 560;
             // 
             // Panel20
@@ -952,9 +1004,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel20.Controls.Add(this.lblfecha2);
             this.Panel20.Controls.Add(this.Panel21);
             this.Panel20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel20.Location = new System.Drawing.Point(0, 78);
+            this.Panel20.Location = new System.Drawing.Point(0, 96);
+            this.Panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel20.Name = "Panel20";
-            this.Panel20.Size = new System.Drawing.Size(245, 40);
+            this.Panel20.Size = new System.Drawing.Size(327, 49);
             this.Panel20.TabIndex = 3;
             // 
             // lblminutos2
@@ -962,9 +1015,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblminutos2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblminutos2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblminutos2.ForeColor = System.Drawing.Color.White;
-            this.lblminutos2.Location = new System.Drawing.Point(89, 1);
+            this.lblminutos2.Location = new System.Drawing.Point(119, 1);
+            this.lblminutos2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblminutos2.Name = "lblminutos2";
-            this.lblminutos2.Size = new System.Drawing.Size(156, 39);
+            this.lblminutos2.Size = new System.Drawing.Size(208, 48);
             this.lblminutos2.TabIndex = 3;
             this.lblminutos2.Text = "15 minutos";
             this.lblminutos2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -975,8 +1029,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblfecha2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfecha2.ForeColor = System.Drawing.Color.White;
             this.lblfecha2.Location = new System.Drawing.Point(0, 1);
+            this.lblfecha2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfecha2.Name = "lblfecha2";
-            this.lblfecha2.Size = new System.Drawing.Size(89, 39);
+            this.lblfecha2.Size = new System.Drawing.Size(119, 48);
             this.lblfecha2.TabIndex = 2;
             this.lblfecha2.Text = "(8:19 pm)";
             this.lblfecha2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -986,8 +1041,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel21.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel21.Location = new System.Drawing.Point(0, 0);
+            this.Panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel21.Name = "Panel21";
-            this.Panel21.Size = new System.Drawing.Size(245, 1);
+            this.Panel21.Size = new System.Drawing.Size(327, 1);
             this.Panel21.TabIndex = 4;
             // 
             // Panel22
@@ -995,9 +1051,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel22.Controls.Add(this.lblMozo2);
             this.Panel22.Controls.Add(this.Label8);
             this.Panel22.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel22.Location = new System.Drawing.Point(0, 35);
+            this.Panel22.Location = new System.Drawing.Point(0, 43);
+            this.Panel22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel22.Name = "Panel22";
-            this.Panel22.Size = new System.Drawing.Size(245, 43);
+            this.Panel22.Size = new System.Drawing.Size(327, 53);
             this.Panel22.TabIndex = 2;
             // 
             // lblMozo2
@@ -1005,9 +1062,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblMozo2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblMozo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMozo2.ForeColor = System.Drawing.Color.White;
-            this.lblMozo2.Location = new System.Drawing.Point(69, 0);
+            this.lblMozo2.Location = new System.Drawing.Point(92, 0);
+            this.lblMozo2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMozo2.Name = "lblMozo2";
-            this.lblMozo2.Size = new System.Drawing.Size(176, 43);
+            this.lblMozo2.Size = new System.Drawing.Size(235, 53);
             this.lblMozo2.TabIndex = 3;
             this.lblMozo2.Text = "lblMozo2";
             this.lblMozo2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1018,8 +1076,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label8.ForeColor = System.Drawing.Color.White;
             this.Label8.Location = new System.Drawing.Point(0, 0);
+            this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
-            this.Label8.Size = new System.Drawing.Size(69, 43);
+            this.Label8.Size = new System.Drawing.Size(92, 53);
             this.Label8.TabIndex = 2;
             this.Label8.Text = "Mozo:";
             this.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1031,8 +1090,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel23.Controls.Add(this.Panel24);
             this.Panel23.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel23.Location = new System.Drawing.Point(0, 0);
+            this.Panel23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel23.Name = "Panel23";
-            this.Panel23.Size = new System.Drawing.Size(245, 35);
+            this.Panel23.Size = new System.Drawing.Size(327, 43);
             this.Panel23.TabIndex = 1;
             // 
             // lblmesa2
@@ -1040,9 +1100,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblmesa2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblmesa2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmesa2.ForeColor = System.Drawing.Color.White;
-            this.lblmesa2.Location = new System.Drawing.Point(69, 0);
+            this.lblmesa2.Location = new System.Drawing.Point(92, 0);
+            this.lblmesa2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmesa2.Name = "lblmesa2";
-            this.lblmesa2.Size = new System.Drawing.Size(176, 34);
+            this.lblmesa2.Size = new System.Drawing.Size(235, 42);
             this.lblmesa2.TabIndex = 1;
             this.lblmesa2.Text = "lblmesa2";
             this.lblmesa2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1053,8 +1114,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.etiquetamesa2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiquetamesa2.ForeColor = System.Drawing.Color.White;
             this.etiquetamesa2.Location = new System.Drawing.Point(0, 0);
+            this.etiquetamesa2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.etiquetamesa2.Name = "etiquetamesa2";
-            this.etiquetamesa2.Size = new System.Drawing.Size(69, 34);
+            this.etiquetamesa2.Size = new System.Drawing.Size(92, 42);
             this.etiquetamesa2.TabIndex = 0;
             this.etiquetamesa2.Text = "MESA:";
             this.etiquetamesa2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1063,9 +1125,10 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel24.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Panel24.Location = new System.Drawing.Point(0, 34);
+            this.Panel24.Location = new System.Drawing.Point(0, 42);
+            this.Panel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel24.Name = "Panel24";
-            this.Panel24.Size = new System.Drawing.Size(245, 1);
+            this.Panel24.Size = new System.Drawing.Size(327, 1);
             this.Panel24.TabIndex = 2;
             // 
             // P3
@@ -1075,9 +1138,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.P3.Controls.Add(this.panelm3);
             this.P3.Controls.Add(this.Panel25);
             this.P3.Controls.Add(this.Panel26);
-            this.P3.Location = new System.Drawing.Point(769, 3);
+            this.P3.Location = new System.Drawing.Point(1026, 4);
+            this.P3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P3.Name = "P3";
-            this.P3.Size = new System.Drawing.Size(377, 335);
+            this.P3.Size = new System.Drawing.Size(503, 412);
             this.P3.TabIndex = 2;
             // 
             // datalistadoDetalledeventa3
@@ -1110,7 +1174,8 @@ namespace RestCsharp.Presentacion.Cocina
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.datalistadoDetalledeventa3.DefaultCellStyle = dataGridViewCellStyle8;
             this.datalistadoDetalledeventa3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datalistadoDetalledeventa3.Location = new System.Drawing.Point(0, 154);
+            this.datalistadoDetalledeventa3.Location = new System.Drawing.Point(0, 189);
+            this.datalistadoDetalledeventa3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistadoDetalledeventa3.Name = "datalistadoDetalledeventa3";
             this.datalistadoDetalledeventa3.ReadOnly = true;
             this.datalistadoDetalledeventa3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -1130,7 +1195,7 @@ namespace RestCsharp.Presentacion.Cocina
             this.datalistadoDetalledeventa3.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Transparent;
             this.datalistadoDetalledeventa3.RowTemplate.Height = 30;
             this.datalistadoDetalledeventa3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoDetalledeventa3.Size = new System.Drawing.Size(377, 142);
+            this.datalistadoDetalledeventa3.Size = new System.Drawing.Size(503, 175);
             this.datalistadoDetalledeventa3.TabIndex = 559;
             this.datalistadoDetalledeventa3.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistadoDetalledeventa3_CellClick);
             // 
@@ -1138,17 +1203,21 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Accion3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Accion3.HeaderText = "";
+            this.Accion3.MinimumWidth = 6;
             this.Accion3.Name = "Accion3";
             this.Accion3.ReadOnly = true;
             this.Accion3.Text = "Preparar";
+            this.Accion3.Width = 125;
             // 
             // Volver3
             // 
             this.Volver3.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Volver3.HeaderText = "";
             this.Volver3.LinkColor = System.Drawing.Color.White;
+            this.Volver3.MinimumWidth = 6;
             this.Volver3.Name = "Volver3";
             this.Volver3.ReadOnly = true;
+            this.Volver3.Width = 125;
             // 
             // panelm3
             // 
@@ -1156,9 +1225,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.panelm3.Controls.Add(this.btnver3);
             this.panelm3.Controls.Add(this.label4);
             this.panelm3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelm3.Location = new System.Drawing.Point(0, 296);
+            this.panelm3.Location = new System.Drawing.Point(0, 364);
+            this.panelm3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelm3.Name = "panelm3";
-            this.panelm3.Size = new System.Drawing.Size(377, 39);
+            this.panelm3.Size = new System.Drawing.Size(503, 48);
             this.panelm3.TabIndex = 561;
             // 
             // btnver3
@@ -1173,9 +1243,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnver3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnver3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnver3.ForeColor = System.Drawing.Color.White;
-            this.btnver3.Location = new System.Drawing.Point(298, 0);
+            this.btnver3.Location = new System.Drawing.Point(397, 0);
+            this.btnver3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnver3.Name = "btnver3";
-            this.btnver3.Size = new System.Drawing.Size(79, 39);
+            this.btnver3.Size = new System.Drawing.Size(106, 48);
             this.btnver3.TabIndex = 637;
             this.btnver3.Text = "Ver";
             this.btnver3.UseVisualStyleBackColor = false;
@@ -1187,8 +1258,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(298, 39);
+            this.label4.Size = new System.Drawing.Size(397, 48);
             this.label4.TabIndex = 1;
             this.label4.Text = "!Hay nota!";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1198,9 +1270,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel25.Controls.Add(this.Button1);
             this.Panel25.Controls.Add(this.Button2);
             this.Panel25.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel25.Location = new System.Drawing.Point(0, 118);
+            this.Panel25.Location = new System.Drawing.Point(0, 145);
+            this.Panel25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel25.Name = "Panel25";
-            this.Panel25.Size = new System.Drawing.Size(377, 36);
+            this.Panel25.Size = new System.Drawing.Size(503, 44);
             this.Panel25.TabIndex = 1;
             // 
             // Button1
@@ -1210,9 +1283,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.ForeColor = System.Drawing.Color.White;
-            this.Button1.Location = new System.Drawing.Point(147, 6);
+            this.Button1.Location = new System.Drawing.Point(196, 7);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(151, 25);
+            this.Button1.Size = new System.Drawing.Size(201, 31);
             this.Button1.TabIndex = 0;
             this.Button1.Text = "Despachar Todos";
             this.Button1.UseVisualStyleBackColor = false;
@@ -1225,9 +1299,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button2.ForeColor = System.Drawing.Color.White;
-            this.Button2.Location = new System.Drawing.Point(4, 6);
+            this.Button2.Location = new System.Drawing.Point(5, 7);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(137, 25);
+            this.Button2.Size = new System.Drawing.Size(183, 31);
             this.Button2.TabIndex = 0;
             this.Button2.Text = "Preparar Todos";
             this.Button2.UseVisualStyleBackColor = false;
@@ -1239,8 +1314,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel26.Controls.Add(this.Panel30);
             this.Panel26.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel26.Location = new System.Drawing.Point(0, 0);
+            this.Panel26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel26.Name = "Panel26";
-            this.Panel26.Size = new System.Drawing.Size(377, 118);
+            this.Panel26.Size = new System.Drawing.Size(503, 145);
             this.Panel26.TabIndex = 0;
             // 
             // Panel27
@@ -1249,9 +1325,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel27.Controls.Add(this.Panel28);
             this.Panel27.Controls.Add(this.Panel29);
             this.Panel27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel27.Location = new System.Drawing.Point(245, 0);
+            this.Panel27.Location = new System.Drawing.Point(327, 0);
+            this.Panel27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel27.Name = "Panel27";
-            this.Panel27.Size = new System.Drawing.Size(132, 118);
+            this.Panel27.Size = new System.Drawing.Size(176, 145);
             this.Panel27.TabIndex = 3;
             // 
             // btnNPedido3
@@ -1266,9 +1343,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnNPedido3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNPedido3.Font = new System.Drawing.Font("Segoe UI", 57F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNPedido3.ForeColor = System.Drawing.Color.White;
-            this.btnNPedido3.Location = new System.Drawing.Point(0, 10);
+            this.btnNPedido3.Location = new System.Drawing.Point(0, 12);
+            this.btnNPedido3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNPedido3.Name = "btnNPedido3";
-            this.btnNPedido3.Size = new System.Drawing.Size(122, 108);
+            this.btnNPedido3.Size = new System.Drawing.Size(163, 133);
             this.btnNPedido3.TabIndex = 636;
             this.btnNPedido3.Text = "3";
             this.btnNPedido3.UseVisualStyleBackColor = false;
@@ -1276,17 +1354,19 @@ namespace RestCsharp.Presentacion.Cocina
             // Panel28
             // 
             this.Panel28.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Panel28.Location = new System.Drawing.Point(122, 10);
+            this.Panel28.Location = new System.Drawing.Point(163, 12);
+            this.Panel28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel28.Name = "Panel28";
-            this.Panel28.Size = new System.Drawing.Size(10, 108);
+            this.Panel28.Size = new System.Drawing.Size(13, 133);
             this.Panel28.TabIndex = 1;
             // 
             // Panel29
             // 
             this.Panel29.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel29.Location = new System.Drawing.Point(0, 0);
+            this.Panel29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel29.Name = "Panel29";
-            this.Panel29.Size = new System.Drawing.Size(132, 10);
+            this.Panel29.Size = new System.Drawing.Size(176, 12);
             this.Panel29.TabIndex = 0;
             // 
             // Panel30
@@ -1296,8 +1376,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel30.Controls.Add(this.Panel34);
             this.Panel30.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel30.Location = new System.Drawing.Point(0, 0);
+            this.Panel30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel30.Name = "Panel30";
-            this.Panel30.Size = new System.Drawing.Size(245, 118);
+            this.Panel30.Size = new System.Drawing.Size(327, 145);
             this.Panel30.TabIndex = 560;
             // 
             // Panel31
@@ -1306,9 +1387,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel31.Controls.Add(this.lblfecha3);
             this.Panel31.Controls.Add(this.Panel32);
             this.Panel31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel31.Location = new System.Drawing.Point(0, 78);
+            this.Panel31.Location = new System.Drawing.Point(0, 96);
+            this.Panel31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel31.Name = "Panel31";
-            this.Panel31.Size = new System.Drawing.Size(245, 40);
+            this.Panel31.Size = new System.Drawing.Size(327, 49);
             this.Panel31.TabIndex = 3;
             // 
             // lblminutos3
@@ -1316,9 +1398,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblminutos3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblminutos3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblminutos3.ForeColor = System.Drawing.Color.White;
-            this.lblminutos3.Location = new System.Drawing.Point(89, 1);
+            this.lblminutos3.Location = new System.Drawing.Point(119, 1);
+            this.lblminutos3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblminutos3.Name = "lblminutos3";
-            this.lblminutos3.Size = new System.Drawing.Size(156, 39);
+            this.lblminutos3.Size = new System.Drawing.Size(208, 48);
             this.lblminutos3.TabIndex = 3;
             this.lblminutos3.Text = "15 minutos";
             this.lblminutos3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1329,8 +1412,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblfecha3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfecha3.ForeColor = System.Drawing.Color.White;
             this.lblfecha3.Location = new System.Drawing.Point(0, 1);
+            this.lblfecha3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfecha3.Name = "lblfecha3";
-            this.lblfecha3.Size = new System.Drawing.Size(89, 39);
+            this.lblfecha3.Size = new System.Drawing.Size(119, 48);
             this.lblfecha3.TabIndex = 2;
             this.lblfecha3.Text = "(8:19 pm)";
             this.lblfecha3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1340,8 +1424,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel32.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel32.Location = new System.Drawing.Point(0, 0);
+            this.Panel32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel32.Name = "Panel32";
-            this.Panel32.Size = new System.Drawing.Size(245, 1);
+            this.Panel32.Size = new System.Drawing.Size(327, 1);
             this.Panel32.TabIndex = 4;
             // 
             // Panel33
@@ -1349,9 +1434,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel33.Controls.Add(this.lblMozo3);
             this.Panel33.Controls.Add(this.Label5);
             this.Panel33.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel33.Location = new System.Drawing.Point(0, 35);
+            this.Panel33.Location = new System.Drawing.Point(0, 43);
+            this.Panel33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel33.Name = "Panel33";
-            this.Panel33.Size = new System.Drawing.Size(245, 43);
+            this.Panel33.Size = new System.Drawing.Size(327, 53);
             this.Panel33.TabIndex = 2;
             // 
             // lblMozo3
@@ -1359,9 +1445,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblMozo3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblMozo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMozo3.ForeColor = System.Drawing.Color.White;
-            this.lblMozo3.Location = new System.Drawing.Point(69, 0);
+            this.lblMozo3.Location = new System.Drawing.Point(92, 0);
+            this.lblMozo3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMozo3.Name = "lblMozo3";
-            this.lblMozo3.Size = new System.Drawing.Size(176, 43);
+            this.lblMozo3.Size = new System.Drawing.Size(235, 53);
             this.lblMozo3.TabIndex = 3;
             this.lblMozo3.Text = "lblMozo";
             this.lblMozo3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1372,8 +1459,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label5.ForeColor = System.Drawing.Color.White;
             this.Label5.Location = new System.Drawing.Point(0, 0);
+            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(69, 43);
+            this.Label5.Size = new System.Drawing.Size(92, 53);
             this.Label5.TabIndex = 2;
             this.Label5.Text = "Mozo:";
             this.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1385,8 +1473,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel34.Controls.Add(this.Panel35);
             this.Panel34.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel34.Location = new System.Drawing.Point(0, 0);
+            this.Panel34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel34.Name = "Panel34";
-            this.Panel34.Size = new System.Drawing.Size(245, 35);
+            this.Panel34.Size = new System.Drawing.Size(327, 43);
             this.Panel34.TabIndex = 1;
             // 
             // lblmesa3
@@ -1394,9 +1483,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblmesa3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblmesa3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmesa3.ForeColor = System.Drawing.Color.White;
-            this.lblmesa3.Location = new System.Drawing.Point(69, 0);
+            this.lblmesa3.Location = new System.Drawing.Point(92, 0);
+            this.lblmesa3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmesa3.Name = "lblmesa3";
-            this.lblmesa3.Size = new System.Drawing.Size(176, 34);
+            this.lblmesa3.Size = new System.Drawing.Size(235, 42);
             this.lblmesa3.TabIndex = 1;
             this.lblmesa3.Text = "Label6";
             this.lblmesa3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1407,8 +1497,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.etiquetamesa3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiquetamesa3.ForeColor = System.Drawing.Color.White;
             this.etiquetamesa3.Location = new System.Drawing.Point(0, 0);
+            this.etiquetamesa3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.etiquetamesa3.Name = "etiquetamesa3";
-            this.etiquetamesa3.Size = new System.Drawing.Size(69, 34);
+            this.etiquetamesa3.Size = new System.Drawing.Size(92, 42);
             this.etiquetamesa3.TabIndex = 0;
             this.etiquetamesa3.Text = "MESA:";
             this.etiquetamesa3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1417,9 +1508,10 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Panel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel35.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Panel35.Location = new System.Drawing.Point(0, 34);
+            this.Panel35.Location = new System.Drawing.Point(0, 42);
+            this.Panel35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel35.Name = "Panel35";
-            this.Panel35.Size = new System.Drawing.Size(245, 1);
+            this.Panel35.Size = new System.Drawing.Size(327, 1);
             this.Panel35.TabIndex = 2;
             // 
             // P4
@@ -1429,9 +1521,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.P4.Controls.Add(this.panelm4);
             this.P4.Controls.Add(this.Panel37);
             this.P4.Controls.Add(this.Panel38);
-            this.P4.Location = new System.Drawing.Point(3, 344);
+            this.P4.Location = new System.Drawing.Point(4, 424);
+            this.P4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P4.Name = "P4";
-            this.P4.Size = new System.Drawing.Size(377, 335);
+            this.P4.Size = new System.Drawing.Size(503, 412);
             this.P4.TabIndex = 3;
             // 
             // datalistadoDetalledeventa4
@@ -1464,7 +1557,8 @@ namespace RestCsharp.Presentacion.Cocina
             dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.datalistadoDetalledeventa4.DefaultCellStyle = dataGridViewCellStyle11;
             this.datalistadoDetalledeventa4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datalistadoDetalledeventa4.Location = new System.Drawing.Point(0, 154);
+            this.datalistadoDetalledeventa4.Location = new System.Drawing.Point(0, 189);
+            this.datalistadoDetalledeventa4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistadoDetalledeventa4.Name = "datalistadoDetalledeventa4";
             this.datalistadoDetalledeventa4.ReadOnly = true;
             this.datalistadoDetalledeventa4.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -1484,7 +1578,7 @@ namespace RestCsharp.Presentacion.Cocina
             this.datalistadoDetalledeventa4.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Transparent;
             this.datalistadoDetalledeventa4.RowTemplate.Height = 30;
             this.datalistadoDetalledeventa4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoDetalledeventa4.Size = new System.Drawing.Size(377, 142);
+            this.datalistadoDetalledeventa4.Size = new System.Drawing.Size(503, 175);
             this.datalistadoDetalledeventa4.TabIndex = 559;
             this.datalistadoDetalledeventa4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistadoDetalledeventa4_CellClick);
             // 
@@ -1492,17 +1586,21 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Accion4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Accion4.HeaderText = "";
+            this.Accion4.MinimumWidth = 6;
             this.Accion4.Name = "Accion4";
             this.Accion4.ReadOnly = true;
             this.Accion4.Text = "Preparar";
+            this.Accion4.Width = 125;
             // 
             // Volver4
             // 
             this.Volver4.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Volver4.HeaderText = "";
             this.Volver4.LinkColor = System.Drawing.Color.White;
+            this.Volver4.MinimumWidth = 6;
             this.Volver4.Name = "Volver4";
             this.Volver4.ReadOnly = true;
+            this.Volver4.Width = 125;
             // 
             // panelm4
             // 
@@ -1510,9 +1608,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.panelm4.Controls.Add(this.btnver4);
             this.panelm4.Controls.Add(this.label9);
             this.panelm4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelm4.Location = new System.Drawing.Point(0, 296);
+            this.panelm4.Location = new System.Drawing.Point(0, 364);
+            this.panelm4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelm4.Name = "panelm4";
-            this.panelm4.Size = new System.Drawing.Size(377, 39);
+            this.panelm4.Size = new System.Drawing.Size(503, 48);
             this.panelm4.TabIndex = 561;
             // 
             // btnver4
@@ -1527,9 +1626,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnver4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnver4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnver4.ForeColor = System.Drawing.Color.White;
-            this.btnver4.Location = new System.Drawing.Point(298, 0);
+            this.btnver4.Location = new System.Drawing.Point(397, 0);
+            this.btnver4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnver4.Name = "btnver4";
-            this.btnver4.Size = new System.Drawing.Size(79, 39);
+            this.btnver4.Size = new System.Drawing.Size(106, 48);
             this.btnver4.TabIndex = 637;
             this.btnver4.Text = "Ver";
             this.btnver4.UseVisualStyleBackColor = false;
@@ -1541,8 +1641,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label9.Location = new System.Drawing.Point(0, 0);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(298, 39);
+            this.label9.Size = new System.Drawing.Size(397, 48);
             this.label9.TabIndex = 1;
             this.label9.Text = "!Hay nota!";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1552,9 +1653,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel37.Controls.Add(this.Button4);
             this.Panel37.Controls.Add(this.Button5);
             this.Panel37.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel37.Location = new System.Drawing.Point(0, 118);
+            this.Panel37.Location = new System.Drawing.Point(0, 145);
+            this.Panel37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel37.Name = "Panel37";
-            this.Panel37.Size = new System.Drawing.Size(377, 36);
+            this.Panel37.Size = new System.Drawing.Size(503, 44);
             this.Panel37.TabIndex = 1;
             // 
             // Button4
@@ -1564,9 +1666,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button4.ForeColor = System.Drawing.Color.White;
-            this.Button4.Location = new System.Drawing.Point(147, 6);
+            this.Button4.Location = new System.Drawing.Point(196, 7);
+            this.Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button4.Name = "Button4";
-            this.Button4.Size = new System.Drawing.Size(151, 25);
+            this.Button4.Size = new System.Drawing.Size(201, 31);
             this.Button4.TabIndex = 0;
             this.Button4.Text = "Despachar Todos";
             this.Button4.UseVisualStyleBackColor = false;
@@ -1579,9 +1682,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button5.ForeColor = System.Drawing.Color.White;
-            this.Button5.Location = new System.Drawing.Point(4, 6);
+            this.Button5.Location = new System.Drawing.Point(5, 7);
+            this.Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button5.Name = "Button5";
-            this.Button5.Size = new System.Drawing.Size(137, 25);
+            this.Button5.Size = new System.Drawing.Size(183, 31);
             this.Button5.TabIndex = 0;
             this.Button5.Text = "Preparar Todos";
             this.Button5.UseVisualStyleBackColor = false;
@@ -1593,8 +1697,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel38.Controls.Add(this.Panel42);
             this.Panel38.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel38.Location = new System.Drawing.Point(0, 0);
+            this.Panel38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel38.Name = "Panel38";
-            this.Panel38.Size = new System.Drawing.Size(377, 118);
+            this.Panel38.Size = new System.Drawing.Size(503, 145);
             this.Panel38.TabIndex = 0;
             // 
             // Panel39
@@ -1603,9 +1708,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel39.Controls.Add(this.Panel40);
             this.Panel39.Controls.Add(this.Panel41);
             this.Panel39.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel39.Location = new System.Drawing.Point(245, 0);
+            this.Panel39.Location = new System.Drawing.Point(327, 0);
+            this.Panel39.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel39.Name = "Panel39";
-            this.Panel39.Size = new System.Drawing.Size(132, 118);
+            this.Panel39.Size = new System.Drawing.Size(176, 145);
             this.Panel39.TabIndex = 3;
             // 
             // btnNPedido4
@@ -1620,9 +1726,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnNPedido4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNPedido4.Font = new System.Drawing.Font("Segoe UI", 57F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNPedido4.ForeColor = System.Drawing.Color.White;
-            this.btnNPedido4.Location = new System.Drawing.Point(0, 10);
+            this.btnNPedido4.Location = new System.Drawing.Point(0, 12);
+            this.btnNPedido4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNPedido4.Name = "btnNPedido4";
-            this.btnNPedido4.Size = new System.Drawing.Size(122, 108);
+            this.btnNPedido4.Size = new System.Drawing.Size(163, 133);
             this.btnNPedido4.TabIndex = 637;
             this.btnNPedido4.Text = "4";
             this.btnNPedido4.UseVisualStyleBackColor = false;
@@ -1630,17 +1737,19 @@ namespace RestCsharp.Presentacion.Cocina
             // Panel40
             // 
             this.Panel40.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Panel40.Location = new System.Drawing.Point(122, 10);
+            this.Panel40.Location = new System.Drawing.Point(163, 12);
+            this.Panel40.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel40.Name = "Panel40";
-            this.Panel40.Size = new System.Drawing.Size(10, 108);
+            this.Panel40.Size = new System.Drawing.Size(13, 133);
             this.Panel40.TabIndex = 1;
             // 
             // Panel41
             // 
             this.Panel41.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel41.Location = new System.Drawing.Point(0, 0);
+            this.Panel41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel41.Name = "Panel41";
-            this.Panel41.Size = new System.Drawing.Size(132, 10);
+            this.Panel41.Size = new System.Drawing.Size(176, 12);
             this.Panel41.TabIndex = 0;
             // 
             // Panel42
@@ -1650,8 +1759,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel42.Controls.Add(this.Panel46);
             this.Panel42.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel42.Location = new System.Drawing.Point(0, 0);
+            this.Panel42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel42.Name = "Panel42";
-            this.Panel42.Size = new System.Drawing.Size(245, 118);
+            this.Panel42.Size = new System.Drawing.Size(327, 145);
             this.Panel42.TabIndex = 560;
             // 
             // Panel43
@@ -1660,9 +1770,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel43.Controls.Add(this.lblfecha4);
             this.Panel43.Controls.Add(this.Panel44);
             this.Panel43.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel43.Location = new System.Drawing.Point(0, 78);
+            this.Panel43.Location = new System.Drawing.Point(0, 96);
+            this.Panel43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel43.Name = "Panel43";
-            this.Panel43.Size = new System.Drawing.Size(245, 40);
+            this.Panel43.Size = new System.Drawing.Size(327, 49);
             this.Panel43.TabIndex = 3;
             // 
             // lblminutos4
@@ -1670,9 +1781,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblminutos4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblminutos4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblminutos4.ForeColor = System.Drawing.Color.White;
-            this.lblminutos4.Location = new System.Drawing.Point(89, 1);
+            this.lblminutos4.Location = new System.Drawing.Point(119, 1);
+            this.lblminutos4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblminutos4.Name = "lblminutos4";
-            this.lblminutos4.Size = new System.Drawing.Size(156, 39);
+            this.lblminutos4.Size = new System.Drawing.Size(208, 48);
             this.lblminutos4.TabIndex = 3;
             this.lblminutos4.Text = "15 minutos";
             this.lblminutos4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1683,8 +1795,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblfecha4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfecha4.ForeColor = System.Drawing.Color.White;
             this.lblfecha4.Location = new System.Drawing.Point(0, 1);
+            this.lblfecha4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfecha4.Name = "lblfecha4";
-            this.lblfecha4.Size = new System.Drawing.Size(89, 39);
+            this.lblfecha4.Size = new System.Drawing.Size(119, 48);
             this.lblfecha4.TabIndex = 2;
             this.lblfecha4.Text = "(8:19 pm)";
             this.lblfecha4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1694,8 +1807,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel44.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel44.Location = new System.Drawing.Point(0, 0);
+            this.Panel44.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel44.Name = "Panel44";
-            this.Panel44.Size = new System.Drawing.Size(245, 1);
+            this.Panel44.Size = new System.Drawing.Size(327, 1);
             this.Panel44.TabIndex = 4;
             // 
             // Panel45
@@ -1703,9 +1817,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel45.Controls.Add(this.lblMozo4);
             this.Panel45.Controls.Add(this.Label13);
             this.Panel45.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel45.Location = new System.Drawing.Point(0, 35);
+            this.Panel45.Location = new System.Drawing.Point(0, 43);
+            this.Panel45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel45.Name = "Panel45";
-            this.Panel45.Size = new System.Drawing.Size(245, 43);
+            this.Panel45.Size = new System.Drawing.Size(327, 53);
             this.Panel45.TabIndex = 2;
             // 
             // lblMozo4
@@ -1713,9 +1828,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblMozo4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblMozo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMozo4.ForeColor = System.Drawing.Color.White;
-            this.lblMozo4.Location = new System.Drawing.Point(69, 0);
+            this.lblMozo4.Location = new System.Drawing.Point(92, 0);
+            this.lblMozo4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMozo4.Name = "lblMozo4";
-            this.lblMozo4.Size = new System.Drawing.Size(176, 43);
+            this.lblMozo4.Size = new System.Drawing.Size(235, 53);
             this.lblMozo4.TabIndex = 3;
             this.lblMozo4.Text = "Label12";
             this.lblMozo4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1726,8 +1842,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label13.ForeColor = System.Drawing.Color.White;
             this.Label13.Location = new System.Drawing.Point(0, 0);
+            this.Label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(69, 43);
+            this.Label13.Size = new System.Drawing.Size(92, 53);
             this.Label13.TabIndex = 2;
             this.Label13.Text = "Mozo:";
             this.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1739,8 +1856,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel46.Controls.Add(this.Panel47);
             this.Panel46.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel46.Location = new System.Drawing.Point(0, 0);
+            this.Panel46.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel46.Name = "Panel46";
-            this.Panel46.Size = new System.Drawing.Size(245, 35);
+            this.Panel46.Size = new System.Drawing.Size(327, 43);
             this.Panel46.TabIndex = 1;
             // 
             // lblmesa4
@@ -1748,9 +1866,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblmesa4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblmesa4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmesa4.ForeColor = System.Drawing.Color.White;
-            this.lblmesa4.Location = new System.Drawing.Point(69, 0);
+            this.lblmesa4.Location = new System.Drawing.Point(92, 0);
+            this.lblmesa4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmesa4.Name = "lblmesa4";
-            this.lblmesa4.Size = new System.Drawing.Size(176, 34);
+            this.lblmesa4.Size = new System.Drawing.Size(235, 42);
             this.lblmesa4.TabIndex = 1;
             this.lblmesa4.Text = "Label14";
             this.lblmesa4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1761,8 +1880,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.etiquetamesa4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiquetamesa4.ForeColor = System.Drawing.Color.White;
             this.etiquetamesa4.Location = new System.Drawing.Point(0, 0);
+            this.etiquetamesa4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.etiquetamesa4.Name = "etiquetamesa4";
-            this.etiquetamesa4.Size = new System.Drawing.Size(69, 34);
+            this.etiquetamesa4.Size = new System.Drawing.Size(92, 42);
             this.etiquetamesa4.TabIndex = 0;
             this.etiquetamesa4.Text = "MESA:";
             this.etiquetamesa4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1771,9 +1891,10 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Panel47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel47.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Panel47.Location = new System.Drawing.Point(0, 34);
+            this.Panel47.Location = new System.Drawing.Point(0, 42);
+            this.Panel47.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel47.Name = "Panel47";
-            this.Panel47.Size = new System.Drawing.Size(245, 1);
+            this.Panel47.Size = new System.Drawing.Size(327, 1);
             this.Panel47.TabIndex = 2;
             // 
             // P5
@@ -1783,9 +1904,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.P5.Controls.Add(this.panelm5);
             this.P5.Controls.Add(this.Panel49);
             this.P5.Controls.Add(this.Panel50);
-            this.P5.Location = new System.Drawing.Point(386, 344);
+            this.P5.Location = new System.Drawing.Point(515, 424);
+            this.P5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P5.Name = "P5";
-            this.P5.Size = new System.Drawing.Size(377, 335);
+            this.P5.Size = new System.Drawing.Size(503, 412);
             this.P5.TabIndex = 4;
             // 
             // datalistadoDetalledeventa5
@@ -1818,7 +1940,8 @@ namespace RestCsharp.Presentacion.Cocina
             dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.datalistadoDetalledeventa5.DefaultCellStyle = dataGridViewCellStyle14;
             this.datalistadoDetalledeventa5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datalistadoDetalledeventa5.Location = new System.Drawing.Point(0, 154);
+            this.datalistadoDetalledeventa5.Location = new System.Drawing.Point(0, 189);
+            this.datalistadoDetalledeventa5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistadoDetalledeventa5.Name = "datalistadoDetalledeventa5";
             this.datalistadoDetalledeventa5.ReadOnly = true;
             this.datalistadoDetalledeventa5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -1838,7 +1961,7 @@ namespace RestCsharp.Presentacion.Cocina
             this.datalistadoDetalledeventa5.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Transparent;
             this.datalistadoDetalledeventa5.RowTemplate.Height = 30;
             this.datalistadoDetalledeventa5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoDetalledeventa5.Size = new System.Drawing.Size(377, 142);
+            this.datalistadoDetalledeventa5.Size = new System.Drawing.Size(503, 175);
             this.datalistadoDetalledeventa5.TabIndex = 559;
             this.datalistadoDetalledeventa5.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistadoDetalledeventa5_CellClick);
             // 
@@ -1846,17 +1969,21 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Accion5.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Accion5.HeaderText = "";
+            this.Accion5.MinimumWidth = 6;
             this.Accion5.Name = "Accion5";
             this.Accion5.ReadOnly = true;
             this.Accion5.Text = "Preparar";
+            this.Accion5.Width = 125;
             // 
             // Volver5
             // 
             this.Volver5.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Volver5.HeaderText = "";
             this.Volver5.LinkColor = System.Drawing.Color.White;
+            this.Volver5.MinimumWidth = 6;
             this.Volver5.Name = "Volver5";
             this.Volver5.ReadOnly = true;
+            this.Volver5.Width = 125;
             // 
             // panelm5
             // 
@@ -1864,9 +1991,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.panelm5.Controls.Add(this.btnver5);
             this.panelm5.Controls.Add(this.label7);
             this.panelm5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelm5.Location = new System.Drawing.Point(0, 296);
+            this.panelm5.Location = new System.Drawing.Point(0, 364);
+            this.panelm5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelm5.Name = "panelm5";
-            this.panelm5.Size = new System.Drawing.Size(377, 39);
+            this.panelm5.Size = new System.Drawing.Size(503, 48);
             this.panelm5.TabIndex = 561;
             // 
             // btnver5
@@ -1881,9 +2009,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnver5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnver5.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnver5.ForeColor = System.Drawing.Color.White;
-            this.btnver5.Location = new System.Drawing.Point(298, 0);
+            this.btnver5.Location = new System.Drawing.Point(397, 0);
+            this.btnver5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnver5.Name = "btnver5";
-            this.btnver5.Size = new System.Drawing.Size(79, 39);
+            this.btnver5.Size = new System.Drawing.Size(106, 48);
             this.btnver5.TabIndex = 637;
             this.btnver5.Text = "Ver";
             this.btnver5.UseVisualStyleBackColor = false;
@@ -1895,8 +2024,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label7.Location = new System.Drawing.Point(0, 0);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(298, 39);
+            this.label7.Size = new System.Drawing.Size(397, 48);
             this.label7.TabIndex = 1;
             this.label7.Text = "!Hay nota!";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1906,9 +2036,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel49.Controls.Add(this.Button7);
             this.Panel49.Controls.Add(this.Button8);
             this.Panel49.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel49.Location = new System.Drawing.Point(0, 118);
+            this.Panel49.Location = new System.Drawing.Point(0, 145);
+            this.Panel49.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel49.Name = "Panel49";
-            this.Panel49.Size = new System.Drawing.Size(377, 36);
+            this.Panel49.Size = new System.Drawing.Size(503, 44);
             this.Panel49.TabIndex = 1;
             // 
             // Button7
@@ -1918,9 +2049,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button7.ForeColor = System.Drawing.Color.White;
-            this.Button7.Location = new System.Drawing.Point(147, 6);
+            this.Button7.Location = new System.Drawing.Point(196, 7);
+            this.Button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button7.Name = "Button7";
-            this.Button7.Size = new System.Drawing.Size(151, 25);
+            this.Button7.Size = new System.Drawing.Size(201, 31);
             this.Button7.TabIndex = 0;
             this.Button7.Text = "Despachar Todos";
             this.Button7.UseVisualStyleBackColor = false;
@@ -1933,9 +2065,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button8.ForeColor = System.Drawing.Color.White;
-            this.Button8.Location = new System.Drawing.Point(4, 6);
+            this.Button8.Location = new System.Drawing.Point(5, 7);
+            this.Button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button8.Name = "Button8";
-            this.Button8.Size = new System.Drawing.Size(137, 25);
+            this.Button8.Size = new System.Drawing.Size(183, 31);
             this.Button8.TabIndex = 0;
             this.Button8.Text = "Preparar Todos";
             this.Button8.UseVisualStyleBackColor = false;
@@ -1947,8 +2080,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel50.Controls.Add(this.Panel54);
             this.Panel50.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel50.Location = new System.Drawing.Point(0, 0);
+            this.Panel50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel50.Name = "Panel50";
-            this.Panel50.Size = new System.Drawing.Size(377, 118);
+            this.Panel50.Size = new System.Drawing.Size(503, 145);
             this.Panel50.TabIndex = 0;
             // 
             // Panel51
@@ -1957,9 +2091,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel51.Controls.Add(this.Panel52);
             this.Panel51.Controls.Add(this.Panel53);
             this.Panel51.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel51.Location = new System.Drawing.Point(245, 0);
+            this.Panel51.Location = new System.Drawing.Point(327, 0);
+            this.Panel51.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel51.Name = "Panel51";
-            this.Panel51.Size = new System.Drawing.Size(132, 118);
+            this.Panel51.Size = new System.Drawing.Size(176, 145);
             this.Panel51.TabIndex = 3;
             // 
             // btnNPedido5
@@ -1974,9 +2109,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnNPedido5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNPedido5.Font = new System.Drawing.Font("Segoe UI", 57F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNPedido5.ForeColor = System.Drawing.Color.White;
-            this.btnNPedido5.Location = new System.Drawing.Point(0, 10);
+            this.btnNPedido5.Location = new System.Drawing.Point(0, 12);
+            this.btnNPedido5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNPedido5.Name = "btnNPedido5";
-            this.btnNPedido5.Size = new System.Drawing.Size(122, 108);
+            this.btnNPedido5.Size = new System.Drawing.Size(163, 133);
             this.btnNPedido5.TabIndex = 636;
             this.btnNPedido5.Text = "5";
             this.btnNPedido5.UseVisualStyleBackColor = false;
@@ -1984,17 +2120,19 @@ namespace RestCsharp.Presentacion.Cocina
             // Panel52
             // 
             this.Panel52.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Panel52.Location = new System.Drawing.Point(122, 10);
+            this.Panel52.Location = new System.Drawing.Point(163, 12);
+            this.Panel52.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel52.Name = "Panel52";
-            this.Panel52.Size = new System.Drawing.Size(10, 108);
+            this.Panel52.Size = new System.Drawing.Size(13, 133);
             this.Panel52.TabIndex = 1;
             // 
             // Panel53
             // 
             this.Panel53.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel53.Location = new System.Drawing.Point(0, 0);
+            this.Panel53.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel53.Name = "Panel53";
-            this.Panel53.Size = new System.Drawing.Size(132, 10);
+            this.Panel53.Size = new System.Drawing.Size(176, 12);
             this.Panel53.TabIndex = 0;
             // 
             // Panel54
@@ -2004,8 +2142,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel54.Controls.Add(this.Panel58);
             this.Panel54.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel54.Location = new System.Drawing.Point(0, 0);
+            this.Panel54.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel54.Name = "Panel54";
-            this.Panel54.Size = new System.Drawing.Size(245, 118);
+            this.Panel54.Size = new System.Drawing.Size(327, 145);
             this.Panel54.TabIndex = 560;
             // 
             // Panel55
@@ -2014,9 +2153,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel55.Controls.Add(this.lblfecha5);
             this.Panel55.Controls.Add(this.Panel56);
             this.Panel55.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel55.Location = new System.Drawing.Point(0, 78);
+            this.Panel55.Location = new System.Drawing.Point(0, 96);
+            this.Panel55.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel55.Name = "Panel55";
-            this.Panel55.Size = new System.Drawing.Size(245, 40);
+            this.Panel55.Size = new System.Drawing.Size(327, 49);
             this.Panel55.TabIndex = 3;
             // 
             // lblminutos5
@@ -2024,9 +2164,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblminutos5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblminutos5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblminutos5.ForeColor = System.Drawing.Color.White;
-            this.lblminutos5.Location = new System.Drawing.Point(89, 1);
+            this.lblminutos5.Location = new System.Drawing.Point(119, 1);
+            this.lblminutos5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblminutos5.Name = "lblminutos5";
-            this.lblminutos5.Size = new System.Drawing.Size(156, 39);
+            this.lblminutos5.Size = new System.Drawing.Size(208, 48);
             this.lblminutos5.TabIndex = 3;
             this.lblminutos5.Text = "15 minutos";
             this.lblminutos5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2037,8 +2178,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblfecha5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfecha5.ForeColor = System.Drawing.Color.White;
             this.lblfecha5.Location = new System.Drawing.Point(0, 1);
+            this.lblfecha5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfecha5.Name = "lblfecha5";
-            this.lblfecha5.Size = new System.Drawing.Size(89, 39);
+            this.lblfecha5.Size = new System.Drawing.Size(119, 48);
             this.lblfecha5.TabIndex = 2;
             this.lblfecha5.Text = "(8:19 pm)";
             this.lblfecha5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2048,8 +2190,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel56.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel56.Location = new System.Drawing.Point(0, 0);
+            this.Panel56.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel56.Name = "Panel56";
-            this.Panel56.Size = new System.Drawing.Size(245, 1);
+            this.Panel56.Size = new System.Drawing.Size(327, 1);
             this.Panel56.TabIndex = 4;
             // 
             // Panel57
@@ -2057,9 +2200,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel57.Controls.Add(this.lblMozo5);
             this.Panel57.Controls.Add(this.Label19);
             this.Panel57.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel57.Location = new System.Drawing.Point(0, 35);
+            this.Panel57.Location = new System.Drawing.Point(0, 43);
+            this.Panel57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel57.Name = "Panel57";
-            this.Panel57.Size = new System.Drawing.Size(245, 43);
+            this.Panel57.Size = new System.Drawing.Size(327, 53);
             this.Panel57.TabIndex = 2;
             // 
             // lblMozo5
@@ -2067,9 +2211,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblMozo5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblMozo5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMozo5.ForeColor = System.Drawing.Color.White;
-            this.lblMozo5.Location = new System.Drawing.Point(69, 0);
+            this.lblMozo5.Location = new System.Drawing.Point(92, 0);
+            this.lblMozo5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMozo5.Name = "lblMozo5";
-            this.lblMozo5.Size = new System.Drawing.Size(176, 43);
+            this.lblMozo5.Size = new System.Drawing.Size(235, 53);
             this.lblMozo5.TabIndex = 3;
             this.lblMozo5.Text = "lblMozo";
             this.lblMozo5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2080,8 +2225,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label19.ForeColor = System.Drawing.Color.White;
             this.Label19.Location = new System.Drawing.Point(0, 0);
+            this.Label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label19.Name = "Label19";
-            this.Label19.Size = new System.Drawing.Size(69, 43);
+            this.Label19.Size = new System.Drawing.Size(92, 53);
             this.Label19.TabIndex = 2;
             this.Label19.Text = "Mozo:";
             this.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2093,8 +2239,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel58.Controls.Add(this.Panel59);
             this.Panel58.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel58.Location = new System.Drawing.Point(0, 0);
+            this.Panel58.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel58.Name = "Panel58";
-            this.Panel58.Size = new System.Drawing.Size(245, 35);
+            this.Panel58.Size = new System.Drawing.Size(327, 43);
             this.Panel58.TabIndex = 1;
             // 
             // lblmesa5
@@ -2102,9 +2249,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblmesa5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblmesa5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmesa5.ForeColor = System.Drawing.Color.White;
-            this.lblmesa5.Location = new System.Drawing.Point(69, 0);
+            this.lblmesa5.Location = new System.Drawing.Point(92, 0);
+            this.lblmesa5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmesa5.Name = "lblmesa5";
-            this.lblmesa5.Size = new System.Drawing.Size(176, 34);
+            this.lblmesa5.Size = new System.Drawing.Size(235, 42);
             this.lblmesa5.TabIndex = 1;
             this.lblmesa5.Text = "Label20";
             this.lblmesa5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2115,8 +2263,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.etiquetamesa5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiquetamesa5.ForeColor = System.Drawing.Color.White;
             this.etiquetamesa5.Location = new System.Drawing.Point(0, 0);
+            this.etiquetamesa5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.etiquetamesa5.Name = "etiquetamesa5";
-            this.etiquetamesa5.Size = new System.Drawing.Size(69, 34);
+            this.etiquetamesa5.Size = new System.Drawing.Size(92, 42);
             this.etiquetamesa5.TabIndex = 0;
             this.etiquetamesa5.Text = "MESA:";
             this.etiquetamesa5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2125,9 +2274,10 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Panel59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel59.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Panel59.Location = new System.Drawing.Point(0, 34);
+            this.Panel59.Location = new System.Drawing.Point(0, 42);
+            this.Panel59.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel59.Name = "Panel59";
-            this.Panel59.Size = new System.Drawing.Size(245, 1);
+            this.Panel59.Size = new System.Drawing.Size(327, 1);
             this.Panel59.TabIndex = 2;
             // 
             // P6
@@ -2137,9 +2287,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.P6.Controls.Add(this.panelm6);
             this.P6.Controls.Add(this.Panel61);
             this.P6.Controls.Add(this.Panel62);
-            this.P6.Location = new System.Drawing.Point(769, 344);
+            this.P6.Location = new System.Drawing.Point(1026, 424);
+            this.P6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.P6.Name = "P6";
-            this.P6.Size = new System.Drawing.Size(377, 335);
+            this.P6.Size = new System.Drawing.Size(503, 412);
             this.P6.TabIndex = 5;
             // 
             // datalistadoDetalledeventa6
@@ -2172,7 +2323,8 @@ namespace RestCsharp.Presentacion.Cocina
             dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.datalistadoDetalledeventa6.DefaultCellStyle = dataGridViewCellStyle17;
             this.datalistadoDetalledeventa6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datalistadoDetalledeventa6.Location = new System.Drawing.Point(0, 154);
+            this.datalistadoDetalledeventa6.Location = new System.Drawing.Point(0, 189);
+            this.datalistadoDetalledeventa6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.datalistadoDetalledeventa6.Name = "datalistadoDetalledeventa6";
             this.datalistadoDetalledeventa6.ReadOnly = true;
             this.datalistadoDetalledeventa6.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -2192,7 +2344,7 @@ namespace RestCsharp.Presentacion.Cocina
             this.datalistadoDetalledeventa6.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Transparent;
             this.datalistadoDetalledeventa6.RowTemplate.Height = 30;
             this.datalistadoDetalledeventa6.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoDetalledeventa6.Size = new System.Drawing.Size(377, 142);
+            this.datalistadoDetalledeventa6.Size = new System.Drawing.Size(503, 175);
             this.datalistadoDetalledeventa6.TabIndex = 562;
             this.datalistadoDetalledeventa6.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datalistadoDetalledeventa6_CellClick);
             // 
@@ -2200,17 +2352,21 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Accion6.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Accion6.HeaderText = "";
+            this.Accion6.MinimumWidth = 6;
             this.Accion6.Name = "Accion6";
             this.Accion6.ReadOnly = true;
             this.Accion6.Text = "Preparar";
+            this.Accion6.Width = 125;
             // 
             // Volver6
             // 
             this.Volver6.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Volver6.HeaderText = "";
             this.Volver6.LinkColor = System.Drawing.Color.White;
+            this.Volver6.MinimumWidth = 6;
             this.Volver6.Name = "Volver6";
             this.Volver6.ReadOnly = true;
+            this.Volver6.Width = 125;
             // 
             // panelm6
             // 
@@ -2218,9 +2374,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.panelm6.Controls.Add(this.btnver6);
             this.panelm6.Controls.Add(this.label6);
             this.panelm6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelm6.Location = new System.Drawing.Point(0, 296);
+            this.panelm6.Location = new System.Drawing.Point(0, 364);
+            this.panelm6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelm6.Name = "panelm6";
-            this.panelm6.Size = new System.Drawing.Size(377, 39);
+            this.panelm6.Size = new System.Drawing.Size(503, 48);
             this.panelm6.TabIndex = 561;
             // 
             // btnver6
@@ -2235,9 +2392,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnver6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnver6.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnver6.ForeColor = System.Drawing.Color.White;
-            this.btnver6.Location = new System.Drawing.Point(298, 0);
+            this.btnver6.Location = new System.Drawing.Point(397, 0);
+            this.btnver6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnver6.Name = "btnver6";
-            this.btnver6.Size = new System.Drawing.Size(79, 39);
+            this.btnver6.Size = new System.Drawing.Size(106, 48);
             this.btnver6.TabIndex = 637;
             this.btnver6.Text = "Ver";
             this.btnver6.UseVisualStyleBackColor = false;
@@ -2249,8 +2407,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(298, 39);
+            this.label6.Size = new System.Drawing.Size(397, 48);
             this.label6.TabIndex = 1;
             this.label6.Text = "!Hay nota!";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2260,9 +2419,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel61.Controls.Add(this.Button10);
             this.Panel61.Controls.Add(this.Button11);
             this.Panel61.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel61.Location = new System.Drawing.Point(0, 118);
+            this.Panel61.Location = new System.Drawing.Point(0, 145);
+            this.Panel61.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel61.Name = "Panel61";
-            this.Panel61.Size = new System.Drawing.Size(377, 36);
+            this.Panel61.Size = new System.Drawing.Size(503, 44);
             this.Panel61.TabIndex = 1;
             // 
             // Button10
@@ -2272,9 +2432,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button10.ForeColor = System.Drawing.Color.White;
-            this.Button10.Location = new System.Drawing.Point(147, 6);
+            this.Button10.Location = new System.Drawing.Point(196, 7);
+            this.Button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button10.Name = "Button10";
-            this.Button10.Size = new System.Drawing.Size(151, 25);
+            this.Button10.Size = new System.Drawing.Size(201, 31);
             this.Button10.TabIndex = 0;
             this.Button10.Text = "Despachar Todos";
             this.Button10.UseVisualStyleBackColor = false;
@@ -2287,9 +2448,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button11.ForeColor = System.Drawing.Color.White;
-            this.Button11.Location = new System.Drawing.Point(4, 6);
+            this.Button11.Location = new System.Drawing.Point(5, 7);
+            this.Button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button11.Name = "Button11";
-            this.Button11.Size = new System.Drawing.Size(137, 25);
+            this.Button11.Size = new System.Drawing.Size(183, 31);
             this.Button11.TabIndex = 0;
             this.Button11.Text = "Preparar Todos";
             this.Button11.UseVisualStyleBackColor = false;
@@ -2301,8 +2463,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel62.Controls.Add(this.Panel66);
             this.Panel62.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel62.Location = new System.Drawing.Point(0, 0);
+            this.Panel62.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel62.Name = "Panel62";
-            this.Panel62.Size = new System.Drawing.Size(377, 118);
+            this.Panel62.Size = new System.Drawing.Size(503, 145);
             this.Panel62.TabIndex = 0;
             // 
             // Panel63
@@ -2311,9 +2474,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel63.Controls.Add(this.Panel64);
             this.Panel63.Controls.Add(this.Panel65);
             this.Panel63.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel63.Location = new System.Drawing.Point(245, 0);
+            this.Panel63.Location = new System.Drawing.Point(327, 0);
+            this.Panel63.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel63.Name = "Panel63";
-            this.Panel63.Size = new System.Drawing.Size(132, 118);
+            this.Panel63.Size = new System.Drawing.Size(176, 145);
             this.Panel63.TabIndex = 3;
             // 
             // btnNPedido6
@@ -2328,9 +2492,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.btnNPedido6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNPedido6.Font = new System.Drawing.Font("Segoe UI", 57F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNPedido6.ForeColor = System.Drawing.Color.White;
-            this.btnNPedido6.Location = new System.Drawing.Point(0, 10);
+            this.btnNPedido6.Location = new System.Drawing.Point(0, 12);
+            this.btnNPedido6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNPedido6.Name = "btnNPedido6";
-            this.btnNPedido6.Size = new System.Drawing.Size(122, 108);
+            this.btnNPedido6.Size = new System.Drawing.Size(163, 133);
             this.btnNPedido6.TabIndex = 637;
             this.btnNPedido6.Text = "6";
             this.btnNPedido6.UseVisualStyleBackColor = false;
@@ -2338,17 +2503,19 @@ namespace RestCsharp.Presentacion.Cocina
             // Panel64
             // 
             this.Panel64.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Panel64.Location = new System.Drawing.Point(122, 10);
+            this.Panel64.Location = new System.Drawing.Point(163, 12);
+            this.Panel64.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel64.Name = "Panel64";
-            this.Panel64.Size = new System.Drawing.Size(10, 108);
+            this.Panel64.Size = new System.Drawing.Size(13, 133);
             this.Panel64.TabIndex = 1;
             // 
             // Panel65
             // 
             this.Panel65.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel65.Location = new System.Drawing.Point(0, 0);
+            this.Panel65.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel65.Name = "Panel65";
-            this.Panel65.Size = new System.Drawing.Size(132, 10);
+            this.Panel65.Size = new System.Drawing.Size(176, 12);
             this.Panel65.TabIndex = 0;
             // 
             // Panel66
@@ -2358,8 +2525,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel66.Controls.Add(this.Panel70);
             this.Panel66.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panel66.Location = new System.Drawing.Point(0, 0);
+            this.Panel66.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel66.Name = "Panel66";
-            this.Panel66.Size = new System.Drawing.Size(245, 118);
+            this.Panel66.Size = new System.Drawing.Size(327, 145);
             this.Panel66.TabIndex = 560;
             // 
             // Panel67
@@ -2368,9 +2536,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel67.Controls.Add(this.lblfecha6);
             this.Panel67.Controls.Add(this.Panel68);
             this.Panel67.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel67.Location = new System.Drawing.Point(0, 78);
+            this.Panel67.Location = new System.Drawing.Point(0, 96);
+            this.Panel67.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel67.Name = "Panel67";
-            this.Panel67.Size = new System.Drawing.Size(245, 40);
+            this.Panel67.Size = new System.Drawing.Size(327, 49);
             this.Panel67.TabIndex = 3;
             // 
             // lblminutos6
@@ -2378,9 +2547,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblminutos6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblminutos6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblminutos6.ForeColor = System.Drawing.Color.White;
-            this.lblminutos6.Location = new System.Drawing.Point(89, 1);
+            this.lblminutos6.Location = new System.Drawing.Point(119, 1);
+            this.lblminutos6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblminutos6.Name = "lblminutos6";
-            this.lblminutos6.Size = new System.Drawing.Size(156, 39);
+            this.lblminutos6.Size = new System.Drawing.Size(208, 48);
             this.lblminutos6.TabIndex = 3;
             this.lblminutos6.Text = "15 minutos";
             this.lblminutos6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2391,8 +2561,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblfecha6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfecha6.ForeColor = System.Drawing.Color.White;
             this.lblfecha6.Location = new System.Drawing.Point(0, 1);
+            this.lblfecha6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblfecha6.Name = "lblfecha6";
-            this.lblfecha6.Size = new System.Drawing.Size(89, 39);
+            this.lblfecha6.Size = new System.Drawing.Size(119, 48);
             this.lblfecha6.TabIndex = 2;
             this.lblfecha6.Text = "(8:19 pm)";
             this.lblfecha6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2402,8 +2573,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel68.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel68.Location = new System.Drawing.Point(0, 0);
+            this.Panel68.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel68.Name = "Panel68";
-            this.Panel68.Size = new System.Drawing.Size(245, 1);
+            this.Panel68.Size = new System.Drawing.Size(327, 1);
             this.Panel68.TabIndex = 4;
             // 
             // Panel69
@@ -2411,9 +2583,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel69.Controls.Add(this.lblMozo6);
             this.Panel69.Controls.Add(this.Label25);
             this.Panel69.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Panel69.Location = new System.Drawing.Point(0, 35);
+            this.Panel69.Location = new System.Drawing.Point(0, 43);
+            this.Panel69.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel69.Name = "Panel69";
-            this.Panel69.Size = new System.Drawing.Size(245, 43);
+            this.Panel69.Size = new System.Drawing.Size(327, 53);
             this.Panel69.TabIndex = 2;
             // 
             // lblMozo6
@@ -2421,9 +2594,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblMozo6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblMozo6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMozo6.ForeColor = System.Drawing.Color.White;
-            this.lblMozo6.Location = new System.Drawing.Point(69, 0);
+            this.lblMozo6.Location = new System.Drawing.Point(92, 0);
+            this.lblMozo6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMozo6.Name = "lblMozo6";
-            this.lblMozo6.Size = new System.Drawing.Size(176, 43);
+            this.lblMozo6.Size = new System.Drawing.Size(235, 53);
             this.lblMozo6.TabIndex = 3;
             this.lblMozo6.Text = "Label24";
             this.lblMozo6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2434,8 +2608,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label25.ForeColor = System.Drawing.Color.White;
             this.Label25.Location = new System.Drawing.Point(0, 0);
+            this.Label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label25.Name = "Label25";
-            this.Label25.Size = new System.Drawing.Size(69, 43);
+            this.Label25.Size = new System.Drawing.Size(92, 53);
             this.Label25.TabIndex = 2;
             this.Label25.Text = "Mozo:";
             this.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2447,8 +2622,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.Panel70.Controls.Add(this.Panel71);
             this.Panel70.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel70.Location = new System.Drawing.Point(0, 0);
+            this.Panel70.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel70.Name = "Panel70";
-            this.Panel70.Size = new System.Drawing.Size(245, 35);
+            this.Panel70.Size = new System.Drawing.Size(327, 43);
             this.Panel70.TabIndex = 1;
             // 
             // lblmesa6
@@ -2456,9 +2632,10 @@ namespace RestCsharp.Presentacion.Cocina
             this.lblmesa6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblmesa6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmesa6.ForeColor = System.Drawing.Color.White;
-            this.lblmesa6.Location = new System.Drawing.Point(69, 0);
+            this.lblmesa6.Location = new System.Drawing.Point(92, 0);
+            this.lblmesa6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmesa6.Name = "lblmesa6";
-            this.lblmesa6.Size = new System.Drawing.Size(176, 34);
+            this.lblmesa6.Size = new System.Drawing.Size(235, 42);
             this.lblmesa6.TabIndex = 1;
             this.lblmesa6.Text = "Label26";
             this.lblmesa6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2469,8 +2646,9 @@ namespace RestCsharp.Presentacion.Cocina
             this.etiquetamesa6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiquetamesa6.ForeColor = System.Drawing.Color.White;
             this.etiquetamesa6.Location = new System.Drawing.Point(0, 0);
+            this.etiquetamesa6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.etiquetamesa6.Name = "etiquetamesa6";
-            this.etiquetamesa6.Size = new System.Drawing.Size(69, 34);
+            this.etiquetamesa6.Size = new System.Drawing.Size(92, 42);
             this.etiquetamesa6.TabIndex = 0;
             this.etiquetamesa6.Text = "MESA:";
             this.etiquetamesa6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -2479,9 +2657,10 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             this.Panel71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(59)))), ((int)(((byte)(59)))));
             this.Panel71.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Panel71.Location = new System.Drawing.Point(0, 34);
+            this.Panel71.Location = new System.Drawing.Point(0, 42);
+            this.Panel71.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel71.Name = "Panel71";
-            this.Panel71.Size = new System.Drawing.Size(245, 1);
+            this.Panel71.Size = new System.Drawing.Size(327, 1);
             this.Panel71.TabIndex = 2;
             // 
             // TimerP1
@@ -2525,10 +2704,10 @@ namespace RestCsharp.Presentacion.Cocina
             // 
             // PantallaCocina
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1827, 922);
             this.Controls.Add(this.FlowLayoutPanel1);
             this.Controls.Add(this.PSinpedidos);
             this.Controls.Add(this.Panel73);
@@ -2536,6 +2715,7 @@ namespace RestCsharp.Presentacion.Cocina
             this.Controls.Add(this.Panel74);
             this.Controls.Add(this.Panel72);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PantallaCocina";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pantalla Cocina";

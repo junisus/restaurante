@@ -54,9 +54,10 @@ namespace RestCsharp.Presentacion.Licencia
             this.panel2.Controls.Add(this.txtSerial);
             this.panel2.Controls.Add(this.Label2);
             this.panel2.Controls.Add(this.Label1);
-            this.panel2.Location = new System.Drawing.Point(3, 18);
+            this.panel2.Location = new System.Drawing.Point(4, 22);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 358);
+            this.panel2.Size = new System.Drawing.Size(1067, 441);
             this.panel2.TabIndex = 2;
             // 
             // btnCerrar
@@ -70,9 +71,10 @@ namespace RestCsharp.Presentacion.Licencia
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.Color.White;
-            this.btnCerrar.Location = new System.Drawing.Point(746, 6);
+            this.btnCerrar.Location = new System.Drawing.Point(995, 7);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(51, 40);
+            this.btnCerrar.Size = new System.Drawing.Size(68, 49);
             this.btnCerrar.TabIndex = 3;
             this.btnCerrar.Text = "X";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -86,9 +88,10 @@ namespace RestCsharp.Presentacion.Licencia
             this.btnActivacioManual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActivacioManual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnActivacioManual.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnActivacioManual.Location = new System.Drawing.Point(163, 277);
+            this.btnActivacioManual.Location = new System.Drawing.Point(217, 341);
+            this.btnActivacioManual.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnActivacioManual.Name = "btnActivacioManual";
-            this.btnActivacioManual.Size = new System.Drawing.Size(281, 39);
+            this.btnActivacioManual.Size = new System.Drawing.Size(375, 48);
             this.btnActivacioManual.TabIndex = 631;
             this.btnActivacioManual.Text = "Activar Licencia Manualmente";
             this.btnActivacioManual.UseVisualStyleBackColor = false;
@@ -101,9 +104,10 @@ namespace RestCsharp.Presentacion.Licencia
             this.btncomprar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncomprar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btncomprar.ForeColor = System.Drawing.Color.White;
-            this.btncomprar.Location = new System.Drawing.Point(8, 277);
+            this.btncomprar.Location = new System.Drawing.Point(11, 341);
+            this.btncomprar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncomprar.Name = "btncomprar";
-            this.btncomprar.Size = new System.Drawing.Size(149, 39);
+            this.btncomprar.Size = new System.Drawing.Size(199, 48);
             this.btncomprar.TabIndex = 629;
             this.btncomprar.Text = "Comprar ";
             this.btncomprar.UseVisualStyleBackColor = false;
@@ -111,9 +115,10 @@ namespace RestCsharp.Presentacion.Licencia
             // 
             // btnCopiar
             // 
-            this.btnCopiar.Location = new System.Drawing.Point(487, 226);
+            this.btnCopiar.Location = new System.Drawing.Point(649, 278);
+            this.btnCopiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCopiar.Name = "btnCopiar";
-            this.btnCopiar.Size = new System.Drawing.Size(90, 28);
+            this.btnCopiar.Size = new System.Drawing.Size(120, 34);
             this.btnCopiar.TabIndex = 628;
             this.btnCopiar.Text = "Copiar";
             this.btnCopiar.UseVisualStyleBackColor = true;
@@ -122,9 +127,10 @@ namespace RestCsharp.Presentacion.Licencia
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(166)))), ((int)(((byte)(63)))));
-            this.panel6.Location = new System.Drawing.Point(161, 254);
+            this.panel6.Location = new System.Drawing.Point(215, 313);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(310, 1);
+            this.panel6.Size = new System.Drawing.Size(413, 1);
             this.panel6.TabIndex = 622;
             // 
             // Label4
@@ -133,9 +139,10 @@ namespace RestCsharp.Presentacion.Licencia
             this.Label4.BackColor = System.Drawing.Color.Transparent;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.Label4.Location = new System.Drawing.Point(23, 232);
+            this.Label4.Location = new System.Drawing.Point(31, 286);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(134, 20);
+            this.Label4.Size = new System.Drawing.Size(166, 25);
             this.Label4.TabIndex = 620;
             this.Label4.Text = "Notas del pedido*";
             // 
@@ -145,9 +152,10 @@ namespace RestCsharp.Presentacion.Licencia
             this.txtSerial.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSerial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSerial.ForeColor = System.Drawing.Color.White;
-            this.txtSerial.Location = new System.Drawing.Point(161, 229);
+            this.txtSerial.Location = new System.Drawing.Point(215, 282);
+            this.txtSerial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSerial.Name = "txtSerial";
-            this.txtSerial.Size = new System.Drawing.Size(310, 19);
+            this.txtSerial.Size = new System.Drawing.Size(413, 23);
             this.txtSerial.TabIndex = 618;
             // 
             // Label2
@@ -156,9 +164,10 @@ namespace RestCsharp.Presentacion.Licencia
             this.Label2.BackColor = System.Drawing.Color.Transparent;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(4, 189);
+            this.Label2.Location = new System.Drawing.Point(5, 233);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(668, 24);
+            this.Label2.Size = new System.Drawing.Size(833, 29);
             this.Label2.TabIndex = 612;
             this.Label2.Text = "Usa este dato cuando se te pida en tu Compra (es muy IMPORTANTE)";
             // 
@@ -170,19 +179,21 @@ namespace RestCsharp.Presentacion.Licencia
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
             this.Label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.Label1.Location = new System.Drawing.Point(0, 0);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(288, 46);
+            this.Label1.Size = new System.Drawing.Size(358, 58);
             this.Label1.TabIndex = 6;
             this.Label1.Text = "Activar licencia";
             // 
             // Licencias
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Licencias";
-            this.Size = new System.Drawing.Size(909, 407);
+            this.Size = new System.Drawing.Size(1212, 501);
             this.Load += new System.EventHandler(this.Licencias_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

@@ -56,9 +56,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.PanelNumeros);
             this.panel1.Controls.Add(this.PanelLetras);
-            this.panel1.Location = new System.Drawing.Point(7, 142);
+            this.panel1.Location = new System.Drawing.Point(9, 175);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(749, 344);
+            this.panel1.Size = new System.Drawing.Size(999, 423);
             this.panel1.TabIndex = 14;
             // 
             // btnBorrarCaract
@@ -72,9 +73,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnBorrarCaract.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBorrarCaract.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrarCaract.ForeColor = System.Drawing.Color.White;
-            this.btnBorrarCaract.Location = new System.Drawing.Point(649, 13);
+            this.btnBorrarCaract.Location = new System.Drawing.Point(865, 16);
+            this.btnBorrarCaract.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBorrarCaract.Name = "btnBorrarCaract";
-            this.btnBorrarCaract.Size = new System.Drawing.Size(51, 48);
+            this.btnBorrarCaract.Size = new System.Drawing.Size(68, 59);
             this.btnBorrarCaract.TabIndex = 11;
             this.btnBorrarCaract.Text = "<";
             this.btnBorrarCaract.UseVisualStyleBackColor = false;
@@ -91,9 +93,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar.Location = new System.Drawing.Point(515, 273);
+            this.btnGuardar.Location = new System.Drawing.Point(687, 336);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(134, 58);
+            this.btnGuardar.Size = new System.Drawing.Size(179, 71);
             this.btnGuardar.TabIndex = 8;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -110,9 +113,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnasteri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnasteri.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnasteri.ForeColor = System.Drawing.Color.White;
-            this.btnasteri.Location = new System.Drawing.Point(145, 273);
+            this.btnasteri.Location = new System.Drawing.Point(193, 336);
+            this.btnasteri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnasteri.Name = "btnasteri";
-            this.btnasteri.Size = new System.Drawing.Size(51, 49);
+            this.btnasteri.Size = new System.Drawing.Size(68, 60);
             this.btnasteri.TabIndex = 7;
             this.btnasteri.Text = "*";
             this.btnasteri.UseVisualStyleBackColor = false;
@@ -129,9 +133,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnbarra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbarra.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbarra.ForeColor = System.Drawing.Color.White;
-            this.btnbarra.Location = new System.Drawing.Point(88, 273);
+            this.btnbarra.Location = new System.Drawing.Point(117, 336);
+            this.btnbarra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnbarra.Name = "btnbarra";
-            this.btnbarra.Size = new System.Drawing.Size(51, 49);
+            this.btnbarra.Size = new System.Drawing.Size(68, 60);
             this.btnbarra.TabIndex = 6;
             this.btnbarra.Text = "/";
             this.btnbarra.UseVisualStyleBackColor = false;
@@ -148,9 +153,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btncoma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncoma.ForeColor = System.Drawing.Color.White;
-            this.btncoma.Location = new System.Drawing.Point(31, 273);
+            this.btncoma.Location = new System.Drawing.Point(41, 336);
+            this.btncoma.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncoma.Name = "btncoma";
-            this.btncoma.Size = new System.Drawing.Size(51, 49);
+            this.btncoma.Size = new System.Drawing.Size(68, 60);
             this.btncoma.TabIndex = 5;
             this.btncoma.Text = ",";
             this.btncoma.UseVisualStyleBackColor = false;
@@ -167,9 +173,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(234, 273);
+            this.button1.Location = new System.Drawing.Point(312, 336);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(216, 58);
+            this.button1.Size = new System.Drawing.Size(288, 71);
             this.button1.TabIndex = 4;
             this.button1.Text = "Espacio";
             this.button1.UseVisualStyleBackColor = false;
@@ -177,16 +184,18 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             // PanelNumeros
             // 
-            this.PanelNumeros.Location = new System.Drawing.Point(29, 3);
+            this.PanelNumeros.Location = new System.Drawing.Point(39, 4);
+            this.PanelNumeros.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelNumeros.Name = "PanelNumeros";
-            this.PanelNumeros.Size = new System.Drawing.Size(614, 68);
+            this.PanelNumeros.Size = new System.Drawing.Size(819, 84);
             this.PanelNumeros.TabIndex = 2;
             // 
             // PanelLetras
             // 
-            this.PanelLetras.Location = new System.Drawing.Point(29, 77);
+            this.PanelLetras.Location = new System.Drawing.Point(39, 95);
+            this.PanelLetras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PanelLetras.Name = "PanelLetras";
-            this.PanelLetras.Size = new System.Drawing.Size(618, 190);
+            this.PanelLetras.Size = new System.Drawing.Size(824, 234);
             this.PanelLetras.TabIndex = 1;
             // 
             // label1
@@ -194,9 +203,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(31, 9);
+            this.label1.Location = new System.Drawing.Point(41, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(317, 26);
+            this.label1.Size = new System.Drawing.Size(387, 31);
             this.label1.TabIndex = 13;
             this.label1.Text = "Ingrese la nota para la orden";
             // 
@@ -206,9 +216,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.txtnota.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtnota.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnota.ForeColor = System.Drawing.Color.White;
-            this.txtnota.Location = new System.Drawing.Point(36, 42);
+            this.txtnota.Location = new System.Drawing.Point(48, 52);
+            this.txtnota.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtnota.Name = "txtnota";
-            this.txtnota.Size = new System.Drawing.Size(553, 94);
+            this.txtnota.Size = new System.Drawing.Size(737, 116);
             this.txtnota.TabIndex = 11;
             this.txtnota.Text = "";
             // 
@@ -223,9 +234,10 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.Color.White;
-            this.btnCerrar.Location = new System.Drawing.Point(705, 12);
+            this.btnCerrar.Location = new System.Drawing.Point(940, 15);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(51, 46);
+            this.btnCerrar.Size = new System.Drawing.Size(68, 57);
             this.btnCerrar.TabIndex = 12;
             this.btnCerrar.Text = "X";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -233,15 +245,16 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             // Notas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.ClientSize = new System.Drawing.Size(762, 489);
+            this.ClientSize = new System.Drawing.Size(1016, 602);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.txtnota);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Notas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Notas";

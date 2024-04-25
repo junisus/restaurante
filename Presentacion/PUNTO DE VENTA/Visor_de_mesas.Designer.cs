@@ -487,9 +487,11 @@
             // 
             this.DataGridViewCheckBoxColumn2.DataPropertyName = "Marcar";
             this.DataGridViewCheckBoxColumn2.HeaderText = "Marcar";
+            this.DataGridViewCheckBoxColumn2.MinimumWidth = 6;
             this.DataGridViewCheckBoxColumn2.Name = "DataGridViewCheckBoxColumn2";
             this.DataGridViewCheckBoxColumn2.ReadOnly = true;
             this.DataGridViewCheckBoxColumn2.Visible = false;
+            this.DataGridViewCheckBoxColumn2.Width = 125;
             // 
             // DATALISTADO_PRODUCTOS_OKA
             // 
@@ -518,16 +520,18 @@
             // 
             this.DataGridViewCheckBoxColumn9.DataPropertyName = "Marcar";
             this.DataGridViewCheckBoxColumn9.HeaderText = "Marcar";
+            this.DataGridViewCheckBoxColumn9.MinimumWidth = 6;
             this.DataGridViewCheckBoxColumn9.Name = "DataGridViewCheckBoxColumn9";
             this.DataGridViewCheckBoxColumn9.ReadOnly = true;
             this.DataGridViewCheckBoxColumn9.Visible = false;
+            this.DataGridViewCheckBoxColumn9.Width = 125;
             // 
             // ComboBox1
             // 
             this.ComboBox1.FormattingEnabled = true;
             this.ComboBox1.Location = new System.Drawing.Point(33, 47);
             this.ComboBox1.Name = "ComboBox1";
-            this.ComboBox1.Size = new System.Drawing.Size(124, 21);
+            this.ComboBox1.Size = new System.Drawing.Size(124, 27);
             this.ComboBox1.TabIndex = 497;
             // 
             // Button2
@@ -543,7 +547,7 @@
             // 
             this.TextBox2.Location = new System.Drawing.Point(3, 30);
             this.TextBox2.Name = "TextBox2";
-            this.TextBox2.Size = new System.Drawing.Size(110, 22);
+            this.TextBox2.Size = new System.Drawing.Size(110, 26);
             this.TextBox2.TabIndex = 496;
             // 
             // DataGridView1
@@ -573,15 +577,17 @@
             // 
             this.DataGridViewCheckBoxColumn1.DataPropertyName = "Marcar";
             this.DataGridViewCheckBoxColumn1.HeaderText = "Marcar";
+            this.DataGridViewCheckBoxColumn1.MinimumWidth = 6;
             this.DataGridViewCheckBoxColumn1.Name = "DataGridViewCheckBoxColumn1";
             this.DataGridViewCheckBoxColumn1.ReadOnly = true;
             this.DataGridViewCheckBoxColumn1.Visible = false;
+            this.DataGridViewCheckBoxColumn1.Width = 125;
             // 
             // TextBox1
             // 
             this.TextBox1.Location = new System.Drawing.Point(0, 47);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(110, 22);
+            this.TextBox1.Size = new System.Drawing.Size(110, 26);
             this.TextBox1.TabIndex = 496;
             // 
             // btnParallevar
@@ -609,6 +615,7 @@
             // 
             this.rptComunicador.AccessibilityKeyMap = null;
             this.rptComunicador.Location = new System.Drawing.Point(181, 169);
+            this.rptComunicador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rptComunicador.Name = "rptComunicador";
             this.rptComunicador.Size = new System.Drawing.Size(33, 30);
             this.rptComunicador.TabIndex = 0;
@@ -625,7 +632,7 @@
             // 
             // Visor_de_mesas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1366, 749);
