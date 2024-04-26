@@ -72,7 +72,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.panelPrincipal.Controls.Add(this.btncerrar);
             this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
-            this.panelPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelPrincipal.Margin = new System.Windows.Forms.Padding(4);
             this.panelPrincipal.Name = "panelPrincipal";
             this.panelPrincipal.Size = new System.Drawing.Size(1048, 495);
             this.panelPrincipal.TabIndex = 623;
@@ -84,7 +84,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.panelReport.Controls.Add(this.pictureBox2);
             this.panelReport.Controls.Add(this.reportViewer1);
             this.panelReport.Location = new System.Drawing.Point(687, 417);
-            this.panelReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelReport.Margin = new System.Windows.Forms.Padding(4);
             this.panelReport.Name = "panelReport";
             this.panelReport.Size = new System.Drawing.Size(308, 52);
             this.panelReport.TabIndex = 638;
@@ -115,7 +115,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(636, 206);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(193, 94);
             this.btnAceptar.TabIndex = 639;
@@ -127,7 +127,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pictureBox2.Image = global::RestCsharp.Properties.Resources.Buman;
             this.pictureBox2.Location = new System.Drawing.Point(623, -104);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(0, 156);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -139,7 +139,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.reportViewer1.AccessibilityKeyMap = null;
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Left;
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(5);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.Size = new System.Drawing.Size(623, 52);
             this.reportViewer1.TabIndex = 637;
@@ -149,7 +149,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             this.flowLayoutPanel1.Controls.Add(this.btnTecladoNum);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(687, 106);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(320, 81);
             this.flowLayoutPanel1.TabIndex = 636;
@@ -170,7 +170,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnTecladoNum.IconKeyBoardColor = System.Drawing.SystemColors.ControlText;
             this.btnTecladoNum.IconKeyBoardSize = 20;
             this.btnTecladoNum.Location = new System.Drawing.Point(4, 4);
-            this.btnTecladoNum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTecladoNum.Margin = new System.Windows.Forms.Padding(4);
             this.btnTecladoNum.Mode = UIDC.UI_TecladoNumerico.SEE.Claro;
             this.btnTecladoNum.Name = "btnTecladoNum";
             this.btnTecladoNum.Size = new System.Drawing.Size(245, 70);
@@ -190,7 +190,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.ForeColor = System.Drawing.Color.White;
             this.btnguardar.Location = new System.Drawing.Point(687, 298);
-            this.btnguardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnguardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(209, 79);
             this.btnguardar.TabIndex = 618;
@@ -238,7 +238,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.panel1.Controls.Add(this.Panel20);
             this.panel1.Controls.Add(this.Label18);
             this.panel1.Location = new System.Drawing.Point(17, 106);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(661, 363);
             this.panel1.TabIndex = 4;
@@ -273,7 +273,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             this.Panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Panel8.Location = new System.Drawing.Point(23, 278);
-            this.Panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel8.Margin = new System.Windows.Forms.Padding(4);
             this.Panel8.Name = "Panel8";
             this.Panel8.Size = new System.Drawing.Size(411, 2);
             this.Panel8.TabIndex = 625;
@@ -286,7 +286,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.TXTVUELTO.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.TXTVUELTO.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.TXTVUELTO.Location = new System.Drawing.Point(223, 214);
-            this.TXTVUELTO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TXTVUELTO.Margin = new System.Windows.Forms.Padding(4);
             this.TXTVUELTO.Name = "TXTVUELTO";
             this.TXTVUELTO.Size = new System.Drawing.Size(303, 57);
             this.TXTVUELTO.TabIndex = 624;
@@ -312,7 +312,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.txttarjeta.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.txttarjeta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txttarjeta.Location = new System.Drawing.Point(155, 112);
-            this.txttarjeta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttarjeta.Margin = new System.Windows.Forms.Padding(4);
             this.txttarjeta.Name = "txttarjeta";
             this.txttarjeta.Size = new System.Drawing.Size(236, 48);
             this.txttarjeta.TabIndex = 560;
@@ -322,7 +322,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             this.Panel21.BackColor = System.Drawing.SystemColors.HotTrack;
             this.Panel21.Location = new System.Drawing.Point(155, 166);
-            this.Panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel21.Margin = new System.Windows.Forms.Padding(4);
             this.Panel21.Name = "Panel21";
             this.Panel21.Size = new System.Drawing.Size(240, 2);
             this.Panel21.TabIndex = 559;
@@ -347,7 +347,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.txtefectivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.txtefectivo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtefectivo.Location = new System.Drawing.Point(164, 34);
-            this.txtefectivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtefectivo.Margin = new System.Windows.Forms.Padding(4);
             this.txtefectivo.Name = "txtefectivo";
             this.txtefectivo.Size = new System.Drawing.Size(236, 48);
             this.txtefectivo.TabIndex = 557;
@@ -358,7 +358,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             // 
             this.Panel20.BackColor = System.Drawing.Color.SeaGreen;
             this.Panel20.Location = new System.Drawing.Point(159, 87);
-            this.Panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel20.Margin = new System.Windows.Forms.Padding(4);
             this.Panel20.Name = "Panel20";
             this.Panel20.Size = new System.Drawing.Size(240, 2);
             this.Panel20.TabIndex = 556;
@@ -390,7 +390,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.btncerrar.Font = new System.Drawing.Font("Calibri", 35F, System.Drawing.FontStyle.Bold);
             this.btncerrar.ForeColor = System.Drawing.Color.White;
             this.btncerrar.Location = new System.Drawing.Point(915, 12);
-            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btncerrar.Name = "btncerrar";
             this.btncerrar.Size = new System.Drawing.Size(92, 80);
             this.btncerrar.TabIndex = 621;
@@ -406,7 +406,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             this.ClientSize = new System.Drawing.Size(1048, 495);
             this.Controls.Add(this.panelPrincipal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Cobrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cobrar";

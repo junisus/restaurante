@@ -227,7 +227,7 @@
             this.panel2.Controls.Add(this.Panelpagorapido);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 851);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1827, 71);
             this.panel2.TabIndex = 1;
@@ -238,7 +238,7 @@
             this.flowLayoutPanel2.Controls.Add(this.btncobrar);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(1024, 0);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.flowLayoutPanel2.Size = new System.Drawing.Size(803, 71);
@@ -255,7 +255,7 @@
             this.btnsalir.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsalir.ForeColor = System.Drawing.Color.White;
             this.btnsalir.Location = new System.Drawing.Point(643, 4);
-            this.btnsalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnsalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(156, 62);
             this.btnsalir.TabIndex = 0;
@@ -274,7 +274,7 @@
             this.btncobrar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncobrar.ForeColor = System.Drawing.Color.White;
             this.btncobrar.Location = new System.Drawing.Point(479, 4);
-            this.btncobrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncobrar.Margin = new System.Windows.Forms.Padding(4);
             this.btncobrar.Name = "btncobrar";
             this.btncobrar.Size = new System.Drawing.Size(156, 62);
             this.btncobrar.TabIndex = 0;
@@ -293,7 +293,7 @@
             this.Panelpagorapido.Controls.Add(this.BnExacto);
             this.Panelpagorapido.Dock = System.Windows.Forms.DockStyle.Left;
             this.Panelpagorapido.Location = new System.Drawing.Point(0, 0);
-            this.Panelpagorapido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panelpagorapido.Margin = new System.Windows.Forms.Padding(4);
             this.Panelpagorapido.Name = "Panelpagorapido";
             this.Panelpagorapido.Size = new System.Drawing.Size(1024, 71);
             this.Panelpagorapido.TabIndex = 1;
@@ -309,7 +309,7 @@
             this.Bn1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bn1.ForeColor = System.Drawing.Color.White;
             this.Bn1.Location = new System.Drawing.Point(4, 4);
-            this.Bn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bn1.Margin = new System.Windows.Forms.Padding(4);
             this.Bn1.Name = "Bn1";
             this.Bn1.Size = new System.Drawing.Size(119, 62);
             this.Bn1.TabIndex = 0;
@@ -329,7 +329,7 @@
             this.Bn5.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bn5.ForeColor = System.Drawing.Color.White;
             this.Bn5.Location = new System.Drawing.Point(131, 4);
-            this.Bn5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bn5.Margin = new System.Windows.Forms.Padding(4);
             this.Bn5.Name = "Bn5";
             this.Bn5.Size = new System.Drawing.Size(119, 62);
             this.Bn5.TabIndex = 0;
@@ -349,7 +349,7 @@
             this.Bn10.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bn10.ForeColor = System.Drawing.Color.White;
             this.Bn10.Location = new System.Drawing.Point(258, 4);
-            this.Bn10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bn10.Margin = new System.Windows.Forms.Padding(4);
             this.Bn10.Name = "Bn10";
             this.Bn10.Size = new System.Drawing.Size(133, 62);
             this.Bn10.TabIndex = 0;
@@ -369,7 +369,7 @@
             this.Bn20.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bn20.ForeColor = System.Drawing.Color.White;
             this.Bn20.Location = new System.Drawing.Point(399, 4);
-            this.Bn20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bn20.Margin = new System.Windows.Forms.Padding(4);
             this.Bn20.Name = "Bn20";
             this.Bn20.Size = new System.Drawing.Size(133, 62);
             this.Bn20.TabIndex = 0;
@@ -389,7 +389,7 @@
             this.Bn50.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bn50.ForeColor = System.Drawing.Color.White;
             this.Bn50.Location = new System.Drawing.Point(540, 4);
-            this.Bn50.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bn50.Margin = new System.Windows.Forms.Padding(4);
             this.Bn50.Name = "Bn50";
             this.Bn50.Size = new System.Drawing.Size(133, 62);
             this.Bn50.TabIndex = 0;
@@ -409,7 +409,7 @@
             this.Bn100.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bn100.ForeColor = System.Drawing.Color.White;
             this.Bn100.Location = new System.Drawing.Point(681, 4);
-            this.Bn100.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Bn100.Margin = new System.Windows.Forms.Padding(4);
             this.Bn100.Name = "Bn100";
             this.Bn100.Size = new System.Drawing.Size(155, 62);
             this.Bn100.TabIndex = 0;
@@ -429,7 +429,7 @@
             this.BnExacto.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BnExacto.ForeColor = System.Drawing.Color.White;
             this.BnExacto.Location = new System.Drawing.Point(844, 4);
-            this.BnExacto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BnExacto.Margin = new System.Windows.Forms.Padding(4);
             this.BnExacto.Name = "BnExacto";
             this.BnExacto.Size = new System.Drawing.Size(173, 62);
             this.BnExacto.TabIndex = 0;
@@ -454,7 +454,7 @@
             this.panel3.Controls.Add(this.label1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 804);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1827, 47);
             this.panel3.TabIndex = 2;
@@ -465,7 +465,7 @@
             this.panel35.Controls.Add(this.IndicadorTema);
             this.panel35.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel35.Location = new System.Drawing.Point(1666, 0);
-            this.panel35.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel35.Margin = new System.Windows.Forms.Padding(4);
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(161, 47);
             this.panel35.TabIndex = 11;
@@ -489,7 +489,7 @@
             this.IndicadorTema.EllipseBorderColor = "#3b73d1";
             this.IndicadorTema.EllipseColor = "#508ef5";
             this.IndicadorTema.Location = new System.Drawing.Point(83, 14);
-            this.IndicadorTema.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IndicadorTema.Margin = new System.Windows.Forms.Padding(4);
             this.IndicadorTema.Name = "IndicadorTema";
             this.IndicadorTema.Size = new System.Drawing.Size(47, 19);
             this.IndicadorTema.TabIndex = 0;
@@ -643,7 +643,7 @@
             this.PanelVentasGeneral.Controls.Add(this.PanelDetalleVenta);
             this.PanelVentasGeneral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelVentasGeneral.Location = new System.Drawing.Point(0, 0);
-            this.PanelVentasGeneral.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelVentasGeneral.Margin = new System.Windows.Forms.Padding(4);
             this.PanelVentasGeneral.Name = "PanelVentasGeneral";
             this.PanelVentasGeneral.Size = new System.Drawing.Size(1827, 804);
             this.PanelVentasGeneral.TabIndex = 3;
@@ -655,7 +655,7 @@
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(635, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1192, 804);
             this.panel1.TabIndex = 2;
@@ -666,7 +666,7 @@
             this.Panel9.Controls.Add(this.panel7);
             this.Panel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel9.Location = new System.Drawing.Point(360, 452);
-            this.Panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel9.Margin = new System.Windows.Forms.Padding(4);
             this.Panel9.Name = "Panel9";
             this.Panel9.Size = new System.Drawing.Size(832, 352);
             this.Panel9.TabIndex = 3;
@@ -677,7 +677,7 @@
             this.Panel_grupos.Controls.Add(this.panelCobro);
             this.Panel_grupos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel_grupos.Location = new System.Drawing.Point(0, 52);
-            this.Panel_grupos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel_grupos.Margin = new System.Windows.Forms.Padding(4);
             this.Panel_grupos.Name = "Panel_grupos";
             this.Panel_grupos.Size = new System.Drawing.Size(832, 300);
             this.Panel_grupos.TabIndex = 1;
@@ -692,7 +692,7 @@
             this.panelCobro.Controls.Add(this.panel8);
             this.panelCobro.Controls.Add(this.btncerrar);
             this.panelCobro.Location = new System.Drawing.Point(4, 4);
-            this.panelCobro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelCobro.Margin = new System.Windows.Forms.Padding(4);
             this.panelCobro.Name = "panelCobro";
             this.panelCobro.Size = new System.Drawing.Size(1048, 495);
             this.panelCobro.TabIndex = 626;
@@ -705,7 +705,7 @@
             this.panelReport.Controls.Add(this.pictureBox3);
             this.panelReport.Controls.Add(this.reportViewer1);
             this.panelReport.Location = new System.Drawing.Point(687, 263);
-            this.panelReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelReport.Margin = new System.Windows.Forms.Padding(4);
             this.panelReport.Name = "panelReport";
             this.panelReport.Size = new System.Drawing.Size(308, 206);
             this.panelReport.TabIndex = 638;
@@ -736,7 +736,7 @@
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(636, 206);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(193, 94);
             this.btnAceptar.TabIndex = 639;
@@ -748,7 +748,7 @@
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pictureBox3.Image = global::RestCsharp.Properties.Resources.Buman;
             this.pictureBox3.Location = new System.Drawing.Point(623, 50);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(0, 156);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -760,7 +760,7 @@
             this.reportViewer1.AccessibilityKeyMap = null;
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Left;
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(5);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.Size = new System.Drawing.Size(623, 206);
             this.reportViewer1.TabIndex = 637;
@@ -778,7 +778,7 @@
             this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.ForeColor = System.Drawing.Color.White;
             this.btnguardar.Location = new System.Drawing.Point(699, 130);
-            this.btnguardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnguardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(209, 79);
             this.btnguardar.TabIndex = 618;
@@ -832,7 +832,7 @@
             this.panel8.Controls.Add(this.panel31);
             this.panel8.Controls.Add(this.label21);
             this.panel8.Location = new System.Drawing.Point(17, 70);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(661, 399);
             this.panel8.TabIndex = 4;
@@ -841,7 +841,7 @@
             // 
             this.panel34.BackColor = System.Drawing.Color.White;
             this.panel34.Location = new System.Drawing.Point(164, 207);
-            this.panel34.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel34.Margin = new System.Windows.Forms.Padding(4);
             this.panel34.Name = "panel34";
             this.panel34.Size = new System.Drawing.Size(240, 2);
             this.panel34.TabIndex = 640;
@@ -866,7 +866,7 @@
             this.txtreferencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.txtreferencia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtreferencia.Location = new System.Drawing.Point(164, 164);
-            this.txtreferencia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtreferencia.Margin = new System.Windows.Forms.Padding(4);
             this.txtreferencia.MaxLength = 4;
             this.txtreferencia.Name = "txtreferencia";
             this.txtreferencia.Size = new System.Drawing.Size(228, 38);
@@ -889,7 +889,7 @@
             this.btnTecladodigitos.IconKeyBoardColor = System.Drawing.SystemColors.ControlText;
             this.btnTecladodigitos.IconKeyBoardSize = 20;
             this.btnTecladodigitos.Location = new System.Drawing.Point(416, 193);
-            this.btnTecladodigitos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTecladodigitos.Margin = new System.Windows.Forms.Padding(4);
             this.btnTecladodigitos.Mode = UIDC.UI_TecladoNumerico.SEE.Claro;
             this.btnTecladodigitos.Name = "btnTecladodigitos";
             this.btnTecladodigitos.Size = new System.Drawing.Size(245, 70);
@@ -913,7 +913,7 @@
             this.btnTecladoTarjeta.IconKeyBoardColor = System.Drawing.SystemColors.ControlText;
             this.btnTecladoTarjeta.IconKeyBoardSize = 20;
             this.btnTecladoTarjeta.Location = new System.Drawing.Point(412, 94);
-            this.btnTecladoTarjeta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTecladoTarjeta.Margin = new System.Windows.Forms.Padding(4);
             this.btnTecladoTarjeta.Mode = UIDC.UI_TecladoNumerico.SEE.Claro;
             this.btnTecladoTarjeta.Name = "btnTecladoTarjeta";
             this.btnTecladoTarjeta.Size = new System.Drawing.Size(245, 70);
@@ -928,7 +928,7 @@
             this.txttarjeta.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.txttarjeta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txttarjeta.Location = new System.Drawing.Point(160, 85);
-            this.txttarjeta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttarjeta.Margin = new System.Windows.Forms.Padding(4);
             this.txttarjeta.Name = "txttarjeta";
             this.txttarjeta.Size = new System.Drawing.Size(236, 48);
             this.txttarjeta.TabIndex = 560;
@@ -951,7 +951,7 @@
             this.btnTecladoEfectivo.IconKeyBoardColor = System.Drawing.SystemColors.ControlText;
             this.btnTecladoEfectivo.IconKeyBoardSize = 20;
             this.btnTecladoEfectivo.Location = new System.Drawing.Point(412, 4);
-            this.btnTecladoEfectivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTecladoEfectivo.Margin = new System.Windows.Forms.Padding(4);
             this.btnTecladoEfectivo.Mode = UIDC.UI_TecladoNumerico.SEE.Claro;
             this.btnTecladoEfectivo.Name = "btnTecladoEfectivo";
             this.btnTecladoEfectivo.Size = new System.Drawing.Size(245, 70);
@@ -966,7 +966,7 @@
             this.txtefectivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.txtefectivo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtefectivo.Location = new System.Drawing.Point(169, 7);
-            this.txtefectivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtefectivo.Margin = new System.Windows.Forms.Padding(4);
             this.txtefectivo.Name = "txtefectivo";
             this.txtefectivo.Size = new System.Drawing.Size(236, 48);
             this.txtefectivo.TabIndex = 557;
@@ -1003,7 +1003,7 @@
             // 
             this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel24.Location = new System.Drawing.Point(15, 303);
-            this.panel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel24.Margin = new System.Windows.Forms.Padding(4);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(411, 2);
             this.panel24.TabIndex = 625;
@@ -1016,7 +1016,7 @@
             this.txtvuelto.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.txtvuelto.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.txtvuelto.Location = new System.Drawing.Point(215, 239);
-            this.txtvuelto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtvuelto.Margin = new System.Windows.Forms.Padding(4);
             this.txtvuelto.Name = "txtvuelto";
             this.txtvuelto.Size = new System.Drawing.Size(303, 57);
             this.txtvuelto.TabIndex = 624;
@@ -1039,7 +1039,7 @@
             // 
             this.panel25.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel25.Location = new System.Drawing.Point(160, 139);
-            this.panel25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel25.Margin = new System.Windows.Forms.Padding(4);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(240, 2);
             this.panel25.TabIndex = 559;
@@ -1061,7 +1061,7 @@
             // 
             this.panel31.BackColor = System.Drawing.Color.SeaGreen;
             this.panel31.Location = new System.Drawing.Point(164, 60);
-            this.panel31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel31.Margin = new System.Windows.Forms.Padding(4);
             this.panel31.Name = "panel31";
             this.panel31.Size = new System.Drawing.Size(240, 2);
             this.panel31.TabIndex = 556;
@@ -1093,7 +1093,7 @@
             this.btncerrar.Font = new System.Drawing.Font("Calibri", 35F, System.Drawing.FontStyle.Bold);
             this.btncerrar.ForeColor = System.Drawing.Color.White;
             this.btncerrar.Location = new System.Drawing.Point(937, 10);
-            this.btncerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btncerrar.Name = "btncerrar";
             this.btncerrar.Size = new System.Drawing.Size(92, 80);
             this.btncerrar.TabIndex = 621;
@@ -1109,7 +1109,7 @@
             this.panel7.Controls.Add(this.btnGrupoadelante);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(832, 52);
             this.panel7.TabIndex = 2;
@@ -1141,7 +1141,7 @@
             this.btngrupoAtras.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btngrupoAtras.ForeColor = System.Drawing.Color.White;
             this.btngrupoAtras.Location = new System.Drawing.Point(0, 0);
-            this.btngrupoAtras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btngrupoAtras.Margin = new System.Windows.Forms.Padding(4);
             this.btngrupoAtras.Name = "btngrupoAtras";
             this.btngrupoAtras.Size = new System.Drawing.Size(188, 52);
             this.btngrupoAtras.TabIndex = 638;
@@ -1162,7 +1162,7 @@
             this.btnGrupoadelante.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGrupoadelante.ForeColor = System.Drawing.Color.White;
             this.btnGrupoadelante.Location = new System.Drawing.Point(644, 0);
-            this.btnGrupoadelante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGrupoadelante.Margin = new System.Windows.Forms.Padding(4);
             this.btnGrupoadelante.Name = "btnGrupoadelante";
             this.btnGrupoadelante.Size = new System.Drawing.Size(188, 52);
             this.btnGrupoadelante.TabIndex = 637;
@@ -1175,7 +1175,7 @@
             this.panel4.Controls.Add(this.PanelProductos);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(360, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(832, 452);
             this.panel4.TabIndex = 2;
@@ -1186,7 +1186,7 @@
             this.PanelProductos.Controls.Add(this.panel32);
             this.PanelProductos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelProductos.Location = new System.Drawing.Point(0, 0);
-            this.PanelProductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelProductos.Margin = new System.Windows.Forms.Padding(4);
             this.PanelProductos.Name = "PanelProductos";
             this.PanelProductos.Size = new System.Drawing.Size(832, 452);
             this.PanelProductos.TabIndex = 1;
@@ -1196,7 +1196,7 @@
             this.flowLayoutPanel5.AutoScroll = true;
             this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 43);
-            this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
             this.flowLayoutPanel5.Size = new System.Drawing.Size(832, 409);
             this.flowLayoutPanel5.TabIndex = 5;
@@ -1209,7 +1209,7 @@
             this.panel32.Controls.Add(this.btnadelante);
             this.panel32.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel32.Location = new System.Drawing.Point(0, 0);
-            this.panel32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel32.Margin = new System.Windows.Forms.Padding(4);
             this.panel32.Name = "panel32";
             this.panel32.Size = new System.Drawing.Size(832, 43);
             this.panel32.TabIndex = 6;
@@ -1241,7 +1241,7 @@
             this.btnatras.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnatras.ForeColor = System.Drawing.Color.White;
             this.btnatras.Location = new System.Drawing.Point(0, 0);
-            this.btnatras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnatras.Margin = new System.Windows.Forms.Padding(4);
             this.btnatras.Name = "btnatras";
             this.btnatras.Size = new System.Drawing.Size(188, 43);
             this.btnatras.TabIndex = 10;
@@ -1261,7 +1261,7 @@
             this.btnadelante.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnadelante.ForeColor = System.Drawing.Color.White;
             this.btnadelante.Location = new System.Drawing.Point(644, 0);
-            this.btnadelante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnadelante.Margin = new System.Windows.Forms.Padding(4);
             this.btnadelante.Name = "btnadelante";
             this.btnadelante.Size = new System.Drawing.Size(188, 43);
             this.btnadelante.TabIndex = 9;
@@ -1273,7 +1273,7 @@
             this.panel5.Controls.Add(this.FlowLayoutPanel4);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(360, 804);
             this.panel5.TabIndex = 1;
@@ -1291,7 +1291,7 @@
             this.FlowLayoutPanel4.Controls.Add(this.panelNotas);
             this.FlowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FlowLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.FlowLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FlowLayoutPanel4.Margin = new System.Windows.Forms.Padding(4);
             this.FlowLayoutPanel4.Name = "FlowLayoutPanel4";
             this.FlowLayoutPanel4.Size = new System.Drawing.Size(360, 804);
             this.FlowLayoutPanel4.TabIndex = 1;
@@ -1309,7 +1309,7 @@
             this.btnvermesas.ForeColor = System.Drawing.Color.White;
             this.btnvermesas.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnvermesas.Location = new System.Drawing.Point(4, 4);
-            this.btnvermesas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnvermesas.Margin = new System.Windows.Forms.Padding(4);
             this.btnvermesas.Name = "btnvermesas";
             this.btnvermesas.Size = new System.Drawing.Size(320, 75);
             this.btnvermesas.TabIndex = 632;
@@ -1329,7 +1329,7 @@
             this.btnDividirCuenta.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDividirCuenta.ForeColor = System.Drawing.Color.White;
             this.btnDividirCuenta.Location = new System.Drawing.Point(4, 87);
-            this.btnDividirCuenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDividirCuenta.Margin = new System.Windows.Forms.Padding(4);
             this.btnDividirCuenta.Name = "btnDividirCuenta";
             this.btnDividirCuenta.Size = new System.Drawing.Size(156, 95);
             this.btnDividirCuenta.TabIndex = 633;
@@ -1349,7 +1349,7 @@
             this.btnPrecuenta.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrecuenta.ForeColor = System.Drawing.Color.White;
             this.btnPrecuenta.Location = new System.Drawing.Point(168, 87);
-            this.btnPrecuenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPrecuenta.Margin = new System.Windows.Forms.Padding(4);
             this.btnPrecuenta.Name = "btnPrecuenta";
             this.btnPrecuenta.Size = new System.Drawing.Size(156, 95);
             this.btnPrecuenta.TabIndex = 635;
@@ -1371,7 +1371,7 @@
             this.btneliminarVenta.ForeColor = System.Drawing.Color.White;
             this.btneliminarVenta.Image = global::RestCsharp.Properties.Resources.quitar;
             this.btneliminarVenta.Location = new System.Drawing.Point(4, 190);
-            this.btneliminarVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btneliminarVenta.Margin = new System.Windows.Forms.Padding(4);
             this.btneliminarVenta.Name = "btneliminarVenta";
             this.btneliminarVenta.Size = new System.Drawing.Size(156, 95);
             this.btneliminarVenta.TabIndex = 636;
@@ -1393,7 +1393,7 @@
             this.btnEnviarpedido.ForeColor = System.Drawing.Color.White;
             this.btnEnviarpedido.Image = global::RestCsharp.Properties.Resources.telegram__1_;
             this.btnEnviarpedido.Location = new System.Drawing.Point(168, 190);
-            this.btnEnviarpedido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEnviarpedido.Margin = new System.Windows.Forms.Padding(4);
             this.btnEnviarpedido.Name = "btnEnviarpedido";
             this.btnEnviarpedido.Size = new System.Drawing.Size(156, 95);
             this.btnEnviarpedido.TabIndex = 637;
@@ -1414,7 +1414,7 @@
             this.btnNotas.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
             this.btnNotas.ForeColor = System.Drawing.Color.White;
             this.btnNotas.Location = new System.Drawing.Point(4, 293);
-            this.btnNotas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNotas.Margin = new System.Windows.Forms.Padding(4);
             this.btnNotas.Name = "btnNotas";
             this.btnNotas.Size = new System.Drawing.Size(156, 95);
             this.btnNotas.TabIndex = 644;
@@ -1434,7 +1434,7 @@
             this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Location = new System.Drawing.Point(168, 293);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(156, 95);
             this.btnBuscar.TabIndex = 645;
@@ -1450,7 +1450,7 @@
             this.panel29.Controls.Add(this.datalistadoPedidos);
             this.panel29.Controls.Add(this.rptPedidos);
             this.panel29.Location = new System.Drawing.Point(4, 396);
-            this.panel29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel29.Margin = new System.Windows.Forms.Padding(4);
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(353, 14);
             this.panel29.TabIndex = 642;
@@ -1458,7 +1458,7 @@
             // richTextBox1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(8, 20);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(347, 96);
             this.richTextBox1.TabIndex = 638;
@@ -1476,7 +1476,7 @@
             this.Iddetalleventa,
             this.Importe});
             this.datalistadoPedidos.Location = new System.Drawing.Point(8, 124);
-            this.datalistadoPedidos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.datalistadoPedidos.Margin = new System.Windows.Forms.Padding(4);
             this.datalistadoPedidos.Name = "datalistadoPedidos";
             this.datalistadoPedidos.ReadOnly = true;
             this.datalistadoPedidos.RowHeadersWidth = 51;
@@ -1504,7 +1504,7 @@
             // 
             this.rptPedidos.AccessibilityKeyMap = null;
             this.rptPedidos.Location = new System.Drawing.Point(201, 124);
-            this.rptPedidos.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.rptPedidos.Margin = new System.Windows.Forms.Padding(5);
             this.rptPedidos.Name = "rptPedidos";
             this.rptPedidos.Size = new System.Drawing.Size(119, 63);
             this.rptPedidos.TabIndex = 2;
@@ -1515,7 +1515,7 @@
             this.panelNotas.Controls.Add(this.panel30);
             this.panelNotas.Controls.Add(this.label35);
             this.panelNotas.Location = new System.Drawing.Point(4, 418);
-            this.panelNotas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelNotas.Margin = new System.Windows.Forms.Padding(4);
             this.panelNotas.Name = "panelNotas";
             this.panelNotas.Size = new System.Drawing.Size(348, 224);
             this.panelNotas.TabIndex = 643;
@@ -1537,7 +1537,7 @@
             this.panel30.BackColor = System.Drawing.Color.DarkGray;
             this.panel30.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel30.Location = new System.Drawing.Point(0, 38);
-            this.panel30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel30.Margin = new System.Windows.Forms.Padding(4);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(348, 1);
             this.panel30.TabIndex = 645;
@@ -1562,7 +1562,7 @@
             this.PanelDetalleVenta.Controls.Add(this.panel6);
             this.PanelDetalleVenta.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelDetalleVenta.Location = new System.Drawing.Point(0, 0);
-            this.PanelDetalleVenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelDetalleVenta.Margin = new System.Windows.Forms.Padding(4);
             this.PanelDetalleVenta.Name = "PanelDetalleVenta";
             this.PanelDetalleVenta.Size = new System.Drawing.Size(635, 804);
             this.PanelDetalleVenta.TabIndex = 0;
@@ -1572,7 +1572,7 @@
             this.detalleventa.AutoScroll = true;
             this.detalleventa.Dock = System.Windows.Forms.DockStyle.Fill;
             this.detalleventa.Location = new System.Drawing.Point(0, 55);
-            this.detalleventa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.detalleventa.Margin = new System.Windows.Forms.Padding(4);
             this.detalleventa.Name = "detalleventa";
             this.detalleventa.Size = new System.Drawing.Size(635, 441);
             this.detalleventa.TabIndex = 2;
@@ -1584,7 +1584,7 @@
             this.PanelTotales.Controls.Add(this.panel16);
             this.PanelTotales.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PanelTotales.Location = new System.Drawing.Point(0, 496);
-            this.PanelTotales.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelTotales.Margin = new System.Windows.Forms.Padding(4);
             this.PanelTotales.Name = "PanelTotales";
             this.PanelTotales.Size = new System.Drawing.Size(635, 308);
             this.PanelTotales.TabIndex = 1;
@@ -1596,7 +1596,7 @@
             this.panel23.Controls.Add(this.lblcantidadPersonas);
             this.panel23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel23.Location = new System.Drawing.Point(391, 110);
-            this.panel23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel23.Margin = new System.Windows.Forms.Padding(4);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(244, 198);
             this.panel23.TabIndex = 5;
@@ -1607,7 +1607,7 @@
             this.PanelAcumulado.Controls.Add(this.panel33);
             this.PanelAcumulado.Controls.Add(this.Label18);
             this.PanelAcumulado.Location = new System.Drawing.Point(31, 101);
-            this.PanelAcumulado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PanelAcumulado.Margin = new System.Windows.Forms.Padding(4);
             this.PanelAcumulado.Name = "PanelAcumulado";
             this.PanelAcumulado.Size = new System.Drawing.Size(176, 68);
             this.PanelAcumulado.TabIndex = 14;
@@ -1630,7 +1630,7 @@
             this.panel33.BackColor = System.Drawing.Color.White;
             this.panel33.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel33.Location = new System.Drawing.Point(0, 66);
-            this.panel33.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel33.Margin = new System.Windows.Forms.Padding(4);
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(176, 2);
             this.panel33.TabIndex = 10;
@@ -1683,7 +1683,7 @@
             this.panel18.Controls.Add(this.panel19);
             this.panel18.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel18.Location = new System.Drawing.Point(0, 110);
-            this.panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(391, 198);
             this.panel18.TabIndex = 4;
@@ -1697,7 +1697,7 @@
             this.Paneltotal2.Controls.Add(this.panel28);
             this.Paneltotal2.Dock = System.Windows.Forms.DockStyle.Left;
             this.Paneltotal2.Location = new System.Drawing.Point(377, 12);
-            this.Paneltotal2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Paneltotal2.Margin = new System.Windows.Forms.Padding(4);
             this.Paneltotal2.Name = "Paneltotal2";
             this.Paneltotal2.Size = new System.Drawing.Size(355, 153);
             this.Paneltotal2.TabIndex = 551;
@@ -1710,7 +1710,7 @@
             this.panel17.Controls.Add(this.label29);
             this.panel17.Controls.Add(this.panel26);
             this.panel17.Location = new System.Drawing.Point(28, 133);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(319, 38);
             this.panel17.TabIndex = 543;
@@ -1747,7 +1747,7 @@
             this.panel26.BackColor = System.Drawing.Color.DimGray;
             this.panel26.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel26.Location = new System.Drawing.Point(0, 0);
-            this.panel26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel26.Margin = new System.Windows.Forms.Padding(4);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(319, 1);
             this.panel26.TabIndex = 542;
@@ -1759,7 +1759,7 @@
             this.panel10.Controls.Add(this.label28);
             this.panel10.ForeColor = System.Drawing.Color.DimGray;
             this.panel10.Location = new System.Drawing.Point(21, 11);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(312, 32);
             this.panel10.TabIndex = 542;
@@ -1798,7 +1798,7 @@
             this.panel27.Controls.Add(this.lblImpuesto2);
             this.panel27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel27.Location = new System.Drawing.Point(21, 50);
-            this.panel27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel27.Margin = new System.Windows.Forms.Padding(4);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(312, 32);
             this.panel27.TabIndex = 544;
@@ -1837,7 +1837,7 @@
             this.panel28.Controls.Add(this.label34);
             this.panel28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel28.Location = new System.Drawing.Point(21, 89);
-            this.panel28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel28.Margin = new System.Windows.Forms.Padding(4);
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(312, 32);
             this.panel28.TabIndex = 545;
@@ -1878,7 +1878,7 @@
             this.panelTotal1.Controls.Add(this.Panel15);
             this.panelTotal1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelTotal1.Location = new System.Drawing.Point(13, 12);
-            this.panelTotal1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelTotal1.Margin = new System.Windows.Forms.Padding(4);
             this.panelTotal1.Name = "panelTotal1";
             this.panelTotal1.Size = new System.Drawing.Size(364, 153);
             this.panelTotal1.TabIndex = 3;
@@ -1890,7 +1890,7 @@
             this.Panel13.Controls.Add(this.Label15);
             this.Panel13.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel13.Location = new System.Drawing.Point(0, 64);
-            this.Panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel13.Margin = new System.Windows.Forms.Padding(4);
             this.Panel13.Name = "Panel13";
             this.Panel13.Size = new System.Drawing.Size(364, 32);
             this.Panel13.TabIndex = 549;
@@ -1929,7 +1929,7 @@
             this.Panel12.Controls.Add(this.lblImpuesto1);
             this.Panel12.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel12.Location = new System.Drawing.Point(0, 32);
-            this.Panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel12.Margin = new System.Windows.Forms.Padding(4);
             this.Panel12.Name = "Panel12";
             this.Panel12.Size = new System.Drawing.Size(364, 32);
             this.Panel12.TabIndex = 548;
@@ -1968,7 +1968,7 @@
             this.Panel11.Controls.Add(this.Label11);
             this.Panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel11.Location = new System.Drawing.Point(0, 0);
-            this.Panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel11.Margin = new System.Windows.Forms.Padding(4);
             this.Panel11.Name = "Panel11";
             this.Panel11.Size = new System.Drawing.Size(364, 32);
             this.Panel11.TabIndex = 546;
@@ -2007,7 +2007,7 @@
             this.Panel15.Controls.Add(this.Label33);
             this.Panel15.Controls.Add(this.Panel14);
             this.Panel15.Location = new System.Drawing.Point(4, 129);
-            this.Panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel15.Margin = new System.Windows.Forms.Padding(4);
             this.Panel15.Name = "Panel15";
             this.Panel15.Size = new System.Drawing.Size(328, 38);
             this.Panel15.TabIndex = 547;
@@ -2044,7 +2044,7 @@
             this.Panel14.BackColor = System.Drawing.Color.DimGray;
             this.Panel14.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel14.Location = new System.Drawing.Point(0, 0);
-            this.Panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel14.Margin = new System.Windows.Forms.Padding(4);
             this.Panel14.Name = "Panel14";
             this.Panel14.Size = new System.Drawing.Size(328, 1);
             this.Panel14.TabIndex = 542;
@@ -2053,7 +2053,7 @@
             // 
             this.panel22.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel22.Location = new System.Drawing.Point(0, 12);
-            this.panel22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel22.Margin = new System.Windows.Forms.Padding(4);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(13, 153);
             this.panel22.TabIndex = 1;
@@ -2062,7 +2062,7 @@
             // 
             this.panel21.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel21.Location = new System.Drawing.Point(0, 165);
-            this.panel21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel21.Margin = new System.Windows.Forms.Padding(4);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(732, 12);
             this.panel21.TabIndex = 1;
@@ -2071,7 +2071,7 @@
             // 
             this.panel20.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel20.Location = new System.Drawing.Point(732, 12);
-            this.panel20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel20.Margin = new System.Windows.Forms.Padding(4);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(13, 165);
             this.panel20.TabIndex = 1;
@@ -2080,7 +2080,7 @@
             // 
             this.panel19.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel19.Location = new System.Drawing.Point(0, 0);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(745, 12);
             this.panel19.TabIndex = 0;
@@ -2093,7 +2093,7 @@
             this.panel16.Controls.Add(this.btncuentaatras);
             this.panel16.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel16.Location = new System.Drawing.Point(0, 0);
-            this.panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(635, 110);
             this.panel16.TabIndex = 2;
@@ -2137,7 +2137,7 @@
             this.btncuentaadelante.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncuentaadelante.ForeColor = System.Drawing.Color.White;
             this.btncuentaadelante.Location = new System.Drawing.Point(447, 0);
-            this.btncuentaadelante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncuentaadelante.Margin = new System.Windows.Forms.Padding(4);
             this.btncuentaadelante.Name = "btncuentaadelante";
             this.btncuentaadelante.Size = new System.Drawing.Size(188, 110);
             this.btncuentaadelante.TabIndex = 637;
@@ -2158,7 +2158,7 @@
             this.btncuentaatras.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncuentaatras.ForeColor = System.Drawing.Color.White;
             this.btncuentaatras.Location = new System.Drawing.Point(0, 0);
-            this.btncuentaatras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncuentaatras.Margin = new System.Windows.Forms.Padding(4);
             this.btncuentaatras.Name = "btncuentaatras";
             this.btncuentaatras.Size = new System.Drawing.Size(188, 110);
             this.btncuentaatras.TabIndex = 636;
@@ -2177,7 +2177,7 @@
             this.panel6.Controls.Add(this.lblfecha);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(635, 55);
             this.panel6.TabIndex = 0;
@@ -2186,7 +2186,7 @@
             // 
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
             this.PictureBox2.Location = new System.Drawing.Point(208, 15);
-            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.Size = new System.Drawing.Size(37, 30);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2197,7 +2197,7 @@
             // 
             this.rptComunicador.AccessibilityKeyMap = null;
             this.rptComunicador.Location = new System.Drawing.Point(231, 17);
-            this.rptComunicador.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.rptComunicador.Margin = new System.Windows.Forms.Padding(5);
             this.rptComunicador.Name = "rptComunicador";
             this.rptComunicador.Size = new System.Drawing.Size(15, 16);
             this.rptComunicador.TabIndex = 11;
@@ -2231,7 +2231,7 @@
             // 
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
             this.PictureBox1.Location = new System.Drawing.Point(4, 15);
-            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.PictureBox1.Name = "PictureBox1";
             this.PictureBox1.Size = new System.Drawing.Size(37, 30);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2296,7 +2296,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Punto_de_venta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Punto de venta";
