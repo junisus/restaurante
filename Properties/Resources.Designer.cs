@@ -93,6 +93,16 @@ namespace RestCsharp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AIPE {
+            get {
+                object obj = ResourceManager.GetObject("AIPE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap amarillo {
             get {
                 object obj = ResourceManager.GetObject("amarillo", resourceCulture);
