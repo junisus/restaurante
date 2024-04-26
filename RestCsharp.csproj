@@ -755,6 +755,7 @@
   <ItemGroup>
     <Content Include="iconobuman.ico" />
     <Content Include="ICONOBURGUER KIDS.ico" />
+    <None Include="Resources\AIPE.png" />
     <None Include="Resources\WhatsApp Image 2024-04-24 at 7.44.38 AM %282%29.png" />
     <None Include="Resources\WhatsApp Image 2023-05-30 at 10.52.46 PM.jpeg" />
     <None Include="Resources\logobuguerkidsbl.png" />
