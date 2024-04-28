@@ -181,7 +181,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             }
             if (calculo_identificacion == 3)
             {
-                Tipopago = "TARJETA";
+                Tipopago = "YAPE";
             }
             if (calculo_identificacion > 4)
             {

@@ -426,3 +426,5 @@ C:\xampp\htdocs\Sistema\restaurante\obj\Debug\RestCsharp.csproj.CoreCompileInput
 C:\xampp\htdocs\Sistema\restaurante\obj\Debug\RestCsharp.csproj.CopyComplete
 C:\xampp\htdocs\Sistema\restaurante\obj\Debug\Bumam.exe
 C:\xampp\htdocs\Sistema\restaurante\obj\Debug\Bumam.pdb
+C:\xampp\htdocs\xampp\visual\Pj01\restaurante\obj\Debug\Interop.CRDESIGNERLib.dll
+C:\xampp\htdocs\xampp\visual\Pj01\restaurante\obj\Debug\RestCsharp.csproj.ResolveComReference.cache

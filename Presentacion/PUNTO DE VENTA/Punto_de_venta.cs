@@ -1744,7 +1744,7 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
             }
             if (calculo_identificacion == 3)
             {
-                Tipopago = "TARJETA";
+                Tipopago = "YAPE";
             }
             if (calculo_identificacion > 4)
             {
@@ -1766,15 +1766,15 @@ namespace RestCsharp.Presentacion.PUNTO_DE_VENTA
                 ObtenerTipopago();
                 int contadorreferencia = 0;
                 contadorreferencia = txtreferencia.Text.Length;
-                if ((Tipopago == "TARJETA" || Tipopago == "MIXTO") && txtreferencia.Text == "")
+                if ((Tipopago == "YAPE" || Tipopago == "MIXTO") && txtreferencia.Text == "")
                 {
                     MessageBox.Show("Ingrese los ultimos 4 digitos de la tarjeta");
                 }
-                else if ((Tipopago == "TARJETA" || Tipopago == "MIXTO") && contadorreferencia < 4)
+                else if ((Tipopago == "YAPE" || Tipopago == "MIXTO") && contadorreferencia < 4)
                 {
                     MessageBox.Show("Ingrese los ultimos 4 digitos de la tarjeta");
                 }
-                else if ((Tipopago == "TARJETA" || Tipopago == "MIXTO") && contadorreferencia > 4)
+                else if ((Tipopago == "YAPE" || Tipopago == "MIXTO") && contadorreferencia > 4)
                 {
                     MessageBox.Show("Ingrese los ultimos 4 digitos de la tarjeta");
                 }
